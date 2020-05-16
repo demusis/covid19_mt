@@ -36,9 +36,9 @@
 # install.packages('deSolve')
 # install.packages('network')
 # install.packages('lubridate')
-#install.packages('smooth')
-#install.packages('Mcomp')
-#install.packages('pracma')
+# install.packages('smooth')
+# install.packages('Mcomp')
+# install.packages('pracma')
 
 # Carrega o EpiModel e demais bibliotecas
 library(smooth)
@@ -111,7 +111,7 @@ aux_dados$Dia_Juliano <- yday(aux_dados$Data)
 aux_dados$Total <-
   aux_dados$Infectados + aux_dados$Recuperados + aux_dados$Obitos
 
-aux_dados <- aux_dados[!is.na(aux_dados[, 'Infectados']), ]
+aux_dados <- aux_dados[!is.na(aux_dados[, 'Infectados']),]
 
 aux_dados$ERS <- factor(aux_dados$ERS)
 mt_dados <- aux_dados[, c('ERS', 'Dia_Juliano', 'Total')]
@@ -130,7 +130,7 @@ mt_aux_dados <- rbind(mt_aux_dados, mt_total_dados)
 aux_dh <- aux_dados[nrow(aux_dados), 'Data']
 
 for (aux_nivel in levels(mt_aux_dados$ERS)) {
-  ers_dados <- mt_aux_dados[mt_aux_dados$ERS == aux_nivel, ]
+  ers_dados <- mt_aux_dados[mt_aux_dados$ERS == aux_nivel,]
   seq_dados <-
     data.frame(seq(
       min(ers_dados$Dia_Juliano),
@@ -196,7 +196,7 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
       croston_ajuste,
       theta_ajuste,
       tslm_ajuste,
-      # nnetar_ajuste,
+      # nnetar_ajuste, # O modelo por RN apresenta alguns porblemas para validacao
       tbats_ajuste
     )) {
       try({
@@ -304,36 +304,38 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
       try(tc <- na_kalman(tc, model = "StructTS", smooth = TRUE))
     
     jpeg(
-      "mm5_temp.jpg",
+      "mm7_temp.jpg",
       width = 1400,
       height = 650,
       quality = 90
     )
     if (!is.null(aux_kalman)) {
-      m5_tp <- sma(
+      m7_tp <- sma(
         tc,
-        order = 5,
+        order = 7,
         h = 0,
         interval = 'none',
         silent = FALSE
       )
       dev.off()
       
-      try(prev_m5_tp <- predict(m5_tp)$forecast[1])
+      try(prev_m7_tp <- predict(m7_tp)$forecast[1])
       
-      try(updateStatus(paste(
-        format(aux_dh, '%d/%m/%Y'),
-        '-',
-        aux_nivel,
-        '- Taxa de crescimento: .',
-        formatC(
-          last(m5_tp$fitted),
-          format = 'f',
-          digits =
-            5
-        )
-      ),
-      mediaPath = "mm5_temp.jpg"))
+      try(updateStatus(
+        paste(
+          format(aux_dh, '%d/%m/%Y'),
+          '-',
+          aux_nivel,
+          '- Taxa de crescimento prevista (t+1), SMA(7):',
+          formatC(
+            last(m7_tp$fitted),
+            format = 'f',
+            digits =
+              5
+          )
+        ),
+        mediaPath = "mm7_temp.jpg"
+      ))
     }
     
     # Estima R e posta tweets
@@ -379,6 +381,82 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
       rbind(df_lolipop,
             data.frame(aux_nivel, r_aux_025, r_aux_975, r_aux_50))
   }
+}
+
+# Seleciona a serie dos ultimos 30 dias da mediana do R (apenas nas sextas-feiras)
+if (weekdays(aux_dh) == 'sexta-feira' && aux_nivel=="Mato Grosso") {
+  r_tc_50 <- tail(res$R$'Median(R)', 30)
+  
+  jpeg(
+    "mm7_temp.jpg",
+    width = 1400,
+    height = 650,
+    quality = 90
+  )
+  
+  m7_tp <- sma(
+    r_tc_50,
+    order = 7,
+    h = 0,
+    interval = 'none',
+    silent = "none"
+  )
+  dev.off()
+
+  # Classificação do R  
+  if (last(m7_tp$fitted) < 1.0) {
+    risco_r <- 'Muito baixo'
+  } else {
+    if (last(m7_tp$fitted) < 1.3) {
+      risco_r <- 'Baixo'
+    } else {
+      if (last(m7_tp$fitted) < 1.7) {
+        risco_r <- 'Moderado'
+      } else {
+        if (last(m7_tp$fitted) < 2.5) {
+          risco_r <- 'Alto'
+        } else {
+          risco_r <- 'Muito alto'
+        }
+      }
+    }
+  }
+  
+  tendencia <- cor.test(time(tail(m7_tp$fitted, 7)), tail(m7_tp$fitted, 7), method="spearman")
+  
+  if (tendencia$p.value > 0.01) {
+    res_tendencia <- ' '
+  } else {
+    if (tendencia$p.value > 0.005) {
+      if (tendencia$estimate > 0) {
+        res_tendencia <- '+'
+      } else {
+        res_tendencia <- '-'
+      }
+    } else {
+      if (tendencia$estimate > 0) {
+        res_tendencia <- '++'
+      } else {
+        res_tendencia <- '--'
+      }
+    }
+}
+  
+  # Posta no Twitter
+  try(updateStatus(
+    paste(
+      format(aux_dh, '%d/%m/%Y'),
+      '-',
+      aux_nivel,
+      '- Série de R nos últimos 30 dias, SMA(7):',
+      formatC(last(m7_tp$fitted),
+              format = 'f',
+              digits =
+                5),
+      ', risco:', risco_r, res_tendencia 
+    ),
+    mediaPath = "mm7_temp.jpg"
+  ))
 }
 
 # Barras de erro
@@ -429,7 +507,7 @@ try({
       caption = paste('Processamento: ', format(aux_dh, '%d/%m/%Y'))
     ) +
     theme_ipsum() +
-    theme(legend.position = "none", )
+    theme(legend.position = "none",)
 })
 
 dev.off()
@@ -457,8 +535,9 @@ aglomerados$data <-
 
 colnames(aglomerados)[1] <- 'aglomerado'
 
-n_passos <- 5#180
-n_simulacoes <- 2#11
+# COnfiguração da simulacao
+n_passos <- 180
+n_simulacoes <- 11
 n_cores <- 3
 
 df_sim <- data.frame(
@@ -506,6 +585,8 @@ for (aux_aglomerados in 1:length(aglomerados[['aglomerado']])) {
   
   aglomerado <- aglomerados[['aglomerado']][aux_aglomerados]
   tm <- aglomerados[['tm']][aux_aglomerados] / 100
+  
+  # Parâmetros do sir por aglomerado
   dias_rec <- aglomerados[['dias_rec']][aux_aglomerados]
   aux_inf.prob <- aglomerados[['inf_prob']][aux_aglomerados]
   aux_act.rate <- aglomerados[['act_rate']][aux_aglomerados]
@@ -603,68 +684,68 @@ for (aux_aglomerados in 1:length(aglomerados[['aglomerado']])) {
     df_sim <- rbind(df_sim, aux_df_sim)
   }
 }
-  
-  write.table(
-    df_sim,
-    aux_arquivo,
-    append = TRUE,
-    col.names = TRUE,
-    row.names = FALSE,
-    sep = ','
+
+write.table(
+  df_sim,
+  aux_arquivo,
+  append = TRUE,
+  col.names = TRUE,
+  row.names = FALSE,
+  sep = ','
+)
+
+mt_df_sim <-
+  aggregate(df_sim[, c('time', 's.num', 'i.num', 'r.num')], list(df_sim$time), sum)[-2]
+mt_df_sim$ERS <- 'Mato Grosso'
+colnames(mt_df_sim) <-
+  c('Data',
+    'Suscetiveis',
+    'Infectados',
+    'Recuperados/Fatalidades',
+    'ERS')
+
+aux_df_sim <-
+  aggregate(df_sim[, c('time', 's.num', 'i.num', 'r.num')],
+            list(df_sim$regiao,
+                 df_sim$time),
+            sum)[-3]
+colnames(aux_df_sim) <-
+  c('ERS',
+    'Data',
+    'Suscetiveis',
+    'Infectados',
+    'Recuperados/Fatalidades')
+
+aux_df_sim$ERS <- factor(aux_df_sim$ERS)
+mt_df_sim$ERS <- factor(mt_df_sim$ERS)
+aux_df_sim$Data <- aux_dh + aux_df_sim$Data - 1
+mt_df_sim$Data <- aux_dh + mt_df_sim$Data - 1
+
+ers_aux_df_sim <- mt_df_sim
+ers_aux_df_sim <-
+  ers_aux_df_sim[which.max(ers_aux_df_sim$Infectados), ]
+
+for (aux_ers in levels(aux_df_sim$ERS)) {
+  aux_ers_df_sim <- aux_df_sim[aux_df_sim$ERS == aux_ers,]
+  aux_ers_df_sim <-
+    aux_ers_df_sim[which.max(aux_ers_df_sim$Infectados), ]
+  ers_aux_df_sim <- rbind(ers_aux_df_sim, aux_ers_df_sim)
+}
+
+jpeg(
+  "pico_temp.jpg",
+  width = 600,
+  height = 350,
+  quality = 90
+)
+grid.table(data.frame(ers_aux_df_sim))
+dev.off()
+
+r_saida <-
+  paste(
+    format(aux_dh, '%d/%m/%Y'),
+    '- Estimativa das datas e valores de máximo de infectados por ERS'
   )
-  
-  mt_df_sim <-
-    aggregate(df_sim[, c('time', 's.num', 'i.num', 'r.num')], list(df_sim$time), sum)[-2]
-  mt_df_sim$ERS <- 'Mato Grosso'
-  colnames(mt_df_sim) <-
-    c('Data',
-      'Suscetiveis',
-      'Infectados',
-      'Recuperados/Fatalidades',
-      'ERS')
-  
-  aux_df_sim <-
-    aggregate(df_sim[, c('time', 's.num', 'i.num', 'r.num')],
-              list(df_sim$regiao,
-                   df_sim$time),
-              sum)[-3]
-  colnames(aux_df_sim) <-
-    c('ERS',
-      'Data',
-      'Suscetiveis',
-      'Infectados',
-      'Recuperados/Fatalidades')
-  
-  aux_df_sim$ERS <- factor(aux_df_sim$ERS)
-  mt_df_sim$ERS <- factor(mt_df_sim$ERS)
-  aux_df_sim$Data <- aux_dh + aux_df_sim$Data - 1
-  mt_df_sim$Data <- aux_dh + mt_df_sim$Data - 1
-  
-  ers_aux_df_sim <- mt_df_sim
-  ers_aux_df_sim <-
-    ers_aux_df_sim[which.max(ers_aux_df_sim$Infectados), ]
-  
-  for (aux_ers in levels(aux_df_sim$ERS)) {
-    aux_ers_df_sim <- aux_df_sim[aux_df_sim$ERS == aux_ers,]
-    aux_ers_df_sim <-
-      aux_ers_df_sim[which.max(aux_ers_df_sim$Infectados), ]
-    ers_aux_df_sim <- rbind(ers_aux_df_sim, aux_ers_df_sim)
-  }
-  
-  jpeg(
-    "pico_temp.jpg",
-    width = 600,
-    height = 350,
-    quality = 90
-  )
-  grid.table(data.frame(ers_aux_df_sim))
-  dev.off()
-  
-  r_saida <-
-    paste(
-      format(aux_dh, '%d/%m/%Y'),
-      '- Estimativa das datas e valores de máximo de infectados por ERS'
-    )
-  try(updateStatus(r_saida, mediaPath = 'pico_temp.jpg'))
+try(updateStatus(r_saida, mediaPath = 'pico_temp.jpg'))
 
 toc()
