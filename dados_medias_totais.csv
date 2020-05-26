@@ -1,0 +1,229 @@
+aglomerado,suscetiveis,leitos_uti,data,taxa_ocupacao,perc_atendimento,perc_uti,tm,regiao,mse
+Acorizal,5399,0,2020-05-22,0.058,0.2,0.01,3.6,Baixada Cuiabana,1e+100
+Agua Boa,24032,0,2020-05-22,0.058,0.2,0.01,3.6,Agua Boa,1e+100
+Alta Floresta,51782,19,2020-05-22,0.058,0.2,0.01,3.6,Alta Floresta,7.85714285714286
+Alto Araguaia,19044,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,1e+100
+Alto Boa Vista,6822,0,2020-05-22,0.058,0.2,0.01,3.6,Sao Felix do Araguaia,1e+100
+Alto Garcas,12030,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,1e+100
+Alto Paraguai,11356,0,2020-05-22,0.058,0.2,0.01,3.6,Diamantino,1e+100
+Aripuana,22354,0,2020-05-22,0.058,0.2,0.01,3.6,Juina,1e+100
+Barra do Garcas,61012,10,2020-05-22,0.058,0.2,0.01,3.6,Barra do Garcas,528.285714285714
+Bom Jesus do Araguaia,6580,0,2020-05-22,0.058,0.2,0.01,3.6,Sao Felix do Araguaia,1e+100
+Caceres,94376,26,2020-05-22,0.058,0.2,0.01,3.6,Caceres,3.42857142857143
+Campo Novo do Parecis,35360,0,2020-05-22,0.058,0.2,0.01,3.6,Tangara da Serra,1e+100
+Campo Verde,44041,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,1e+100
+Canarana,21579,0,2020-05-22,0.058,0.2,0.01,3.6,Agua Boa,1e+100
+Chapada dos Guimaraes,19752,0,2020-05-22,0.058,0.2,0.01,3.6,Baixada Cuiabana,4
+Colider,33438,14,2020-05-22,0.058,0.2,0.01,3.6,Colider,1e+100
+Confresa,30933,0,2020-05-22,0.058,0.2,0.01,3.6,Porto Alegre do Norte,32.0714285714286
+Conquista do Oeste,4038,0,2020-05-22,0.058,0.2,0.01,3.6,Pontes e Lacerda,1e+100
+Cotriguacu,19750,0,2020-05-22,0.058,0.2,0.01,3.6,Juina,1e+100
+Cuiaba,612547,419,2020-05-22,0.058,0.2,0.01,3.6,Baixada Cuiabana,2921
+Curvelandia,5219,0,2020-05-22,0.058,0.2,0.01,3.6,Caceres,1e+100
+Dom Aquino,8178,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,1e+100
+Guaranta do Norte,35016,0,2020-05-22,0.058,0.2,0.01,3.6,Peixoto de Azevedo,1e+100
+Ipiranga do Norte,7667,0,2020-05-22,0.058,0.2,0.01,3.6,Sinop,1e+100
+Jaciara,27776,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,5.21428571428571
+Jangada,8409,0,2020-05-22,0.058,0.2,0.01,3.6,Baixada Cuiabana,18.1428571428571
+Jauru,8793,0,2020-05-22,0.058,0.2,0.01,3.6,Pontes e Lacerda,1e+100
+Juina,40997,16,2020-05-22,0.058,0.2,0.01,3.6,Juina,1e+100
+Juscimeira,11221,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,1e+100
+Lambari do Oeste,6121,0,2020-05-22,0.058,0.2,0.01,3.6,Caceres,1e+100
+Lucas do Rio Verde,65534,10,2020-05-22,0.058,0.2,0.01,3.6,Sinop,139.571428571429
+Luciara,2077,0,2020-05-22,0.058,0.2,0.01,3.6,Sao Felix do Araguaia,1e+100
+Matupa,16566,0,2020-05-22,0.058,0.2,0.01,3.6,Peixoto de Azevedo,1e+100
+Mirassol do Oeste,27739,0,2020-05-22,0.058,0.2,0.01,3.6,Caceres,0.357142857142857
+Nobres,15336,0,2020-05-22,0.058,0.2,0.01,3.6,Diamantino,1e+100
+Nossa Senhora do Livramento,13216,0,2020-05-22,0.058,0.2,0.01,3.6,Baixada Cuiabana,1e+100
+Nova Lacerda,6640,0,2020-05-22,0.058,0.2,0.01,3.6,Pontes e Lacerda,1e+100
+Nova Monte Verde,9178,0,2020-05-22,0.058,0.2,0.01,3.6,Alta Floresta,1e+100
+Nova Mutum,45378,0,2020-05-22,0.058,0.2,0.01,3.6,Sinop,5.5
+Nova Olimpia,20301,0,2020-05-22,0.058,0.2,0.01,3.6,Tangara da Serra,1e+100
+Nova Ubirata,11982,0,2020-05-22,0.058,0.2,0.01,3.6,Sinop,1e+100
+Nova Xavantina,21374,0,2020-05-22,0.058,0.2,0.01,3.6,Barra do Garcas,1e+100
+Novo Mundo,9178,0,2020-05-22,0.058,0.2,0.01,3.6,Peixoto de Azevedo,1e+100
+Pedra Preta,17626,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,1e+100
+Peixoto de Azevedo,34976,0,2020-05-22,0.058,0.2,0.01,3.6,Peixoto de Azevedo,151.5
+Pocone,32843,0,2020-05-22,0.058,0.2,0.01,3.6,Baixada Cuiabana,1e+100
+Pontal do Araguaia,6711,0,2020-05-22,0.058,0.2,0.01,3.6,Barra do Garcas,1e+100
+Ponte Branca,1576,0,2020-05-22,0.058,0.2,0.01,3.6,Barra do Garcas,1e+100
+Pontes e Lacerda,45093,0,2020-05-22,0.058,0.2,0.01,3.6,Pontes e Lacerda,4.85714285714286
+Porto Alegre do Norte,12517,0,2020-05-22,0.058,0.2,0.01,3.6,Porto Alegre do Norte,1e+100
+Poxoreu,16219,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,1e+100
+Primavera do Leste,62019,22,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,222.785714285714
+Querencia,17479,0,2020-05-22,0.058,0.2,0.01,3.6,Agua Boa,4.85714285714286
+Ribeirao Cascalheira,10206,0,2020-05-22,0.058,0.2,0.01,3.6,Agua Boa,1e+100
+Rio Branco,5156,0,2020-05-22,0.058,0.2,0.01,3.6,Caceres,1e+100
+Rondolandia,4001,0,2020-05-22,0.058,0.2,0.01,3.6,Pontes e Lacerda,1e+100
+Rondonopolis,232491,79,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,159.285714285714
+Rosario Oeste,17151,0,2020-05-22,0.058,0.2,0.01,3.6,Diamantino,29.5
+Santa Rita do Trivelato,3429,0,2020-05-22,0.058,0.2,0.01,3.6,Sinop,1e+100
+Santo Antonio do Leverger,16628,0,2020-05-22,0.058,0.2,0.01,3.6,Baixada Cuiabana,1e+100
+Sao Felix do Araguaia,11708,0,2020-05-22,0.058,0.2,0.01,3.6,Sao Felix do Araguaia,1e+100
+Sao Jose do Povo,4063,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,1e+100
+Sao Jose do Xingu,5595,0,2020-05-22,0.058,0.2,0.01,3.6,Porto Alegre do Norte,1e+100
+Sao Jose dos Quatro Marcos,18906,0,2020-05-22,0.058,0.2,0.01,3.6,Caceres,1.07142857142857
+Sao Pedro da Cipa,4727,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,10.2857142857143
+Sapezal,25881,0,2020-05-22,0.058,0.2,0.01,3.6,Tangara da Serra,1e+100
+Sinop,139000,42,2020-05-22,0.058,0.2,0.01,3.6,Sinop,46.1428571428571
+Sorriso,90313,26,2020-05-22,0.058,0.2,0.01,3.6,Sinop,165.714285714286
+Tangara da Serra,103750,47,2020-05-22,0.058,0.2,0.01,3.6,Tangara da Serra,64.0714285714286
+Tapurah,13705,0,2020-05-22,0.058,0.2,0.01,3.6,Sinop,1e+100
+Terra Nova do Norte,9667,0,2020-05-22,0.058,0.2,0.01,3.6,Peixoto de Azevedo,1e+100
+Uniao do Sul,3525,0,2020-05-22,0.058,0.2,0.01,3.6,Sinop,1e+100
+Vale de Sao Domingos,3127,0,2020-05-22,0.058,0.2,0.01,3.6,Pontes e Lacerda,1e+100
+Varzea Grande,284971,78,2020-05-22,0.058,0.2,0.01,3.6,Baixada Cuiabana,691.357142857143
+Vila Bela da Santissima Trindade,16128,0,2020-05-22,0.058,0.2,0.01,3.6,Pontes e Lacerda,1e+100
+Vila Rica,26037,0,2020-05-22,0.058,0.2,0.01,3.6,Porto Alegre do Norte,1e+100
+Acorizal,5399,0,2020-05-22,0.058,0.2,0.01,3.6,Baixada Cuiabana,1e+100
+Agua Boa,24032,0,2020-05-22,0.058,0.2,0.01,3.6,Agua Boa,1e+100
+Alta Floresta,51782,19,2020-05-22,0.058,0.2,0.01,3.6,Alta Floresta,7.85714285714286
+Alto Araguaia,19044,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,1e+100
+Alto Boa Vista,6822,0,2020-05-22,0.058,0.2,0.01,3.6,Sao Felix do Araguaia,1e+100
+Alto Garcas,12030,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,1e+100
+Alto Paraguai,11356,0,2020-05-22,0.058,0.2,0.01,3.6,Diamantino,1e+100
+Aripuana,22354,0,2020-05-22,0.058,0.2,0.01,3.6,Juina,1e+100
+Barra do Garcas,61012,10,2020-05-22,0.058,0.2,0.01,3.6,Barra do Garcas,528.285714285714
+Bom Jesus do Araguaia,6580,0,2020-05-22,0.058,0.2,0.01,3.6,Sao Felix do Araguaia,1e+100
+Caceres,94376,26,2020-05-22,0.058,0.2,0.01,3.6,Caceres,3.42857142857143
+Campo Novo do Parecis,35360,0,2020-05-22,0.058,0.2,0.01,3.6,Tangara da Serra,1e+100
+Campo Verde,44041,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,1e+100
+Canarana,21579,0,2020-05-22,0.058,0.2,0.01,3.6,Agua Boa,1e+100
+Chapada dos Guimaraes,19752,0,2020-05-22,0.058,0.2,0.01,3.6,Baixada Cuiabana,4
+Colider,33438,14,2020-05-22,0.058,0.2,0.01,3.6,Colider,1e+100
+Confresa,30933,0,2020-05-22,0.058,0.2,0.01,3.6,Porto Alegre do Norte,32.0714285714286
+Conquista do Oeste,4038,0,2020-05-22,0.058,0.2,0.01,3.6,Pontes e Lacerda,1e+100
+Cotriguacu,19750,0,2020-05-22,0.058,0.2,0.01,3.6,Juina,1e+100
+Cuiaba,612547,419,2020-05-22,0.058,0.2,0.01,3.6,Baixada Cuiabana,2921
+Curvelandia,5219,0,2020-05-22,0.058,0.2,0.01,3.6,Caceres,1e+100
+Dom Aquino,8178,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,1e+100
+Guaranta do Norte,35016,0,2020-05-22,0.058,0.2,0.01,3.6,Peixoto de Azevedo,1e+100
+Ipiranga do Norte,7667,0,2020-05-22,0.058,0.2,0.01,3.6,Sinop,1e+100
+Jaciara,27776,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,5.21428571428571
+Jangada,8409,0,2020-05-22,0.058,0.2,0.01,3.6,Baixada Cuiabana,18.1428571428571
+Jauru,8793,0,2020-05-22,0.058,0.2,0.01,3.6,Pontes e Lacerda,1e+100
+Juina,40997,16,2020-05-22,0.058,0.2,0.01,3.6,Juina,1e+100
+Juscimeira,11221,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,1e+100
+Lambari do Oeste,6121,0,2020-05-22,0.058,0.2,0.01,3.6,Caceres,1e+100
+Lucas do Rio Verde,65534,10,2020-05-22,0.058,0.2,0.01,3.6,Sinop,139.571428571429
+Luciara,2077,0,2020-05-22,0.058,0.2,0.01,3.6,Sao Felix do Araguaia,1e+100
+Matupa,16566,0,2020-05-22,0.058,0.2,0.01,3.6,Peixoto de Azevedo,1e+100
+Mirassol do Oeste,27739,0,2020-05-22,0.058,0.2,0.01,3.6,Caceres,0.357142857142857
+Nobres,15336,0,2020-05-22,0.058,0.2,0.01,3.6,Diamantino,1e+100
+Nossa Senhora do Livramento,13216,0,2020-05-22,0.058,0.2,0.01,3.6,Baixada Cuiabana,1e+100
+Nova Lacerda,6640,0,2020-05-22,0.058,0.2,0.01,3.6,Pontes e Lacerda,1e+100
+Nova Monte Verde,9178,0,2020-05-22,0.058,0.2,0.01,3.6,Alta Floresta,1e+100
+Nova Mutum,45378,0,2020-05-22,0.058,0.2,0.01,3.6,Sinop,5.5
+Nova Olimpia,20301,0,2020-05-22,0.058,0.2,0.01,3.6,Tangara da Serra,1e+100
+Nova Ubirata,11982,0,2020-05-22,0.058,0.2,0.01,3.6,Sinop,1e+100
+Nova Xavantina,21374,0,2020-05-22,0.058,0.2,0.01,3.6,Barra do Garcas,1e+100
+Novo Mundo,9178,0,2020-05-22,0.058,0.2,0.01,3.6,Peixoto de Azevedo,1e+100
+Pedra Preta,17626,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,1e+100
+Peixoto de Azevedo,34976,0,2020-05-22,0.058,0.2,0.01,3.6,Peixoto de Azevedo,151.5
+Pocone,32843,0,2020-05-22,0.058,0.2,0.01,3.6,Baixada Cuiabana,1e+100
+Pontal do Araguaia,6711,0,2020-05-22,0.058,0.2,0.01,3.6,Barra do Garcas,1e+100
+Ponte Branca,1576,0,2020-05-22,0.058,0.2,0.01,3.6,Barra do Garcas,1e+100
+Pontes e Lacerda,45093,0,2020-05-22,0.058,0.2,0.01,3.6,Pontes e Lacerda,4.85714285714286
+Porto Alegre do Norte,12517,0,2020-05-22,0.058,0.2,0.01,3.6,Porto Alegre do Norte,1e+100
+Poxoreu,16219,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,1e+100
+Primavera do Leste,62019,22,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,222.785714285714
+Querencia,17479,0,2020-05-22,0.058,0.2,0.01,3.6,Agua Boa,4.85714285714286
+Ribeirao Cascalheira,10206,0,2020-05-22,0.058,0.2,0.01,3.6,Agua Boa,1e+100
+Rio Branco,5156,0,2020-05-22,0.058,0.2,0.01,3.6,Caceres,1e+100
+Rondolandia,4001,0,2020-05-22,0.058,0.2,0.01,3.6,Pontes e Lacerda,1e+100
+Rondonopolis,232491,79,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,159.285714285714
+Rosario Oeste,17151,0,2020-05-22,0.058,0.2,0.01,3.6,Diamantino,29.5
+Santa Rita do Trivelato,3429,0,2020-05-22,0.058,0.2,0.01,3.6,Sinop,1e+100
+Santo Antonio do Leverger,16628,0,2020-05-22,0.058,0.2,0.01,3.6,Baixada Cuiabana,1e+100
+Sao Felix do Araguaia,11708,0,2020-05-22,0.058,0.2,0.01,3.6,Sao Felix do Araguaia,1e+100
+Sao Jose do Povo,4063,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,1e+100
+Sao Jose do Xingu,5595,0,2020-05-22,0.058,0.2,0.01,3.6,Porto Alegre do Norte,1e+100
+Sao Jose dos Quatro Marcos,18906,0,2020-05-22,0.058,0.2,0.01,3.6,Caceres,1.07142857142857
+Sao Pedro da Cipa,4727,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,10.2857142857143
+Sapezal,25881,0,2020-05-22,0.058,0.2,0.01,3.6,Tangara da Serra,1e+100
+Sinop,139000,42,2020-05-22,0.058,0.2,0.01,3.6,Sinop,46.1428571428571
+Sorriso,90313,26,2020-05-22,0.058,0.2,0.01,3.6,Sinop,165.714285714286
+Tangara da Serra,103750,47,2020-05-22,0.058,0.2,0.01,3.6,Tangara da Serra,64.0714285714286
+Tapurah,13705,0,2020-05-22,0.058,0.2,0.01,3.6,Sinop,1e+100
+Terra Nova do Norte,9667,0,2020-05-22,0.058,0.2,0.01,3.6,Peixoto de Azevedo,1e+100
+Uniao do Sul,3525,0,2020-05-22,0.058,0.2,0.01,3.6,Sinop,1e+100
+Vale de Sao Domingos,3127,0,2020-05-22,0.058,0.2,0.01,3.6,Pontes e Lacerda,1e+100
+Varzea Grande,284971,78,2020-05-22,0.058,0.2,0.01,3.6,Baixada Cuiabana,691.357142857143
+Vila Bela da Santissima Trindade,16128,0,2020-05-22,0.058,0.2,0.01,3.6,Pontes e Lacerda,1e+100
+Vila Rica,26037,0,2020-05-22,0.058,0.2,0.01,3.6,Porto Alegre do Norte,1e+100
+Acorizal,5399,0,2020-05-22,0.058,0.2,0.01,3.6,Baixada Cuiabana,1e+100
+Agua Boa,24032,0,2020-05-22,0.058,0.2,0.01,3.6,Agua Boa,1e+100
+Alta Floresta,51782,19,2020-05-22,0.058,0.2,0.01,3.6,Alta Floresta,7.85714285714286
+Alto Araguaia,19044,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,1e+100
+Alto Boa Vista,6822,0,2020-05-22,0.058,0.2,0.01,3.6,Sao Felix do Araguaia,1e+100
+Alto Garcas,12030,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,1e+100
+Alto Paraguai,11356,0,2020-05-22,0.058,0.2,0.01,3.6,Diamantino,1e+100
+Aripuana,22354,0,2020-05-22,0.058,0.2,0.01,3.6,Juina,1e+100
+Barra do Garcas,61012,10,2020-05-22,0.058,0.2,0.01,3.6,Barra do Garcas,528.285714285714
+Bom Jesus do Araguaia,6580,0,2020-05-22,0.058,0.2,0.01,3.6,Sao Felix do Araguaia,1e+100
+Caceres,94376,26,2020-05-22,0.058,0.2,0.01,3.6,Caceres,3.42857142857143
+Campo Novo do Parecis,35360,0,2020-05-22,0.058,0.2,0.01,3.6,Tangara da Serra,1e+100
+Campo Verde,44041,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,1e+100
+Canarana,21579,0,2020-05-22,0.058,0.2,0.01,3.6,Agua Boa,1e+100
+Chapada dos Guimaraes,19752,0,2020-05-22,0.058,0.2,0.01,3.6,Baixada Cuiabana,4
+Colider,33438,14,2020-05-22,0.058,0.2,0.01,3.6,Colider,1e+100
+Confresa,30933,0,2020-05-22,0.058,0.2,0.01,3.6,Porto Alegre do Norte,32.0714285714286
+Conquista do Oeste,4038,0,2020-05-22,0.058,0.2,0.01,3.6,Pontes e Lacerda,1e+100
+Cotriguacu,19750,0,2020-05-22,0.058,0.2,0.01,3.6,Juina,1e+100
+Cuiaba,612547,419,2020-05-22,0.058,0.2,0.01,3.6,Baixada Cuiabana,2921
+Curvelandia,5219,0,2020-05-22,0.058,0.2,0.01,3.6,Caceres,1e+100
+Dom Aquino,8178,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,1e+100
+Guaranta do Norte,35016,0,2020-05-22,0.058,0.2,0.01,3.6,Peixoto de Azevedo,1e+100
+Ipiranga do Norte,7667,0,2020-05-22,0.058,0.2,0.01,3.6,Sinop,1e+100
+Jaciara,27776,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,5.21428571428571
+Jangada,8409,0,2020-05-22,0.058,0.2,0.01,3.6,Baixada Cuiabana,18.1428571428571
+Jauru,8793,0,2020-05-22,0.058,0.2,0.01,3.6,Pontes e Lacerda,1e+100
+Juina,40997,16,2020-05-22,0.058,0.2,0.01,3.6,Juina,1e+100
+Juscimeira,11221,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,1e+100
+Lambari do Oeste,6121,0,2020-05-22,0.058,0.2,0.01,3.6,Caceres,1e+100
+Lucas do Rio Verde,65534,10,2020-05-22,0.058,0.2,0.01,3.6,Sinop,139.571428571429
+Luciara,2077,0,2020-05-22,0.058,0.2,0.01,3.6,Sao Felix do Araguaia,1e+100
+Matupa,16566,0,2020-05-22,0.058,0.2,0.01,3.6,Peixoto de Azevedo,1e+100
+Mirassol do Oeste,27739,0,2020-05-22,0.058,0.2,0.01,3.6,Caceres,0.357142857142857
+Nobres,15336,0,2020-05-22,0.058,0.2,0.01,3.6,Diamantino,1e+100
+Nossa Senhora do Livramento,13216,0,2020-05-22,0.058,0.2,0.01,3.6,Baixada Cuiabana,1e+100
+Nova Lacerda,6640,0,2020-05-22,0.058,0.2,0.01,3.6,Pontes e Lacerda,1e+100
+Nova Monte Verde,9178,0,2020-05-22,0.058,0.2,0.01,3.6,Alta Floresta,1e+100
+Nova Mutum,45378,0,2020-05-22,0.058,0.2,0.01,3.6,Sinop,5.5
+Nova Olimpia,20301,0,2020-05-22,0.058,0.2,0.01,3.6,Tangara da Serra,1e+100
+Nova Ubirata,11982,0,2020-05-22,0.058,0.2,0.01,3.6,Sinop,1e+100
+Nova Xavantina,21374,0,2020-05-22,0.058,0.2,0.01,3.6,Barra do Garcas,1e+100
+Novo Mundo,9178,0,2020-05-22,0.058,0.2,0.01,3.6,Peixoto de Azevedo,1e+100
+Pedra Preta,17626,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,1e+100
+Peixoto de Azevedo,34976,0,2020-05-22,0.058,0.2,0.01,3.6,Peixoto de Azevedo,151.5
+Pocone,32843,0,2020-05-22,0.058,0.2,0.01,3.6,Baixada Cuiabana,1e+100
+Pontal do Araguaia,6711,0,2020-05-22,0.058,0.2,0.01,3.6,Barra do Garcas,1e+100
+Ponte Branca,1576,0,2020-05-22,0.058,0.2,0.01,3.6,Barra do Garcas,1e+100
+Pontes e Lacerda,45093,0,2020-05-22,0.058,0.2,0.01,3.6,Pontes e Lacerda,4.85714285714286
+Porto Alegre do Norte,12517,0,2020-05-22,0.058,0.2,0.01,3.6,Porto Alegre do Norte,1e+100
+Poxoreu,16219,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,1e+100
+Primavera do Leste,62019,22,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,222.785714285714
+Querencia,17479,0,2020-05-22,0.058,0.2,0.01,3.6,Agua Boa,4.85714285714286
+Ribeirao Cascalheira,10206,0,2020-05-22,0.058,0.2,0.01,3.6,Agua Boa,1e+100
+Rio Branco,5156,0,2020-05-22,0.058,0.2,0.01,3.6,Caceres,1e+100
+Rondolandia,4001,0,2020-05-22,0.058,0.2,0.01,3.6,Pontes e Lacerda,1e+100
+Rondonopolis,232491,79,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,159.285714285714
+Rosario Oeste,17151,0,2020-05-22,0.058,0.2,0.01,3.6,Diamantino,29.5
+Santa Rita do Trivelato,3429,0,2020-05-22,0.058,0.2,0.01,3.6,Sinop,1e+100
+Santo Antonio do Leverger,16628,0,2020-05-22,0.058,0.2,0.01,3.6,Baixada Cuiabana,1e+100
+Sao Felix do Araguaia,11708,0,2020-05-22,0.058,0.2,0.01,3.6,Sao Felix do Araguaia,1e+100
+Sao Jose do Povo,4063,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,1e+100
+Sao Jose do Xingu,5595,0,2020-05-22,0.058,0.2,0.01,3.6,Porto Alegre do Norte,1e+100
+Sao Jose dos Quatro Marcos,18906,0,2020-05-22,0.058,0.2,0.01,3.6,Caceres,1.07142857142857
+Sao Pedro da Cipa,4727,0,2020-05-22,0.058,0.2,0.01,3.6,Rondonopolis,10.2857142857143
+Sapezal,25881,0,2020-05-22,0.058,0.2,0.01,3.6,Tangara da Serra,1e+100
+Sinop,139000,42,2020-05-22,0.058,0.2,0.01,3.6,Sinop,46.1428571428571
+Sorriso,90313,26,2020-05-22,0.058,0.2,0.01,3.6,Sinop,165.714285714286
+Tangara da Serra,103750,47,2020-05-22,0.058,0.2,0.01,3.6,Tangara da Serra,64.0714285714286
+Tapurah,13705,0,2020-05-22,0.058,0.2,0.01,3.6,Sinop,1e+100
+Terra Nova do Norte,9667,0,2020-05-22,0.058,0.2,0.01,3.6,Peixoto de Azevedo,1e+100
+Uniao do Sul,3525,0,2020-05-22,0.058,0.2,0.01,3.6,Sinop,1e+100
+Vale de Sao Domingos,3127,0,2020-05-22,0.058,0.2,0.01,3.6,Pontes e Lacerda,1e+100
+Varzea Grande,284971,78,2020-05-22,0.058,0.2,0.01,3.6,Baixada Cuiabana,691.357142857143
+Vila Bela da Santissima Trindade,16128,0,2020-05-22,0.058,0.2,0.01,3.6,Pontes e Lacerda,1e+100
+Vila Rica,26037,0,2020-05-22,0.058,0.2,0.01,3.6,Porto Alegre do Norte,1e+100

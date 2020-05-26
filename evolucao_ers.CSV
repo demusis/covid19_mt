@@ -333,7 +333,7 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 19/04/2020,Baixada Cuiabana,Varzea Grande,3,6,0,9
 20/04/2020,Alta Floresta,Alta Floresta,0,1,0,1
 20/04/2020,Juina,Aripuana,0,1,1,2
-20/04/2020,Barra do Garcas,Barra do Garcas,2,0,0,2
+20/04/2020,Barra do Garcas,Barra do Garcas,2,0,1,3
 20/04/2020,Caceres,Caceres,2,1,1,4
 20/04/2020,Tangara da Serra,Campo Novo do Parecis,0,1,0,1
 20/04/2020,Agua Boa,Canarana,0,1,0,1
@@ -356,7 +356,7 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 20/04/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,1,0,0,1
 21/04/2020,Alta Floresta,Alta Floresta,0,1,0,1
 21/04/2020,Juina,Aripuana,0,1,1,2
-21/04/2020,Barra do Garcas,Barra do Garcas,2,0,0,2
+21/04/2020,Barra do Garcas,Barra do Garcas,2,0,1,3
 21/04/2020,Caceres,Caceres,2,1,1,4
 21/04/2020,Tangara da Serra,Campo Novo do Parecis,0,1,0,1
 21/04/2020,Agua Boa,Canarana,0,1,0,1
@@ -379,7 +379,7 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 21/04/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,1,0,0,1
 22/04/2020,Alta Floresta,Alta Floresta,0,1,0,1
 22/04/2020,Juina,Aripuana,0,1,1,2
-22/04/2020,Barra do Garcas,Barra do Garcas,2,0,0,2
+22/04/2020,Barra do Garcas,Barra do Garcas,2,0,1,3
 22/04/2020,Caceres,Caceres,2,1,1,4
 22/04/2020,Tangara da Serra,Campo Novo do Parecis,0,1,0,1
 22/04/2020,Agua Boa,Canarana,0,1,0,1
@@ -404,7 +404,7 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 22/04/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,1,0,0,1
 23/04/2020,Alta Floresta,Alta Floresta,0,1,0,1
 23/04/2020,Juina,Aripuana,0,1,1,2
-23/04/2020,Barra do Garcas,Barra do Garcas,2,0,0,2
+23/04/2020,Barra do Garcas,Barra do Garcas,2,0,1,3
 23/04/2020,Caceres,Caceres,2,1,1,4
 23/04/2020,Tangara da Serra,Campo Novo do Parecis,0,1,0,1
 23/04/2020,Agua Boa,Canarana,0,1,0,1
@@ -431,7 +431,7 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 23/04/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,1,0,0,1
 24/04/2020,Alta Floresta,Alta Floresta,0,1,0,1
 24/04/2020,Juina,Aripuana,0,1,1,2
-24/04/2020,Barra do Garcas,Barra do Garcas,2,0,0,2
+24/04/2020,Barra do Garcas,Barra do Garcas,2,0,1,3
 24/04/2020,Caceres,Caceres,2,1,1,4
 24/04/2020,Tangara da Serra,Campo Novo do Parecis,0,1,0,1
 24/04/2020,Agua Boa,Canarana,0,1,0,1
@@ -459,7 +459,7 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 24/04/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,1,0,0,1
 25/04/2020,Alta Floresta,Alta Floresta,0,1,0,1
 25/04/2020,Juina,Aripuana,0,1,1,2
-25/04/2020,Barra do Garcas,Barra do Garcas,2,0,0,2
+25/04/2020,Barra do Garcas,Barra do Garcas,2,0,1,3
 25/04/2020,Caceres,Caceres,2,1,1,4
 25/04/2020,Tangara da Serra,Campo Novo do Parecis,0,1,0,1
 25/04/2020,Agua Boa,Canarana,0,1,0,1
@@ -487,7 +487,7 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 25/04/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,1,0,0,1
 26/04/2020,Alta Floresta,Alta Floresta,0,1,0,1
 26/04/2020,Juina,Aripuana,0,1,1,2
-26/04/2020,Barra do Garcas,Barra do Garcas,2,0,0,2
+26/04/2020,Barra do Garcas,Barra do Garcas,2,0,1,3
 26/04/2020,Caceres,Caceres,2,1,1,4
 26/04/2020,Tangara da Serra,Campo Novo do Parecis,0,1,0,1
 26/04/2020,Agua Boa,Canarana,0,1,0,1
@@ -516,7 +516,7 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 26/04/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,1,0,0,1
 27/04/2020,Alta Floresta,Alta Floresta,0,1,0,1
 27/04/2020,Juina,Aripuana,0,1,1,2
-27/04/2020,Barra do Garcas,Barra do Garcas,2,0,0,2
+27/04/2020,Barra do Garcas,Barra do Garcas,2,0,1,3
 27/04/2020,Caceres,Caceres,4,1,1,6
 27/04/2020,Tangara da Serra,Campo Novo do Parecis,0,1,0,1
 27/04/2020,Agua Boa,Canarana,0,1,0,1
@@ -545,7 +545,7 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 27/04/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,1,0,0,1
 28/04/2020,Alta Floresta,Alta Floresta,0,1,0,1
 28/04/2020,Juina,Aripuana,0,1,1,2
-28/04/2020,Barra do Garcas,Barra do Garcas,2,0,0,2
+28/04/2020,Barra do Garcas,Barra do Garcas,2,0,1,3
 28/04/2020,Caceres,Caceres,3,2,1,6
 28/04/2020,Tangara da Serra,Campo Novo do Parecis,0,1,0,1
 28/04/2020,Agua Boa,Canarana,0,1,0,1
@@ -574,7 +574,7 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 28/04/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,1,0,0,1
 29/04/2020,Alta Floresta,Alta Floresta,0,1,0,1
 29/04/2020,Juina,Aripuana,0,1,1,2
-29/04/2020,Barra do Garcas,Barra do Garcas,2,0,0,2
+29/04/2020,Barra do Garcas,Barra do Garcas,2,0,1,3
 29/04/2020,Caceres,Caceres,4,2,1,7
 29/04/2020,Tangara da Serra,Campo Novo do Parecis,0,1,0,1
 29/04/2020,Agua Boa,Canarana,0,1,0,1
@@ -604,7 +604,7 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 29/04/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,1,0,0,1
 30/04/2020,Alta Floresta,Alta Floresta,0,1,0,1
 30/04/2020,Juina,Aripuana,0,1,1,2
-30/04/2020,Barra do Garcas,Barra do Garcas,2,0,0,2
+30/04/2020,Barra do Garcas,Barra do Garcas,2,0,1,3
 30/04/2020,Caceres,Caceres,5,2,1,8
 30/04/2020,Tangara da Serra,Campo Novo do Parecis,0,1,0,1
 30/04/2020,Agua Boa,Canarana,0,1,0,1
@@ -635,7 +635,7 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 30/04/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,1,0,0,1
 01/05/2020,Alta Floresta,Alta Floresta,1,1,0,2
 01/05/2020,Juina,Aripuana,0,1,1,2
-01/05/2020,Barra do Garcas,Barra do Garcas,3,0,0,3
+01/05/2020,Barra do Garcas,Barra do Garcas,3,0,1,4
 01/05/2020,Caceres,Caceres,5,2,1,8
 01/05/2020,Tangara da Serra,Campo Novo do Parecis,0,1,0,1
 01/05/2020,Agua Boa,Canarana,1,1,0,2
@@ -668,7 +668,7 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 01/05/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,1,0,0,1
 02/05/2020,Alta Floresta,Alta Floresta,1,1,0,2
 02/05/2020,Juina,Aripuana,0,1,1,2
-02/05/2020,Barra do Garcas,Barra do Garcas,3,0,0,3
+02/05/2020,Barra do Garcas,Barra do Garcas,3,0,1,4
 02/05/2020,Caceres,Caceres,7,2,1,10
 02/05/2020,Tangara da Serra,Campo Novo do Parecis,0,1,0,1
 02/05/2020,Agua Boa,Canarana,1,1,0,2
@@ -701,7 +701,7 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 02/05/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,1,0,0,1
 03/05/2020,Alta Floresta,Alta Floresta,1,1,0,2
 03/05/2020,Juina,Aripuana,0,1,1,2
-03/05/2020,Barra do Garcas,Barra do Garcas,3,1,0,4
+03/05/2020,Barra do Garcas,Barra do Garcas,3,0,1,4
 03/05/2020,Caceres,Caceres,7,2,1,10
 03/05/2020,Tangara da Serra,Campo Novo do Parecis,0,1,0,1
 03/05/2020,Agua Boa,Canarana,1,1,0,2
@@ -777,7 +777,7 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 05/05/2020,Baixada Cuiabana,Cuiaba,38,108,2,148
 05/05/2020,Caceres,Curvelandia,3,0,0,3
 05/05/2020,Sinop,Ipiranga do Norte,0,3,0,3
-05/05/2020,Rondonopolis,Jaciara,3,7,0,10
+05/05/2020,Rondonopolis,Jaciara,2,7,0,9
 05/05/2020,Baixada Cuiabana,Jangada,2,0,0,2
 05/05/2020,Caceres,Lambari do Oeste,0,1,0,1
 05/05/2020,Sinop,Lucas do Rio Verde,4,3,1,8
@@ -844,7 +844,7 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 07/05/2020,Caceres,Caceres,9,2,1,12
 07/05/2020,Tangara da Serra,Campo Novo do Parecis,0,1,0,1
 07/05/2020,Agua Boa,Canarana,1,1,0,2
-07/05/2020,Baixada Cuiabana,Chapada dos Guimaraes,4,0,0,4
+07/05/2020,Baixada Cuiabana,Chapada dos Guimaraes,3,0,0,3
 07/05/2020,Porto Alegre do Norte,Confresa,2,3,0,5
 07/05/2020,Pontes e Lacerda,Conquista do Oeste,1,0,0,1
 07/05/2020,Baixada Cuiabana,Cuiaba,46,114,2,162
@@ -1387,7 +1387,7 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 18/05/2020,Juina,Cotriguacu,1,0,0,1
 18/05/2020,Baixada Cuiabana,Cuiaba,159,129,5,293
 18/05/2020,Caceres,Curvelandia,2,2,0,4
-18/05/2020,Peixoto de Azevedo,Guaranta do Norte,2,0,0,2
+18/05/2020,Peixoto de Azevedo,Guaranta do Norte,1,0,0,1
 18/05/2020,Sinop,Ipiranga do Norte,0,3,0,3
 18/05/2020,Rondonopolis,Jaciara,0,12,0,12
 18/05/2020,Baixada Cuiabana,Jangada,7,0,0,7
@@ -1565,3 +1565,392 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 20/05/2020,Baixada Cuiabana,Varzea Grande,71,19,4,94
 20/05/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,2,0,0,2
 20/05/2020,Porto Alegre do Norte,Vila Rica,5,0,0,5
+21/05/2020,Baixada Cuiabana,Acorizal,3,0,0,3
+21/05/2020,Agua Boa,Agua Boa,1,2,0,3
+21/05/2020,Alta Floresta,Alta Floresta,8,2,0,10
+21/05/2020,Rondonopolis,Alto Araguaia,7,0,0,7
+21/05/2020,Sao Felix do Araguaia,Alto Boa Vista,0,0,1,1
+21/05/2020,Rondonopolis,Alto Garcas,1,0,0,1
+21/05/2020,Diamantino,Alto Paraguai,1,0,0,1
+21/05/2020,Juina,Aripuana,3,1,1,5
+21/05/2020,Barra do Garcas,Barra do Garcas,45,13,3,61
+21/05/2020,Sao Felix do Araguaia,Bom Jesus do Araguaia,1,0,0,1
+21/05/2020,Caceres,Caceres,7,9,3,19
+21/05/2020,Tangara da Serra,Campo Novo do Parecis,2,1,0,3
+21/05/2020,Rondonopolis,Campo Verde,7,0,0,7
+21/05/2020,Pontes e Lacerda,Campos de Julho,1,0,0,1
+21/05/2020,Agua Boa,Canarana,0,2,0,2
+21/05/2020,Baixada Cuiabana,Chapada dos Guimaraes,5,1,1,7
+21/05/2020,Colider,Colider,1,0,0,1
+21/05/2020,Porto Alegre do Norte,Confresa,19,7,0,26
+21/05/2020,Pontes e Lacerda,Conquista do Oeste,2,1,0,3
+21/05/2020,Juina,Cotriguacu,2,0,0,2
+21/05/2020,Baixada Cuiabana,Cuiaba,215,160,5,380
+21/05/2020,Caceres,Curvelandia,1,3,0,4
+21/05/2020,Rondonopolis,Dom Aquino,2,0,0,2
+21/05/2020,Peixoto de Azevedo,Guaranta do Norte,3,0,0,3
+21/05/2020,Sinop,Ipiranga do Norte,0,3,0,3
+21/05/2020,Rondonopolis,Jaciara,8,12,0,20
+21/05/2020,Baixada Cuiabana,Jangada,7,0,0,7
+21/05/2020,Pontes e Lacerda,Jauru,1,0,0,1
+21/05/2020,Rondonopolis,Juscimeira,2,0,0,2
+21/05/2020,Caceres,Lambari do Oeste,0,1,0,1
+21/05/2020,Sinop,Lucas do Rio Verde,28,11,2,41
+21/05/2020,Peixoto de Azevedo,Matupa,4,0,0,4
+21/05/2020,Caceres,Mirassol do Oeste,1,7,1,9
+21/05/2020,Diamantino,Nobres,1,0,0,1
+21/05/2020,Baixada Cuiabana,Nossa Senhora do Livramento,0,1,0,1
+21/05/2020,Pontes e Lacerda,Nova Lacerda,3,0,0,3
+21/05/2020,Alta Floresta,Nova Monte Verde,0,1,0,1
+21/05/2020,Sinop,Nova Mutum,6,10,1,17
+21/05/2020,Tangara da Serra,Nova Olimpia,1,0,0,1
+21/05/2020,Sinop,Nova Ubirata,5,0,0,5
+21/05/2020,Barra do Garcas,Nova Xavantina,1,0,0,1
+21/05/2020,Peixoto de Azevedo,Novo Mundo,1,0,0,1
+21/05/2020,Rondonopolis,Pedra Preta,1,0,0,1
+21/05/2020,Peixoto de Azevedo,Peixoto de Azevedo,7,14,0,21
+21/05/2020,Baixada Cuiabana,Pocone,1,2,0,3
+21/05/2020,Barra do Garcas,Pontal do Araguaia,3,1,0,4
+21/05/2020,Barra do Garcas,Ponte Branca,0,0,1,1
+21/05/2020,Pontes e Lacerda,Pontes e Lacerda,7,1,0,8
+21/05/2020,Porto Alegre do Norte,Porto Alegre do Norte,1,0,0,1
+21/05/2020,Rondonopolis,Poxoreu,1,1,0,2
+21/05/2020,Rondonopolis,Primavera do Leste,37,10,0,47
+21/05/2020,Agua Boa,Querencia,10,3,1,14
+21/05/2020,Agua Boa,Ribeirao Cascalheira,1,0,0,1
+21/05/2020,Caceres,Rio Branco,1,2,0,3
+21/05/2020,Pontes e Lacerda,Rondolandia,0,2,0,2
+21/05/2020,Rondonopolis,Rondonopolis,51,46,3,100
+21/05/2020,Diamantino,Rosario Oeste,28,3,0,31
+21/05/2020,Sinop,Santa Rita do Trivelato,1,0,0,1
+21/05/2020,Baixada Cuiabana,Santo Antonio do Leverger,0,1,0,1
+21/05/2020,Sao Felix do Araguaia,Sao Felix do Araguaia,1,0,0,1
+21/05/2020,Rondonopolis,Sao Jose do Povo,1,0,0,1
+21/05/2020,Porto Alegre do Norte,Sao Jose do Xingu,1,0,0,1
+21/05/2020,Caceres,Sao Jose dos Quatro Marcos,1,5,0,6
+21/05/2020,Rondonopolis,Sao Pedro da Cipa,4,1,1,6
+21/05/2020,Tangara da Serra,Sapezal,1,0,0,1
+21/05/2020,Sinop,Sinop,12,18,2,32
+21/05/2020,Sinop,Sorriso,19,12,0,31
+21/05/2020,Tangara da Serra,Tangara da Serra,21,22,0,43
+21/05/2020,Sinop,Tapurah,9,0,0,9
+21/05/2020,Sinop,Uniao do Sul,0,1,0,1
+21/05/2020,Pontes e Lacerda,Vale de Sao Domingos,1,0,1,2
+21/05/2020,Baixada Cuiabana,Varzea Grande,73,30,5,108
+21/05/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,2,0,0,2
+21/05/2020,Porto Alegre do Norte,Vila Rica,6,0,0,6
+22/05/2020,Baixada Cuiabana,Acorizal,3,0,0,3
+22/05/2020,Agua Boa,Agua Boa,1,2,0,3
+22/05/2020,Alta Floresta,Alta Floresta,8,4,0,12
+22/05/2020,Rondonopolis,Alto Araguaia,5,2,0,7
+22/05/2020,Sao Felix do Araguaia,Alto Boa Vista,0,0,1,1
+22/05/2020,Rondonopolis,Alto Garcas,1,0,0,1
+22/05/2020,Diamantino,Alto Paraguai,1,0,0,1
+22/05/2020,Juina,Aripuana,3,1,1,5
+22/05/2020,Barra do Garcas,Barra do Garcas,45,13,3,61
+22/05/2020,Sao Felix do Araguaia,Bom Jesus do Araguaia,2,0,0,2
+22/05/2020,Caceres,Caceres,7,9,3,19
+22/05/2020,Tangara da Serra,Campo Novo do Parecis,2,1,0,3
+22/05/2020,Rondonopolis,Campo Verde,7,0,0,7
+22/05/2020,Pontes e Lacerda,Campos de Julho,1,0,0,1
+22/05/2020,Agua Boa,Canarana,0,2,0,2
+22/05/2020,Baixada Cuiabana,Chapada dos Guimaraes,5,1,1,7
+22/05/2020,Colider,Colider,1,0,0,1
+22/05/2020,Porto Alegre do Norte,Confresa,19,9,0,28
+22/05/2020,Pontes e Lacerda,Conquista do Oeste,2,1,0,3
+22/05/2020,Juina,Cotriguacu,2,0,0,2
+22/05/2020,Baixada Cuiabana,Cuiaba,234,161,5,400
+22/05/2020,Caceres,Curvelandia,0,3,1,4
+22/05/2020,Rondonopolis,Dom Aquino,2,0,0,2
+22/05/2020,Peixoto de Azevedo,Guaranta do Norte,4,0,0,4
+22/05/2020,Sinop,Ipiranga do Norte,0,3,0,3
+22/05/2020,Rondonopolis,Jaciara,12,12,0,24
+22/05/2020,Baixada Cuiabana,Jangada,7,0,0,7
+22/05/2020,Pontes e Lacerda,Jauru,1,0,0,1
+22/05/2020,Juina,Juina,4,0,1,5
+22/05/2020,Rondonopolis,Juscimeira,2,0,0,2
+22/05/2020,Caceres,Lambari do Oeste,0,1,0,1
+22/05/2020,Sinop,Lucas do Rio Verde,29,11,2,42
+22/05/2020,Sao Felix do Araguaia,Luciara,1,0,0,1
+22/05/2020,Peixoto de Azevedo,Matupa,4,0,0,4
+22/05/2020,Caceres,Mirassol do Oeste,2,7,1,10
+22/05/2020,Diamantino,Nobres,0,1,0,1
+22/05/2020,Baixada Cuiabana,Nossa Senhora do Livramento,2,1,0,3
+22/05/2020,Pontes e Lacerda,Nova Lacerda,2,1,0,3
+22/05/2020,Alta Floresta,Nova Monte Verde,0,1,0,1
+22/05/2020,Sinop,Nova Mutum,7,10,1,18
+22/05/2020,Tangara da Serra,Nova Olimpia,1,0,0,1
+22/05/2020,Sinop,Nova Ubirata,5,0,0,5
+22/05/2020,Barra do Garcas,Nova Xavantina,1,0,0,1
+22/05/2020,Peixoto de Azevedo,Novo Mundo,1,0,0,1
+22/05/2020,Rondonopolis,Pedra Preta,1,0,0,1
+22/05/2020,Peixoto de Azevedo,Peixoto de Azevedo,7,14,0,21
+22/05/2020,Baixada Cuiabana,Pocone,1,2,0,3
+22/05/2020,Barra do Garcas,Pontal do Araguaia,3,1,0,4
+22/05/2020,Barra do Garcas,Ponte Branca,0,0,1,1
+22/05/2020,Pontes e Lacerda,Pontes e Lacerda,16,1,0,17
+22/05/2020,Porto Alegre do Norte,Porto Alegre do Norte,1,0,0,1
+22/05/2020,Rondonopolis,Poxoreu,1,1,0,2
+22/05/2020,Rondonopolis,Primavera do Leste,46,10,0,56
+22/05/2020,Agua Boa,Querencia,11,3,1,15
+22/05/2020,Agua Boa,Ribeirao Cascalheira,2,0,0,2
+22/05/2020,Caceres,Rio Branco,1,2,0,3
+22/05/2020,Pontes e Lacerda,Rondolandia,0,2,0,2
+22/05/2020,Rondonopolis,Rondonopolis,54,46,3,103
+22/05/2020,Diamantino,Rosario Oeste,23,8,0,31
+22/05/2020,Sinop,Santa Rita do Trivelato,1,0,0,1
+22/05/2020,Baixada Cuiabana,Santo Antonio do Leverger,0,1,0,1
+22/05/2020,Sao Felix do Araguaia,Sao Felix do Araguaia,1,0,0,1
+22/05/2020,Rondonopolis,Sao Jose do Povo,1,0,0,1
+22/05/2020,Porto Alegre do Norte,Sao Jose do Xingu,1,0,0,1
+22/05/2020,Caceres,Sao Jose dos Quatro Marcos,1,5,0,6
+22/05/2020,Rondonopolis,Sao Pedro da Cipa,3,2,1,6
+22/05/2020,Tangara da Serra,Sapezal,5,0,0,5
+22/05/2020,Sinop,Sinop,14,18,2,34
+22/05/2020,Sinop,Sorriso,22,12,0,34
+22/05/2020,Tangara da Serra,Tangara da Serra,26,22,0,48
+22/05/2020,Sinop,Tapurah,9,0,0,9
+22/05/2020,Peixoto de Azevedo,Terra Nova do Norte,1,0,0,1
+22/05/2020,Sinop,Uniao do Sul,0,1,0,1
+22/05/2020,Pontes e Lacerda,Vale de Sao Domingos,0,1,1,2
+22/05/2020,Baixada Cuiabana,Varzea Grande,77,30,6,113
+22/05/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,2,0,0,2
+22/05/2020,Porto Alegre do Norte,Vila Rica,6,0,0,6
+23/05/2020,Baixada Cuiabana,Acorizal,3,0,0,3
+23/05/2020,Agua Boa,Agua Boa,1,2,0,3
+23/05/2020,Alta Floresta,Alta Floresta,7,6,0,13
+23/05/2020,Rondonopolis,Alto Araguaia,5,2,0,7
+23/05/2020,Sao Felix do Araguaia,Alto Boa Vista,0,0,1,1
+23/05/2020,Rondonopolis,Alto Garcas,1,0,0,1
+23/05/2020,Diamantino,Alto Paraguai,1,0,0,1
+23/05/2020,Juina,Aripuana,5,1,1,7
+23/05/2020,Barra do Garcas,Barra do Garcas,46,13,3,62
+23/05/2020,Sao Felix do Araguaia,Bom Jesus do Araguaia,2,0,0,2
+23/05/2020,Caceres,Caceres,7,9,3,19
+23/05/2020,Tangara da Serra,Campo Novo do Parecis,6,1,0,7
+23/05/2020,Rondonopolis,Campo Verde,8,0,0,8
+23/05/2020,Pontes e Lacerda,Campos de Julho,1,0,0,1
+23/05/2020,Agua Boa,Canarana,0,2,0,2
+23/05/2020,Baixada Cuiabana,Chapada dos Guimaraes,5,1,1,7
+23/05/2020,Colider,Colider,2,0,0,2
+23/05/2020,Porto Alegre do Norte,Confresa,26,9,0,35
+23/05/2020,Pontes e Lacerda,Conquista do Oeste,2,1,0,3
+23/05/2020,Juina,Cotriguacu,2,0,0,2
+23/05/2020,Baixada Cuiabana,Cuiaba,258,162,5,425
+23/05/2020,Caceres,Curvelandia,0,3,1,4
+23/05/2020,Rondonopolis,Dom Aquino,2,0,0,2
+23/05/2020,Peixoto de Azevedo,Guaranta do Norte,4,0,0,4
+23/05/2020,Sinop,Ipiranga do Norte,0,3,0,3
+23/05/2020,Rondonopolis,Jaciara,13,12,0,25
+23/05/2020,Baixada Cuiabana,Jangada,7,0,0,7
+23/05/2020,Pontes e Lacerda,Jauru,2,0,0,2
+23/05/2020,Juara,Juara,1,0,0,1
+23/05/2020,Juina,Juina,4,0,1,5
+23/05/2020,Rondonopolis,Juscimeira,0,2,0,2
+23/05/2020,Caceres,Lambari do Oeste,0,1,0,1
+23/05/2020,Sinop,Lucas do Rio Verde,33,11,2,46
+23/05/2020,Sao Felix do Araguaia,Luciara,1,0,0,1
+23/05/2020,Colider,Marcelandia,1,0,0,1
+23/05/2020,Peixoto de Azevedo,Matupa,4,0,0,4
+23/05/2020,Caceres,Mirassol do Oeste,2,7,1,10
+23/05/2020,Diamantino,Nobres,0,1,0,1
+23/05/2020,Baixada Cuiabana,Nossa Senhora do Livramento,2,1,0,3
+23/05/2020,Pontes e Lacerda,Nova Lacerda,2,1,0,3
+23/05/2020,Alta Floresta,Nova Monte Verde,0,1,0,1
+23/05/2020,Sinop,Nova Mutum,7,10,1,18
+23/05/2020,Tangara da Serra,Nova Olimpia,1,0,0,1
+23/05/2020,Sinop,Nova Ubirata,5,0,0,5
+23/05/2020,Barra do Garcas,Nova Xavantina,1,0,0,1
+23/05/2020,Peixoto de Azevedo,Novo Mundo,1,0,0,1
+23/05/2020,Rondonopolis,Pedra Preta,2,0,0,2
+23/05/2020,Peixoto de Azevedo,Peixoto de Azevedo,7,14,0,21
+23/05/2020,Baixada Cuiabana,Pocone,1,2,0,3
+23/05/2020,Barra do Garcas,Pontal do Araguaia,4,1,0,5
+23/05/2020,Barra do Garcas,Ponte Branca,0,0,1,1
+23/05/2020,Pontes e Lacerda,Pontes e Lacerda,16,1,0,17
+23/05/2020,Porto Alegre do Norte,Porto Alegre do Norte,1,0,0,1
+23/05/2020,Rondonopolis,Poxoreu,0,2,0,2
+23/05/2020,Rondonopolis,Primavera do Leste,53,10,0,63
+23/05/2020,Agua Boa,Querencia,11,3,1,15
+23/05/2020,Agua Boa,Ribeirao Cascalheira,4,0,0,4
+23/05/2020,Caceres,Rio Branco,1,2,0,3
+23/05/2020,Pontes e Lacerda,Rondolandia,0,2,0,2
+23/05/2020,Rondonopolis,Rondonopolis,58,46,3,107
+23/05/2020,Diamantino,Rosario Oeste,25,8,0,33
+23/05/2020,Sinop,Santa Rita do Trivelato,1,0,0,1
+23/05/2020,Baixada Cuiabana,Santo Antonio do Leverger,1,1,0,2
+23/05/2020,Sao Felix do Araguaia,Sao Felix do Araguaia,1,0,0,1
+23/05/2020,Rondonopolis,Sao Jose do Povo,1,0,0,1
+23/05/2020,Porto Alegre do Norte,Sao Jose do Xingu,1,0,0,1
+23/05/2020,Caceres,Sao Jose dos Quatro Marcos,1,5,0,6
+23/05/2020,Rondonopolis,Sao Pedro da Cipa,3,2,1,6
+23/05/2020,Tangara da Serra,Sapezal,5,0,0,5
+23/05/2020,Sinop,Sinop,14,2,18,34
+23/05/2020,Sinop,Sorriso,22,12,0,34
+23/05/2020,Tangara da Serra,Tangara da Serra,37,23,0,60
+23/05/2020,Sinop,Tapurah,9,0,0,9
+23/05/2020,Peixoto de Azevedo,Terra Nova do Norte,1,0,0,1
+23/05/2020,Sinop,Uniao do Sul,0,1,0,1
+23/05/2020,Pontes e Lacerda,Vale de Sao Domingos,0,1,1,2
+23/05/2020,Baixada Cuiabana,Varzea Grande,84,30,6,120
+23/05/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,2,0,0,2
+23/05/2020,Porto Alegre do Norte,Vila Rica,7,0,0,7
+24/05/2020,Baixada Cuiabana,Acorizal,4,0,0,4
+24/05/2020,Agua Boa,Agua Boa,1,2,0,3
+24/05/2020,Alta Floresta,Alta Floresta,10,6,0,16
+24/05/2020,Rondonopolis,Alto Araguaia,5,2,0,7
+24/05/2020,Sao Felix do Araguaia,Alto Boa Vista,0,0,1,1
+24/05/2020,Rondonopolis,Alto Garcas,1,0,0,1
+24/05/2020,Diamantino,Alto Paraguai,1,0,0,1
+24/05/2020,Juina,Aripuana,5,1,1,7
+24/05/2020,Barra do Garcas,Barra do Garcas,49,13,3,65
+24/05/2020,Sao Felix do Araguaia,Bom Jesus do Araguaia,2,0,0,2
+24/05/2020,Caceres,Caceres,7,9,3,19
+24/05/2020,Tangara da Serra,Campo Novo do Parecis,6,1,0,7
+24/05/2020,Rondonopolis,Campo Verde,9,0,0,9
+24/05/2020,Pontes e Lacerda,Campos de Julho,1,0,0,1
+24/05/2020,Agua Boa,Canarana,0,2,0,2
+24/05/2020,Baixada Cuiabana,Chapada dos Guimaraes,6,2,1,9
+24/05/2020,Colider,Colider,2,0,0,2
+24/05/2020,Porto Alegre do Norte,Confresa,26,9,0,35
+24/05/2020,Pontes e Lacerda,Conquista do Oeste,2,1,0,3
+24/05/2020,Juina,Cotriguacu,1,0,1,2
+24/05/2020,Baixada Cuiabana,Cuiaba,319,163,7,489
+24/05/2020,Caceres,Curvelandia,0,3,1,4
+24/05/2020,Rondonopolis,Dom Aquino,2,0,0,2
+24/05/2020,Peixoto de Azevedo,Guaranta do Norte,4,0,0,4
+24/05/2020,Sinop,Ipiranga do Norte,0,3,0,3
+24/05/2020,Rondonopolis,Jaciara,13,12,0,25
+24/05/2020,Baixada Cuiabana,Jangada,7,0,0,7
+24/05/2020,Pontes e Lacerda,Jauru,2,0,0,2
+24/05/2020,Juara,Juara,1,0,0,1
+24/05/2020,Juina,Juina,4,0,1,5
+24/05/2020,Rondonopolis,Juscimeira,0,2,0,2
+24/05/2020,Caceres,Lambari do Oeste,0,1,0,1
+24/05/2020,Sinop,Lucas do Rio Verde,33,11,2,46
+24/05/2020,Sao Felix do Araguaia,Luciara,1,0,0,1
+24/05/2020,Colider,Marcelandia,1,0,0,1
+24/05/2020,Peixoto de Azevedo,Matupa,4,0,0,4
+24/05/2020,Caceres,Mirassol do Oeste,2,7,1,10
+24/05/2020,Diamantino,Nobres,0,1,0,1
+24/05/2020,Baixada Cuiabana,Nossa Senhora do Livramento,2,1,0,3
+24/05/2020,Pontes e Lacerda,Nova Lacerda,2,1,0,3
+24/05/2020,Alta Floresta,Nova Monte Verde,0,1,0,1
+24/05/2020,Sinop,Nova Mutum,7,10,1,18
+24/05/2020,Tangara da Serra,Nova Olimpia,1,0,0,1
+24/05/2020,Sinop,Nova Ubirata,5,0,0,5
+24/05/2020,Barra do Garcas,Nova Xavantina,1,0,0,1
+24/05/2020,Peixoto de Azevedo,Novo Mundo,1,0,0,1
+24/05/2020,Rondonopolis,Pedra Preta,2,0,0,2
+24/05/2020,Peixoto de Azevedo,Peixoto de Azevedo,7,14,0,21
+24/05/2020,Baixada Cuiabana,Pocone,1,2,0,3
+24/05/2020,Barra do Garcas,Pontal do Araguaia,4,1,0,5
+24/05/2020,Barra do Garcas,Ponte Branca,0,0,1,1
+24/05/2020,Pontes e Lacerda,Pontes e Lacerda,16,1,0,17
+24/05/2020,Porto Alegre do Norte,Porto Alegre do Norte,1,0,0,1
+24/05/2020,Rondonopolis,Poxoreu,0,2,0,2
+24/05/2020,Rondonopolis,Primavera do Leste,61,10,0,71
+24/05/2020,Agua Boa,Querencia,10,4,1,15
+24/05/2020,Agua Boa,Ribeirao Cascalheira,4,0,0,4
+24/05/2020,Caceres,Rio Branco,1,2,0,3
+24/05/2020,Pontes e Lacerda,Rondolandia,0,2,0,2
+24/05/2020,Rondonopolis,Rondonopolis,63,46,3,112
+24/05/2020,Diamantino,Rosario Oeste,20,14,0,34
+24/05/2020,Sinop,Santa Rita do Trivelato,1,0,0,1
+24/05/2020,Baixada Cuiabana,Santo Antonio do Leverger,1,1,0,2
+24/05/2020,Sao Felix do Araguaia,Sao Felix do Araguaia,1,0,0,1
+24/05/2020,Rondonopolis,Sao Jose do Povo,1,0,0,1
+24/05/2020,Porto Alegre do Norte,Sao Jose do Xingu,1,0,0,1
+24/05/2020,Caceres,Sao Jose dos Quatro Marcos,1,5,0,6
+24/05/2020,Rondonopolis,Sao Pedro da Cipa,3,2,1,6
+24/05/2020,Tangara da Serra,Sapezal,5,0,0,5
+24/05/2020,Sinop,Sinop,14,18,2,34
+24/05/2020,Sinop,Sorriso,25,12,0,37
+24/05/2020,Tangara da Serra,Tangara da Serra,43,23,0,66
+24/05/2020,Sinop,Tapurah,9,0,0,9
+24/05/2020,Peixoto de Azevedo,Terra Nova do Norte,1,0,0,1
+24/05/2020,Sinop,Uniao do Sul,0,1,0,1
+24/05/2020,Pontes e Lacerda,Vale de Sao Domingos,0,1,1,2
+24/05/2020,Baixada Cuiabana,Varzea Grande,88,30,6,124
+24/05/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,2,0,0,2
+24/05/2020,Porto Alegre do Norte,Vila Rica,7,0,0,7
+25/05/2020,Baixada Cuiabana,Acorizal,4,0,0,4
+25/05/2020,Agua Boa,Agua Boa,1,2,0,3
+25/05/2020,Alta Floresta,Alta Floresta,9,7,0,16
+25/05/2020,Rondonopolis,Alto Araguaia,5,2,0,7
+25/05/2020,Sao Felix do Araguaia,Alto Boa Vista,0,0,1,1
+25/05/2020,Rondonopolis,Alto Garcas,1,0,0,1
+25/05/2020,Diamantino,Alto Paraguai,1,0,0,1
+25/05/2020,Juina,Aripuana,5,1,1,7
+25/05/2020,Barra do Garcas,Barra do Garcas,50,13,3,66
+25/05/2020,Sao Felix do Araguaia,Bom Jesus do Araguaia,2,0,0,2
+25/05/2020,Caceres,Caceres,8,9,3,20
+25/05/2020,Tangara da Serra,Campo Novo do Parecis,7,1,0,8
+25/05/2020,Rondonopolis,Campo Verde,10,0,0,10
+25/05/2020,Pontes e Lacerda,Campos de Julho,1,0,0,1
+25/05/2020,Agua Boa,Canarana,0,2,0,2
+25/05/2020,Baixada Cuiabana,Chapada dos Guimaraes,7,2,1,10
+25/05/2020,Colider,Colider,3,0,0,3
+25/05/2020,Porto Alegre do Norte,Confresa,34,9,0,43
+25/05/2020,Pontes e Lacerda,Conquista do Oeste,3,1,0,4
+25/05/2020,Juina,Cotriguacu,1,0,1,2
+25/05/2020,Baixada Cuiabana,Cuiaba,343,168,7,518
+25/05/2020,Caceres,Curvelandia,0,3,1,4
+25/05/2020,Rondonopolis,Dom Aquino,2,0,0,2
+25/05/2020,Peixoto de Azevedo,Guaranta do Norte,4,0,0,4
+25/05/2020,Sinop,Ipiranga do Norte,0,3,0,3
+25/05/2020,Rondonopolis,Jaciara,17,13,0,30
+25/05/2020,Baixada Cuiabana,Jangada,7,0,0,7
+25/05/2020,Pontes e Lacerda,Jauru,3,0,0,3
+25/05/2020,Juara,Juara,1,0,0,1
+25/05/2020,Juina,Juina,5,0,1,6
+25/05/2020,Rondonopolis,Juscimeira,0,2,0,2
+25/05/2020,Caceres,Lambari do Oeste,0,1,0,1
+25/05/2020,Sinop,Lucas do Rio Verde,33,11,2,46
+25/05/2020,Sao Felix do Araguaia,Luciara,1,0,0,1
+25/05/2020,Colider,Marcelandia,2,0,0,2
+25/05/2020,Peixoto de Azevedo,Matupa,4,0,0,4
+25/05/2020,Caceres,Mirassol do Oeste,2,7,1,10
+25/05/2020,Diamantino,Nobres,0,1,0,1
+25/05/2020,Baixada Cuiabana,Nossa Senhora do Livramento,2,1,0,3
+25/05/2020,Pontes e Lacerda,Nova Lacerda,3,1,0,4
+25/05/2020,Alta Floresta,Nova Monte Verde,0,1,0,1
+25/05/2020,Sinop,Nova Mutum,8,10,1,19
+25/05/2020,Tangara da Serra,Nova Olimpia,2,0,0,2
+25/05/2020,Sinop,Nova Ubirata,5,0,0,5
+25/05/2020,Barra do Garcas,Nova Xavantina,1,0,0,1
+25/05/2020,Peixoto de Azevedo,Novo Mundo,1,0,0,1
+25/05/2020,Rondonopolis,Pedra Preta,2,0,0,2
+25/05/2020,Peixoto de Azevedo,Peixoto de Azevedo,7,14,0,21
+25/05/2020,Baixada Cuiabana,Pocone,1,2,0,3
+25/05/2020,Barra do Garcas,Pontal do Araguaia,4,1,0,5
+25/05/2020,Barra do Garcas,Ponte Branca,0,0,1,1
+25/05/2020,Pontes e Lacerda,Pontes e Lacerda,16,1,1,18
+25/05/2020,Porto Alegre do Norte,Porto Alegre do Norte,2,0,0,2
+25/05/2020,Rondonopolis,Poxoreu,0,2,0,2
+25/05/2020,Rondonopolis,Primavera do Leste,67,10,0,77
+25/05/2020,Agua Boa,Querencia,10,4,1,15
+25/05/2020,Agua Boa,Ribeirao Cascalheira,5,0,0,5
+25/05/2020,Caceres,Rio Branco,1,2,0,3
+25/05/2020,Pontes e Lacerda,Rondolandia,0,2,0,2
+25/05/2020,Rondonopolis,Rondonopolis,80,47,3,130
+25/05/2020,Diamantino,Rosario Oeste,12,23,0,35
+25/05/2020,Sinop,Santa Rita do Trivelato,1,0,0,1
+25/05/2020,Baixada Cuiabana,Santo Antonio do Leverger,2,1,0,3
+25/05/2020,Sao Felix do Araguaia,Sao Felix do Araguaia,1,0,0,1
+25/05/2020,Rondonopolis,Sao Jose do Povo,1,0,0,1
+25/05/2020,Porto Alegre do Norte,Sao Jose do Xingu,1,0,0,1
+25/05/2020,Caceres,Sao Jose dos Quatro Marcos,1,5,0,6
+25/05/2020,Rondonopolis,Sao Pedro da Cipa,3,2,1,6
+25/05/2020,Tangara da Serra,Sapezal,4,1,0,5
+25/05/2020,Sinop,Sinop,14,18,2,34
+25/05/2020,Sinop,Sorriso,25,12,0,37
+25/05/2020,Tangara da Serra,Tangara da Serra,48,29,0,77
+25/05/2020,Sinop,Tapurah,10,0,0,10
+25/05/2020,Peixoto de Azevedo,Terra Nova do Norte,1,0,0,1
+25/05/2020,Sinop,Uniao do Sul,0,1,0,1
+25/05/2020,Pontes e Lacerda,Vale de Sao Domingos,0,1,1,2
+25/05/2020,Baixada Cuiabana,Varzea Grande,103,45,7,155
+25/05/2020,Sinop,Vera,1,0,0,1
+25/05/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,2,0,0,2
+25/05/2020,Porto Alegre do Norte,Vila Rica,7,0,0,7
