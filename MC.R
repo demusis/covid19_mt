@@ -12,14 +12,6 @@ min_casos <- 5 # Minimo de infectados para se efetuar a busca de parametros
 # setwd("D:/Mega/COVID-19")
 setwd("~/simulacoes/COVID-19/")
 
-# Configuracao do Twitter
-try(setup_twitter_oauth(
-   consumer_key = "K8H2usTrUWKWrdUDhqZoMtYxT",
-   access_token = "1254974121265500160-ZW0Gy3GLNe1xWsMEasMUzQ0G67rufK",
-   consumer_secret = "egNsRyTB1qLJciGT6qweJjFhc2ZOXdU4t86Zfx9x0G9hD1rgUa",
-   access_secret = "YKNvlxrp5VhgVhJ3zZpP5KFalZPkKzC4VtnKS56JUoxtb"
-))
-
 # https://cran.r-project.org/web/views/TimeSeries.html
 # https://www.datacamp.com/tracks/time-series-with-r
 # https://www.datascience.com/blog/introduction-to-forecasting-with-arima-in-r-learn-data-science-tutorials
@@ -105,6 +97,14 @@ library(hrbrthemes)
 library(Metrics)
 library(stringi)
 
+# Configuracao do Twitter
+try(setup_twitter_oauth(
+  consumer_key = "K8H2usTrUWKWrdUDhqZoMtYxT",
+  access_token = "1254974121265500160-ZW0Gy3GLNe1xWsMEasMUzQ0G67rufK",
+  consumer_secret = "egNsRyTB1qLJciGT6qweJjFhc2ZOXdU4t86Zfx9x0G9hD1rgUa",
+  access_secret = "YKNvlxrp5VhgVhJ3zZpP5KFalZPkKzC4VtnKS56JUoxtb"
+))
+
 # Liga o cronometro
 tic("Inicio...")
 
@@ -169,9 +169,6 @@ mt_aux_dados <- aggregate(Total ~ ERS + Dia_Juliano, mt_dados, sum)
 mt_total_dados <- aggregate(Total ~ Dia_Juliano, mt_dados, sum)
 mt_total_dados$ERS <- 'Mato Grosso'
 mt_aux_dados <- rbind(mt_aux_dados, mt_total_dados)
-
-# Resgata data do ultimo registro.
-aux_dh <- aux_dados[nrow(aux_dados), 'Data']
 
 
 #
@@ -397,7 +394,7 @@ for (aux_aglomerados in 1:length(aglomerados[['aglomerado']])) {
 }
 
 data_processamento <- format(Sys.time(), '%d%m%Y')
-aux_arquivo <- paste('sim_mc', data_processamento, 
+aux_arquivo <- paste('mmc', data_processamento, 
                      stri_rand_strings(1, 23, '[a-zA-Z0-9]'),
                      '.csv')
 write.table(
@@ -419,8 +416,7 @@ write.table(
 
 tproc <- round(as.numeric(toc()), digits = 1)
 r_saida <-
-  paste(format(aux_dh, '%d/%m/%Y'),
-        '- MMC concluido com',
+  paste('MMC concluido com',
         round(tproc[2] - tproc[1], 1),
         's.')
 print(r_saida)
