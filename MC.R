@@ -394,9 +394,11 @@ for (aux_aglomerados in 1:length(aglomerados[['aglomerado']])) {
 }
 
 data_processamento <- format(Sys.time(), '%d%m%Y')
-aux_arquivo <- paste('mmc', data_processamento, 
+aux_arquivo <- paste('smc', data_processamento, 
                      stri_rand_strings(1, 23, '[a-zA-Z0-9]'),
                      '.csv')
+
+# Salva arquivo de configuracao dde aglomerados
 write.table(
   file=aux_arquivo,
   aglomerados,
@@ -404,6 +406,7 @@ write.table(
   col.names = TRUE,
   row.names = FALSE,
   sep = ',')
+
 
 write.table(
   file='par_municipios.csv',

@@ -19,7 +19,7 @@ try(setup_twitter_oauth(
 # setwd("D:/Mega/COVID-19/Auxiliar")
 setwd("~/simulacoes/COVID-19/")
 
-nomes_csvs <- list.files(path = '.', pattern = glob2rx('mmc*.csv'))
+nomes_csvs <- list.files(path = '.', pattern = glob2rx('smc*.csv'))
 datalist = lapply(nomes_csvs, function(x) {
   read.csv(
     file = x,
@@ -48,8 +48,9 @@ write.table(
 df_sim$aglomerado <- factor(df_sim$aglomerado)
 
 # Remove os arquivos temporarios
-file.remove(list.files(path='.', pattern = glob2rx('sim_mc*.csv')))
+file.remove(list.files(path='.', pattern = glob2rx('smc*.csv')))
 
+# Copia a estrutura de df_sim
 aux_df_sim <- data.frame(df_sim[0, ])
 
 for (aux_municipio in levels(df_sim$aglomerado)) {
@@ -66,4 +67,3 @@ write.table(
   col.names = TRUE,
   row.names = FALSE,
   sep = ',')
-

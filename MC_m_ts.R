@@ -88,7 +88,7 @@ library(Metrics)
 # Liga o cronometro
 tic("Inicio...")
 
-# Define e cria dataframe para grafico de lolipop
+# Define e cria dataframe para grafico de lolipop.
 df_lolipop <- data.frame(
   ers = character(),
   p025 = double(),
@@ -97,6 +97,7 @@ df_lolipop <- data.frame(
   stringsAsFactors = FALSE
 )
 
+# Define e cria dataframe para parametros epidemiologicos por municipio. 
 par_df_sim <- data.frame(
   municipio = character(),
   inf.prob = double(),
@@ -106,6 +107,7 @@ par_df_sim <- data.frame(
   stringsAsFactors = FALSE
 )
 
+# Define e cria dataframe para projecoe por aglomerado/municipio.
 proj_aglomerado <- data.frame(
   Aglomerado = character(),
   'Dia Juliano' = double(),
@@ -125,7 +127,6 @@ try(setup_twitter_oauth(
 # Define diretorio de trabalho e carrega progresso de infectados
 # setwd("D:/OneDrive/Notebooks/Python/Corona virus/SARIMA")
 setwd("~/COVID-19")
-aux_dados <- read.csv("evolucao_ers.CSV", stringsAsFactors = FALSE)
 
 # Carrega aglomerados
 # aglomerados <- read.xlsx("aglomerados.xlsx", 1, header = TRUE)
@@ -134,12 +135,17 @@ aglomerados <-
            header = TRUE,
            stringsAsFactors = FALSE)
 
+# Apaga eventuais celulas vazias.
+aglomerados <- aglomerados[!is.na(aglomerados$aglomerado), ]
+
+# Converte para data
 aglomerados$data <-
   as.Date(parse_date_time(aglomerados[["data"]], '%d%m%y'), format = '%d%m%y')
 
-# Para resolver problemas de conversao
+# Para resolver eventuais problemas de conversao
 # aglomerados[2:6] <- lapply(aglomerados[2:6], as.numeric)
 
+# Altera nome de coluna, para padronizacao.
 colnames(aglomerados)[1] <- 'aglomerado'
 
 # Abre arquivo de parametros para o Mato Grosso.
@@ -151,13 +157,17 @@ total_param_mt <-
 total_param_mt$data <- dmy(total_param_mt$data)
 total_param_mt$Dia_Juliano <- yday(total_param_mt$data)
 
+# Carrega as series temporais da epidemia para o Mato Grosso.
+aux_dados <- read.csv("evolucao_ers.CSV", stringsAsFactors = FALSE)
 aux_dados$Data <- dmy(aux_dados$Data)
 aux_dados$Dia_Juliano <- yday(aux_dados$Data)
 aux_dados$Total <-
   aux_dados$Infectados + aux_dados$Recuperados + aux_dados$Obitos
 
+# Apaga eventuais celulas vazias.
 aux_dados <- aux_dados[!is.na(aux_dados[, 'Infectados']),]
 
+# Calcula e insere registro para o Mato Grosso.
 aux_dados$ERS <- factor(aux_dados$ERS)
 mt_dados <- aux_dados[, c('ERS', 'Dia_Juliano', 'Total')]
 mt_aux_dados <- aggregate(Total ~ ERS + Dia_Juliano, mt_dados, sum)
@@ -194,7 +204,6 @@ va <- function(or_st) {
   aux_st[is.infinite(aux_st)] <- NA
   return(aux_st)
 }
-
 
 # Resgata data do ultimo registro.
 # aux_dh <- Sys.time()
@@ -267,7 +276,7 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
       croston_ajuste,
       theta_ajuste,
       tslm_ajuste,
-      # nnetar_ajuste, # O modelo por RN apresenta alguns porblemas para validacao
+      # nnetar_ajuste, # O modelo por RN apresenta alguns problemas para validacao
       tbats_ajuste
     )) {
       try({
@@ -307,6 +316,7 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
       mediaPath = "grafico_temp.jpg"
     ))
     
+    # Previso para 15 dias (solicitação daa SES),
     try(previsao <- forecast(modelo, level = c(90), h = 15))
     jpeg(
       "tabela_temp.jpg",
@@ -321,7 +331,7 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
     grid.table(df_previsao)
     dev.off()
     
-    # Posta a tabela
+    # Posta tabela no Twitter.
     try(updateStatus(
       paste(
         format(aux_dh, '%d/%m/%Y'),
@@ -332,8 +342,7 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
       mediaPath = "tabela_temp.jpg"
     ))
     
-    # -------------------------------------------------------------------------
-    
+    # Taxas de crescimento
     df_previsao$Aglomerado <- aux_nivel
     df_previsao <- tibble::rownames_to_column(df_previsao, var = "Dia Juliano")
     proj_aglomerado <- rbind(proj_aglomerado, df_previsao)
@@ -357,6 +366,7 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
     aux_kalman <-
       try(tc <- na_kalman(tc, model = "StructTS", smooth = TRUE))
     
+    # Posta resultados no Twitter.
     jpeg(
       "mm7_temp.jpg",
       width = 1400,
@@ -378,21 +388,23 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
       
       try(prev_m7_tp <- predict(m7_tp)$forecast[1])
       
-      try(updateStatus(
-        paste(
-          format(aux_dh, '%d/%m/%Y'),
-          '-',
-          aux_nivel,
-          '- Taxa de crescimento diario prevista (t+1) com SMA(7):',
-          formatC(
-            last(m7_tp$forecast),
-            format = 'f',
-            digits =
-              5
-          )
-        ),
-        mediaPath = "mm7_temp.jpg"
-      ))
+      # Estatistica por hora não utilizada, muito volátil.
+      
+      #try(updateStatus(
+      #  paste(
+      #    format(aux_dh, '%d/%m/%Y'),
+      #    '-',
+      #    aux_nivel,
+      #    '- Taxa de crescimento diario prevista (t+1) com SMA(7):',
+      #    formatC(
+      #      last(m7_tp$forecast),
+      #      format = 'f',
+      #      digits =
+      #        5
+      #    )
+      #  ),
+      #  mediaPath = "mm7_temp.jpg"
+      #))
     }
     
     # Velocidade de avanco de infectados
@@ -492,16 +504,17 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
     dev.off()
     
     # Classificacao do R
-    if (last(mm_r30$forecast) < 1.0) {
+    Rt <- last(mm_r30$forecast)
+    if (Rt < 1.0) {
       risco_r <- 'Muito baixo'
     } else {
-      if (last(mm_r30$forecast) < 1.3) {
+      if (Rt < 1.3) {
         risco_r <- 'Baixo'
       } else {
-        if (last(mm_r30$forecast) < 1.7) {
+        if (Rt < 1.7) {
           risco_r <- 'Moderado'
         } else {
-          if (last(mm_r30$forecast) < 2.5) {
+          if (Rt < 2.5) {
             risco_r <- 'Alto'
           } else {
             risco_r <- 'Muito alto'
@@ -510,10 +523,11 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
       }
     }
     
+    # Avalia a tendência com base nas medias moveis dos ultimos 7 dias.
     tendencia <-
       cor.test(time(tail(res$R$'Median(R)', 7)), tail(res$dates, 7), method = "spearman")
     res_tendencia <- ''
-    if (tendencia$p.value < 0.005) {
+    if ((tendencia$p.value < 0.005) && (abs(tendencia$estimate) > 0.5)) {
       if (tendencia$estimate > 0) {
         res_tendencia <- '+'
       } else {
@@ -521,17 +535,19 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
       }
     }
     
-    # Posta no Twitter
+    # Posta resultados no Twitter.
     try(updateStatus(paste(
       format(aux_dh, '%d/%m/%Y'),
       '-',
       aux_nivel,
+      'Rt:',
       '- Risco:',
       risco_r,
       res_tendencia
     ),
     mediaPath = "r30_temp.jpg"))
     
+    # Estima estatistica do Estado
     if (aux_nivel == 'Mato Grosso') {
       # Velocidade de avanco em enfermarias utilizadas
       enfermarias <-
@@ -541,6 +557,7 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
           frequency = 1
         )
       
+      # Posta resultados no Twitter.
       jpeg(
         "enfermarias_temp.jpg",
         width = 1400,
@@ -691,61 +708,6 @@ r_saida <-
 try(updateStatus(r_saida, mediaPath = 'lolipop_temp.jpg'))
 
 
-# Mapa de risco
-# install.packages('rgdal')
-# install.packages("abjutils")
-
-library(rgdal)
-library(maptools)
-if (!require(gpclib))
-  install.packages("gpclib", type = "source")
-gpclibPermit()
-library(ggplot2)
-library(abjutils)
-
-shp <-
-  readOGR(dsn = 'ERS_MUNICIPIOS_MT.shp', stringsAsFactors = F)
-shp <-
-  readOGR(dsn = 'ERS_SAUDE_MT_FINAL.shp', stringsAsFactors = F)
-
-aux_shp <- broom::tidy(shp, region = 'Ers')
-aux_shp$i_msa <- tolower(rm_accent(aux_shp$id))
-
-aux_ers <- data.frame(shp)
-aux_ers$ers_msa <- tolower(rm_accent(aux_ers$Ers))
-
-df_lolipop$ers_msa <- tolower(rm_accent(df_lolipop$aux_nivel))
-
-aglomerados$i_msa <- tolower(rm_accent(aglomerados$aglomerado))
-aglomerados$ers_msa <- tolower(rm_accent(aglomerados$regiao))
-
-aglomerados_lolipop <- merge(aglomerados, df_lolipop, all.x=TRUE, by=c('ers_msa'))
-aglomerados_lolipop <- aglomerados_lolipop[, c('i_msa', 'ers_msa', 'r_aux_50')]
-colnames(aglomerados_lolipop) <- c('i_msa', 'ers_msa', 'R')
-aux_shp2 <- merge(aux_shp, aglomerados_lolipop, all.x=TRUE, by=c('i_msa'))
-
-nomes_ers <-
-  aggregate(cbind(Longitude, Latitude) ~ Ers,
-            data = aux_shp,
-            FUN = mean)
-
-map <- ggplot() +
-  geom_polygon(data = aux_shp2,
-               aes(
-                 x = long,
-                 y = lat,
-                 group = id,
-                 fill = R
-               ),
-               colour = "black") +
-  #geom_text(data = nomes_ers,
-  #          aes(x = Longitude, y = Latitude,
-  #              label = Ers),
-  #          size = 3) +
-  theme_void()
-plot(map)
-
-
 #
 # SIR
 #
@@ -802,8 +764,8 @@ sir <- function(suscetiveis,
 }
 
 # Configuracao da simulacao
-n_passos <- 200
-n_simulacoes <- 5
+n_passos <- 240
+n_simulacoes <- 15
 n_cores <- 16
 
 df_sim <- data.frame(
@@ -832,31 +794,35 @@ df_sim <- data.frame(
   stringsAsFactors = FALSE
 )
 
+# Seta data de processamento e nome de arquivo com resultados
 data_processamento <- format(Sys.time(), '%d%m%Y-%H%M%S')
-aux_arquivo <- paste('aux_sim_mcr', data_processamento, '.csv')
+aux_arquivo <- paste('aux_sim', data_processamento, '.csv')
 
 for (aux_aglomerados in 1:length(aglomerados[['aglomerado']])) {
+  # Seleciona registro do municipio/aglomerado
   aux_municipio <-
     aux_dados[aux_dados$Municipio == aglomerados[aux_aglomerados, 'aglomerado'],]
   aux_municipio <- aux_municipio[nrow(aux_municipio), ]
   
-  # infectados <- aglomerados[['infectados']][aux_aglomerados]
-  # recuperados <- aglomerados[['recuperados']][aux_aglomerados]
-  
+  # Seta infectados/recuperados+obitos/sucetiveis
   infectados <- aux_municipio$Infectados
   recuperados <- aux_municipio$Recuperados + aux_municipio$Obitos
   suscetiveis <-
     aglomerados[['suscetiveis']][aux_aglomerados] - infectados - recuperados
-  # suscetiveis <- 300 # Para teste
+  # suscetiveis <- 300 # Para testar/acelerar processamento
   
+  # Nome do aglomerado
   aglomerado <- aglomerados[['aglomerado']][aux_aglomerados]
+  
+  # Seta TM
   tm <- aglomerados[['tm']][aux_aglomerados] / 100
   
-  # Parametros do sir por aglomerado
+  # Define os parametros do SIR por aglomerado
   dias_rec <- aglomerados[['dias_rec']][aux_aglomerados]
   aux_inf.prob <- aglomerados[['inf_prob']][aux_aglomerados]
   aux_act.rate <- aglomerados[['act_rate']][aux_aglomerados]
   
+  # Seta parâmetros do sistema de saude local
   leitos_uti <- aglomerados[['leitos_uti']][aux_aglomerados]
   leitos_atendimento <-
     aglomerados[['leitos_atendimento']][aux_aglomerados]
@@ -869,12 +835,13 @@ for (aux_aglomerados in 1:length(aglomerados[['aglomerado']])) {
   pind_infectados <-
     aglomerados[['perc_nao_detectados']][aux_aglomerados]
   
+  # Seta parametros de subnotificacao
   real_infectados <-
     round(infectados + infectados / (1 - pind_infectados), digits = 0)
   real_recuperados <-
     round(recuperados + recuperados / (1 - pind_infectados), digits = 0)
   
-  # Processa a simulacao
+  # Processa a simulacao.
   sim <-
     sir(
       suscetiveis,
@@ -888,7 +855,10 @@ for (aux_aglomerados in 1:length(aglomerados[['aglomerado']])) {
       n_cores
     )
   
+  # Indica que finalizou o processamento
   print(paste('SIR -', aglomerado))
+  
+  # Cria dataframe com resultados brutos das simulacoes.
   aux_df_sim <-
     as.data.frame(sim)[, c('time', 's.num', 'i.num', 'r.num')]
   aux_df_sim['inf.prob'] <- aux_inf.prob
@@ -896,35 +866,52 @@ for (aux_aglomerados in 1:length(aglomerados[['aglomerado']])) {
   aux_df_sim['dias_rec'] <- dias_rec
   aux_df_sim['tm'] <- tm
   
+  # Agrega as simulacoes.
   aux_df_sim <-
     aggregate(aux_df_sim, list(aux_df_sim$time), mean)
   
+  # Cria campo com data e hora de processamento.
   aux_df_sim['data_processamento'] <- data_processamento
+  
+  # Insere variaveis da simulacao.
+  # Data da simulacao.
   aux_df_sim['data'] <-
     aux_df_sim$time + aglomerados[['data']][aux_aglomerados]
+  # Nome do aglomerado/municipio.
   aux_df_sim['aglomerado'] <-
     aglomerados[['aglomerado']][aux_aglomerados]
+  # Taxa de ocupacao.
   aux_df_sim['taxa_ocupacao'] <- taxa_ocupacao
+  # Percentual de individuos que precisarao de atendimento hospitalar.
   aux_df_sim['perc_atendimento'] <- perc_atendimento
+  # Percentual de individuos que precisarao de UTI.
   aux_df_sim['perc_uti'] <- perc_uti
+  # Percentual de individuos que irao a obito.
   aux_df_sim['perc_mortalidade'] <- perc_mortalidade
+  # Percentual de infectados assintomaticos.
   aux_df_sim['perc_nao_detectados'] <- pind_infectados
+  # Numero de infectados oficial.
   aux_df_sim['infectados_oficial'] <-
     round((aux_df_sim['i.num'] - aux_df_sim['i.num'] * pind_infectados) / (2 - pind_infectados))
+  # Numero de recuperados oficial.
   aux_df_sim['recuperados_oficial'] <-
     round((aux_df_sim['r.num'] - aux_df_sim['r.num'] * pind_infectados) / (2 - pind_infectados))
+  # Numero de UTIs disponiveis.
   aux_df_sim['disponiveis_uti'] <-
     leitos_uti - aux_df_sim['i.num'] * perc_uti
+  # Numero de enfermarias disponiveis.
   aux_df_sim['disponiveis_atendimento'] <-
     leitos_atendimento - aux_df_sim['i.num'] * perc_atendimento
-  
+  # ERS
   aux_df_sim['regiao'] <-
     aglomerados[['regiao']][aux_aglomerados]
   
+  # Adiciona resultados em arquivo.
   aux_df_sim <- aux_df_sim[,-1]
   df_sim <- rbind(df_sim, aux_df_sim)
 }
 
+# Salva arquivo de arquivo de resultados
 write.table(
   df_sim,
   aux_arquivo,
@@ -968,11 +955,12 @@ colnames(aux_df_sim) <-
 aux_df_sim$ERS <- factor(aux_df_sim$ERS)
 aux_df_sim$Data <- aux_dh + aux_df_sim$Data - 1
 
+# Localiza ponto de maximo no Mato Grosso e o armazena
 ers_aux_df_sim <- mt_df_sim
 ers_aux_df_sim <-
   ers_aux_df_sim[which.max(ers_aux_df_sim$Infectados), ]
 
-# Localiza os maximos de infectados
+# Localiza os maximos de infectados nas ERS e os armazenam
 for (aux_ers in levels(aux_df_sim$ERS)) {
   aux_ers_df_sim <- aux_df_sim[aux_df_sim$ERS == aux_ers,]
   aux_ers_df_sim <-
@@ -980,8 +968,7 @@ for (aux_ers in levels(aux_df_sim$ERS)) {
   ers_aux_df_sim <- rbind(ers_aux_df_sim, aux_ers_df_sim)
 }
 
-ers_aux_df_sim[ers_aux_df_sim$ERS == 'Mato Grosso',]
-
+# Cria post para o Twitter
 jpeg(
   "pico_temp.jpg",
   width = 300,
@@ -990,7 +977,6 @@ jpeg(
 )
 grid.table(data.frame(ers_aux_df_sim[, c('Data', 'ERS')]))
 dev.off()
-
 r_saida <-
   paste(
     format(aux_dh, '%d/%m/%Y'),
@@ -999,17 +985,17 @@ r_saida <-
 try(updateStatus(r_saida, mediaPath = 'pico_temp.jpg'))
 
 # Estima o total de UTIs utilizadas no MT
-# Seleciona o ultimo registro do arquivo de parâmetros de MT
+# Seleciona o ultimo registro do arquivo de parâmetros de MT.
 param_mt <- tail(total_param_mt, 1)
 
-# Define atalhos para os parâmetros
+# Define atalhos para os parâmetros.
 uti_sus <- param_mt$leitos_uti_sus
-p_uti <-
-  0.005 # param_mt$uti_utilizadas/param_mt$casos_confirmados
+p_uti <- param_mt$uti_utilizadas/param_mt$casos_confirmados
 uti_utilizados <- param_mt$uti_utilizadas
 enfermaria_utilizados <- param_mt$enfermaria_utilizadas
 in_to_uti <- param_mt$to_leitos_uti_sus
 
+# Cria post no Twitter.
 jpeg(
   "cepi_temp.jpg",
   width = 1200,
@@ -1063,15 +1049,15 @@ mt_df_sim$d <-
   as.data.frame(as.numeric(mt_df_sim$Data - first(mt_df_sim$Data)))
 colnames(mt_df_sim)[6] <- 'd'
 
-# Funcao de decaimento exponencial adaptada para ajustar a ocupacao pre-existente
+# Funcao de decaimento exponencial adaptada para ajustar a ocupacao pre-existente.
 decaimento <- function(d, p = 1.0508) {
-  # Decaimento de 50% em 14 dias: 1.0508
-  # Decaimento de 99% em 20 dias: 1.257
+  # Decaimento de 50% em 14 dias: 1.0508.
+  # Decaimento de 99% em 20 dias: 1.257.
   decaimento <- 1 - (1 / p) ** d
   return(decaimento)
 }
-# Calcula a taxa de ocupacao das UTIs e cria um indice para o valor mais proximo
-# Por algum motivo o R esta entendendo que as colunas sao listas
+# Calcula a taxa de ocupacao das UTIs e cria um indice para o valor mais proximo.
+# Por algum motivo o R esta entendendo que as colunas sao listas.
 mt_df_sim$to_uti <- as.numeric(unlist(
   (
     uti_sus * in_to_uti * (1 - decaimento(mt_df_sim$d)) +
@@ -1084,7 +1070,7 @@ data_max_mt_df_sim <-
   mt_df_sim[which.max(mt_df_sim$to_uti), 'Data']
 mt_df_sim$dif_data <- sign(mt_df_sim$Data - data_max_mt_df_sim)
 
-# Localiza o registro mais proximo da taxa de ocupacao de 60%
+# Localiza o registro mais proximo da taxa de ocupacao de 60%.
 mt_df_sim$abs_dif_to_uti <- as.numeric(unlist(mt_df_sim$dif_data *
                                                 1 / abs(0.6 - mt_df_sim$to_uti)))
 l60_mt_df_sim <- which.min (mt_df_sim$abs_dif_to_uti)
@@ -1095,11 +1081,20 @@ jpeg('uti_temp.jpg',
      width = 1300,
      height = 800,
      quality = 95)
-plot(mt_df_sim$Data,
-     mt_df_sim$to_uti,
-     xlab = "Data",
-     ylab = "Taxa de ocupação de UTIs do SUS dedicadas a COVID-19 no Mato Grosso")
-abline(h = 0.6, col = "red", lty = 'dashed')
+plot(
+  mt_df_sim$Data,
+  mt_df_sim$to_uti*100,
+  type = "l",
+  frame = TRUE,
+  cex = 0.1,
+  pch = 1,
+  col = "blue",
+  xlab = "Data",
+  ylab = "TO de UTI/SUS/COVID-19 Mato Grosso (%)",
+  lty = 1,
+  lwd = 1
+)
+abline(h = 60, col = "red", lty = 'dashed')
 dev.off()
 
 r_saida <-
@@ -1111,6 +1106,7 @@ r_saida <-
 try(updateStatus(r_saida, mediaPath = 'uti_temp.jpg'))
 
 toc()
+
 
 #
 # Monte Carlo
@@ -1124,8 +1120,7 @@ n_simulacoes <-
 n_cores <- 23 # Numero de cores disponiveis no computador.
 mc_n_simulacoes <- 200 # Numero de simulacoes por MC.
 max_dias <- 14 # Horizonte a ser considerado.
-min_casos <-
-  5# Minimo de infectados para se efetuar a busca de parametros
+min_casos <- 5# Minimo de infectados para se efetuar a busca de parametros
 
 for (aux_aglomerados in 1:length(aglomerados[['aglomerado']])) {
   aglomerado <- aglomerados[['aglomerado']][aux_aglomerados]
@@ -1324,3 +1319,62 @@ r_saida <-
         round(tproc[2] - tproc[1], 1),
         's.')
 try(updateStatus(r_saida))
+
+
+#
+# Mapa de risco por ERS (em elaboracao)
+#
+
+# install.packages('rgdal')
+# install.packages("abjutils")
+
+library(rgdal)
+library(maptools)
+if (!require(gpclib))
+  install.packages("gpclib", type = "source")
+gpclibPermit()
+library(ggplot2)
+library(abjutils)
+
+shp <-
+  readOGR(dsn = 'ERS_MUNICIPIOS_MT.shp', stringsAsFactors = F)
+shp <-
+  readOGR(dsn = 'ERS_SAUDE_MT_FINAL.shp', stringsAsFactors = F)
+
+aux_shp <- broom::tidy(shp, region = 'Ers')
+aux_shp$i_msa <- tolower(rm_accent(aux_shp$id))
+
+aux_ers <- data.frame(shp)
+aux_ers$ers_msa <- tolower(rm_accent(aux_ers$Ers))
+
+df_lolipop$ers_msa <- tolower(rm_accent(df_lolipop$aux_nivel))
+
+aglomerados$i_msa <- tolower(rm_accent(aglomerados$aglomerado))
+aglomerados$ers_msa <- tolower(rm_accent(aglomerados$regiao))
+
+aglomerados_lolipop <- merge(aglomerados, df_lolipop, all.x=TRUE, by=c('ers_msa'))
+aglomerados_lolipop <- aglomerados_lolipop[, c('i_msa', 'ers_msa', 'r_aux_50')]
+colnames(aglomerados_lolipop) <- c('i_msa', 'ers_msa', 'R')
+aux_shp2 <- merge(aux_shp, aglomerados_lolipop, all.x=TRUE, by=c('i_msa'))
+
+nomes_ers <-
+  aggregate(cbind(Longitude, Latitude) ~ Ers,
+            data = aux_shp,
+            FUN = mean)
+
+map <- ggplot() +
+  geom_polygon(data = aux_shp2,
+               aes(
+                 x = long,
+                 y = lat,
+                 group = id,
+                 fill = R
+               ),
+               colour = "black") +
+  #geom_text(data = nomes_ers,
+  #          aes(x = Longitude, y = Latitude,
+  #              label = Ers),
+  #          size = 3) +
+  theme_void()
+plot(map)
+
