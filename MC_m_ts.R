@@ -42,8 +42,12 @@
 # install.packages('smooth')
 # install.packages('Mcomp')
 # install.packages('pracma')
+# install.packages('units')
+# install.packages('sf')
 
-# Carrega o EpiModel e demais bibliotecas
+library(sf)
+library(tidyverse)
+library(RColorBrewer)
 library(smooth)
 library(Mcomp)
 library(pracma)
@@ -94,6 +98,7 @@ df_lolipop <- data.frame(
   p025 = double(),
   p50 = double(),
   p975 = double(),
+  i_va = double(),
   stringsAsFactors = FALSE
 )
 
@@ -306,6 +311,7 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
     dev.off()
     
     # Posta tweets da previsao de curto prazo
+    Sys.sleep(3)
     try(updateStatus(
       paste(
         format(aux_dh, '%d/%m/%Y'),
@@ -315,6 +321,7 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
       ),
       mediaPath = "grafico_temp.jpg"
     ))
+    
     
     # Previso para 15 dias (solicitação daa SES),
     try(previsao <- forecast(modelo, level = c(90), h = 15))
@@ -332,6 +339,7 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
     dev.off()
     
     # Posta tabela no Twitter.
+    Sys.sleep(3)
     try(updateStatus(
       paste(
         format(aux_dh, '%d/%m/%Y'),
@@ -341,6 +349,7 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
       ),
       mediaPath = "tabela_temp.jpg"
     ))
+    
     
     # Taxas de crescimento
     df_previsao$Aglomerado <- aux_nivel
@@ -426,7 +435,8 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
     # abline(h = 0, col = 'gray', lty = 'dashed')
     
     dev.off()
-    
+    i_va <- last(modelo_in1s$forecast)
+    Sys.sleep(3)
     try(updateStatus(
       paste(
         format(aux_dh, '%d/%m/%Y'),
@@ -434,13 +444,14 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
         aux_nivel,
         '- Velocidade de avanço para casos novos (t+1) com SMA(7):',
         formatC(
-          last(modelo_in1s$forecast),
+          i_va,
           format = 'f',
           digits =  5
         )
       ),
       mediaPath = "in1s_temp.jpg"
     ))
+    
     
     # Estima R
     dados_MT <- as.numeric(diff(infectados))
@@ -476,13 +487,14 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
         ']'
       )
     })
-    
+    Sys.sleep(3)
     try(updateStatus(r_saida, mediaPath = 'r_temp.jpg'))
+    
     
     # Insere registro na tabela de Rs por ERS
     df_lolipop <-
       rbind(df_lolipop,
-            data.frame(aux_nivel, r_aux_025, r_aux_975, r_aux_50))
+            data.frame(aux_nivel, r_aux_025, r_aux_975, r_aux_50, i_va))
     
     # Avalia a média móvel do R dos últimos 30 dias
     r30 <- tail(res$R$'Median(R)', 30)
@@ -525,7 +537,8 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
     
     # Avalia a tendência com base nas medias moveis dos ultimos 7 dias.
     tendencia <-
-      cor.test(time(tail(res$R$'Median(R)', 7)), tail(res$dates, 7), method = "spearman")
+      cor.test(time(tail(res$R$'Median(R)', 7)), 
+               tail(res$R$'Median(R)', 7), method = "spearman")
     res_tendencia <- ''
     if ((tendencia$p.value < 0.005) && (abs(tendencia$estimate) > 0.5)) {
       if (tendencia$estimate > 0) {
@@ -536,16 +549,19 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
     }
     
     # Posta resultados no Twitter.
+    Sys.sleep(3)
     try(updateStatus(paste(
       format(aux_dh, '%d/%m/%Y'),
       '-',
       aux_nivel,
       'Rt:',
+      Rt,
       '- Risco:',
       risco_r,
       res_tendencia
     ),
     mediaPath = "r30_temp.jpg"))
+    Sys.sleep(3)
     
     # Estima estatistica do Estado
     if (aux_nivel == 'Mato Grosso') {
@@ -577,6 +593,7 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
       
       dev.off()
       
+      Sys.sleep(3)
       try(updateStatus(
         paste(
           format(aux_dh, '%d/%m/%Y'),
@@ -592,6 +609,7 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
         ),
         mediaPath = "enfermarias_temp.jpg"
       ))
+      
       
       # Velocidade de avanco em UTIs
       UTI <-
@@ -618,6 +636,7 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
       
       dev.off()
       
+      Sys.sleep(3)
       try(updateStatus(
         paste(
           format(aux_dh, '%d/%m/%Y'),
@@ -633,6 +652,48 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
         ),
         mediaPath = "UTI_temp.jpg"
       ))
+      
+      
+      # Velocidade do indice de velocidade de avanço geral
+      iva_geral <- (as.numeric(modelo_in1s$y) +
+                    3*as.numeric(modelo_enfermarias$y) +
+                    5*as.numeric(modelo_UTI$y))/9 
+      ts_iva_geral <-
+        ts(iva_geral,
+           start = total_param_mt[1, 'Dia_Juliano'] - 1,
+           frequency = 1)
+      
+      jpeg(
+        "iva_temp.jpg",
+        width = 1400,
+        height = 650,
+        quality = 90
+      )
+      modelo_iva <- sma(
+        tail(ts_iva_geral, 14),
+        order = 7,
+        h = 1,
+        interval = 'none',
+        silent = FALSE
+      )
+      dev.off()
+      
+      Sys.sleep(3)
+      try(updateStatus(
+        paste(
+          format(aux_dh, '%d/%m/%Y'),
+          '-',
+          aux_nivel,
+          '- Velocidade de avanço para o indice geral em MT (t+1) com SMA(7):',
+          formatC(
+            last(geral),
+            format = 'f',
+            digits =
+              5
+          )
+        ),  mediaPath = "iva_temp.jpg" 
+      ))
+      
     }
   }
 }
@@ -646,7 +707,6 @@ write.table(
   row.names = FALSE,
   sep = ','
 )
-
 
 # Barras de erro
 jpeg(
@@ -705,6 +765,7 @@ try({
 r_saida <-
   paste(format(aux_dh, '%d/%m/%Y'),
         '- Intervalos de confiança do R por ERS e Mato Grosso.')
+Sys.sleep(3)
 try(updateStatus(r_saida, mediaPath = 'lolipop_temp.jpg'))
 
 
@@ -765,7 +826,7 @@ sir <- function(suscetiveis,
 
 # Configuracao da simulacao
 n_passos <- 240
-n_simulacoes <- 15
+n_simulacoes <- 1#15
 n_cores <- 16
 
 df_sim <- data.frame(
@@ -980,9 +1041,11 @@ dev.off()
 r_saida <-
   paste(
     format(aux_dh, '%d/%m/%Y'),
-    '- Estimativa das datas e valores de maximo de infectados por ERS e Mato Grosso.'
+    '- Estimativa das datas de maximo de infectados por ERS e Mato Grosso.'
   )
+Sys.sleep(3)
 try(updateStatus(r_saida, mediaPath = 'pico_temp.jpg'))
+
 
 # Estima o total de UTIs utilizadas no MT
 # Seleciona o ultimo registro do arquivo de parâmetros de MT.
@@ -1006,7 +1069,7 @@ aux_mt_df_sim <-
   mt_df_sim[1:(which.max(mt_df_sim$Infectados) + 30), ]
 plot(
   aux_mt_df_sim$Data,
-  aux_mt_df_sim$'Recuperados/Fatalidades' / 10000,
+  aux_mt_df_sim$'Recuperados/Fatalidades' / 10000*1, #<-
   type = "l",
   frame = TRUE,
   cex = 0.1,
@@ -1019,7 +1082,7 @@ plot(
 )
 lines(
   aux_mt_df_sim$Data,
-  aux_mt_df_sim$Infectados / 10000,
+  aux_mt_df_sim$Infectados / 10000*1, #<-
   cex = 0.1,
   pch = 1,
   col = "red",
@@ -1027,6 +1090,7 @@ lines(
   lty = 1,
   lwd = 1
 )
+
 legend(
   "topleft",
   legend = c("Recuperados/Fatalidades", "Infectados"),
@@ -1035,14 +1099,23 @@ legend(
   lty = 1,
   cex = 0.8
 )
-dev.off()
 
+abline(v = mt_df_sim[which.max(mt_df_sim$Infectados), ]$Data,
+       col = "gray", lty = 'dashed')
+abline(h = mt_df_sim[which.max(mt_df_sim$Infectados), ]$Infectados/10000*1, #<- 
+       col = "gray", lty = 'dashed')
+text(mt_df_sim[which.max(mt_df_sim$Infectados), ]$Data,
+     1,
+     mt_df_sim[which.max(mt_df_sim$Infectados), ]$Data)
+dev.off()
 r_saida <-
   paste(
     format(aux_dh, '%d/%m/%Y'),
     '- Projeção de infectados e recuperados/fatalidades no Mato Grosso.'
   )
+Sys.sleep(3)
 try(updateStatus(r_saida, mediaPath = 'cepi_temp.jpg'))
+
 
 # Cria indexador
 mt_df_sim$d <-
@@ -1050,7 +1123,7 @@ mt_df_sim$d <-
 colnames(mt_df_sim)[6] <- 'd'
 
 # Funcao de decaimento exponencial adaptada para ajustar a ocupacao pre-existente.
-decaimento <- function(d, p = 1.0508) {
+decaimento <- function(d, p = 1.0508) { #<-
   # Decaimento de 50% em 14 dias: 1.0508.
   # Decaimento de 99% em 20 dias: 1.257.
   decaimento <- 1 - (1 / p) ** d
@@ -1065,7 +1138,7 @@ mt_df_sim$to_uti <- as.numeric(unlist(
   ) /
     uti_sus
 ))
-
+mt_df_sim$to_uti <- mt_df_sim$to_uti*0.035 #<-
 data_max_mt_df_sim <-
   mt_df_sim[which.max(mt_df_sim$to_uti), 'Data']
 mt_df_sim$dif_data <- sign(mt_df_sim$Data - data_max_mt_df_sim)
@@ -1073,8 +1146,10 @@ mt_df_sim$dif_data <- sign(mt_df_sim$Data - data_max_mt_df_sim)
 # Localiza o registro mais proximo da taxa de ocupacao de 60%.
 mt_df_sim$abs_dif_to_uti <- as.numeric(unlist(mt_df_sim$dif_data *
                                                 1 / abs(0.6 - mt_df_sim$to_uti)))
-l60_mt_df_sim <- which.min (mt_df_sim$abs_dif_to_uti)
+l60_mt_df_sim <- which.min(mt_df_sim$abs_dif_to_uti)
 p60_mt_df_sim <- mt_df_sim[l60_mt_df_sim, ]
+
+max_to_mt_df_sim <- which.max(mt_df_sim$to_uti)
 
 # Cria post no Twitter
 jpeg('uti_temp.jpg',
@@ -1094,7 +1169,20 @@ plot(
   lty = 1,
   lwd = 1
 )
-abline(h = 60, col = "red", lty = 'dashed')
+abline(h = 60, col = "gray", lty = 'dashed')
+abline(v = p60_mt_df_sim$Data,
+       col = "gray", lty = 'dashed')
+text(p60_mt_df_sim$Data,
+     5,
+     p60_mt_df_sim$Data)
+
+abline(v = mt_df_sim[max_to_mt_df_sim, ]$Data,
+       col = "gray", lty = 'dashed')
+abline(h = mt_df_sim[max_to_mt_df_sim, ]$to_uti*100,
+       col = "gray", lty = 'dashed')
+text(mt_df_sim[max_to_mt_df_sim, ]$Data,
+     5,
+     mt_df_sim[max_to_mt_df_sim, ]$Data)
 dev.off()
 
 r_saida <-
@@ -1103,15 +1191,78 @@ r_saida <-
     '- MT - Projeção da data em que a TO/SUS/COVID-19 atingirá 60% da capacidade atual',
     p60_mt_df_sim$Data
   )
+Sys.sleep(3)
 try(updateStatus(r_saida, mediaPath = 'uti_temp.jpg'))
 
+
 toc()
+
+stop('Para depuracao.')
+
+
+#
+# Mapas de risco 
+#
+
+regionais <- st_read("ERS_SAUDE_MT_FINAL.shp")
+ers <- read.csv("geocode_ers.csv",
+                header = TRUE,
+                stringsAsFactors = FALSE) %>% 
+  mutate(Geocodigo = as.character(Geocodigo))
+
+df_lolipop <- df_lolipop[, c('aux_nivel', 'r_aux_50', 'i_va')]
+colnames(df_lolipop) <- c('ers', 'Rt', 'VANI')
+
+ers <- ers %>% left_join(df_lolipop, by = "ers")
+regionais <- regionais %>% left_join(ers, by = "Geocodigo")
+
+# Mapa por variavel selecionada (r_aux_025)
+# Cria post no Twitter
+jpeg('rt_mapa.jpg',
+     width = 920,
+     height = 696,
+     quality = 95)
+
+ggplot(regionais) +
+  geom_sf(aes(fill = Rt)) +
+  theme_minimal() + 
+  scale_fill_gradientn(colours=brewer.pal(9, "YlOrRd"),na.value = "#ffffff") 
+
+dev.off()
+
+r_saida <-
+  paste(
+    format(aux_dh, '%d/%m/%Y'),
+    '- MT - Mapa de Rt por ERS'
+  )
+Sys.sleep(3)
+try(updateStatus(r_saida, mediaPath = 'rt_mapa.jpg'))
+
+
+jpeg('vani_mapa.jpg',
+     width = 920,
+     height = 696,
+     quality = 95)
+
+ggplot(regionais) +
+  geom_sf(aes(fill = VANI)) +
+  theme_minimal() + 
+  scale_fill_gradientn(colours=brewer.pal(9, "YlOrRd"),na.value = "#ffffff") 
+
+dev.off()
+
+r_saida <-
+  paste(
+    format(aux_dh, '%d/%m/%Y'),
+    '- MT - Mapa da VANI por ERS'
+  )
+Sys.sleep(3)
+try(updateStatus(r_saida, mediaPath = 'vani_mapa.jpg'))
 
 
 #
 # Monte Carlo
 #
-
 
 tic()
 
@@ -1318,63 +1469,6 @@ r_saida <-
         '- MMC ref. concluido com',
         round(tproc[2] - tproc[1], 1),
         's.')
+Sys.sleep(3)
 try(updateStatus(r_saida))
-
-
-#
-# Mapa de risco por ERS (em elaboracao)
-#
-
-# install.packages('rgdal')
-# install.packages("abjutils")
-
-library(rgdal)
-library(maptools)
-if (!require(gpclib))
-  install.packages("gpclib", type = "source")
-gpclibPermit()
-library(ggplot2)
-library(abjutils)
-
-shp <-
-  readOGR(dsn = 'ERS_MUNICIPIOS_MT.shp', stringsAsFactors = F)
-shp <-
-  readOGR(dsn = 'ERS_SAUDE_MT_FINAL.shp', stringsAsFactors = F)
-
-aux_shp <- broom::tidy(shp, region = 'Ers')
-aux_shp$i_msa <- tolower(rm_accent(aux_shp$id))
-
-aux_ers <- data.frame(shp)
-aux_ers$ers_msa <- tolower(rm_accent(aux_ers$Ers))
-
-df_lolipop$ers_msa <- tolower(rm_accent(df_lolipop$aux_nivel))
-
-aglomerados$i_msa <- tolower(rm_accent(aglomerados$aglomerado))
-aglomerados$ers_msa <- tolower(rm_accent(aglomerados$regiao))
-
-aglomerados_lolipop <- merge(aglomerados, df_lolipop, all.x=TRUE, by=c('ers_msa'))
-aglomerados_lolipop <- aglomerados_lolipop[, c('i_msa', 'ers_msa', 'r_aux_50')]
-colnames(aglomerados_lolipop) <- c('i_msa', 'ers_msa', 'R')
-aux_shp2 <- merge(aux_shp, aglomerados_lolipop, all.x=TRUE, by=c('i_msa'))
-
-nomes_ers <-
-  aggregate(cbind(Longitude, Latitude) ~ Ers,
-            data = aux_shp,
-            FUN = mean)
-
-map <- ggplot() +
-  geom_polygon(data = aux_shp2,
-               aes(
-                 x = long,
-                 y = lat,
-                 group = id,
-                 fill = R
-               ),
-               colour = "black") +
-  #geom_text(data = nomes_ers,
-  #          aes(x = Longitude, y = Latitude,
-  #              label = Ers),
-  #          size = 3) +
-  theme_void()
-plot(map)
 

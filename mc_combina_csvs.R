@@ -48,7 +48,7 @@ write.table(
 df_sim$aglomerado <- factor(df_sim$aglomerado)
 
 # Remove os arquivos temporarios
-file.remove(list.files(path='.', pattern = glob2rx('smc*.csv')))
+# file.remove(list.files(path='.', pattern = glob2rx('smc*.csv')))
 
 # Copia a estrutura de df_sim
 aux_df_sim <- data.frame(df_sim[0, ])
