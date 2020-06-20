@@ -123,10 +123,10 @@ proj_aglomerado <- data.frame(
 
 # Configuracao do Twitter
 try(setup_twitter_oauth(
-  consumer_key = "K8H2usTrUWKWrdUDhqZoMtYxT",
-  access_token = "1254974121265500160-ZW0Gy3GLNe1xWsMEasMUzQ0G67rufK",
-  consumer_secret = "egNsRyTB1qLJciGT6qweJjFhc2ZOXdU4t86Zfx9x0G9hD1rgUa",
-  access_secret = "YKNvlxrp5VhgVhJ3zZpP5KFalZPkKzC4VtnKS56JUoxtb"
+    consumer_key = "K8H2usTrUWKWrdUDhqZoMtYxT",
+    access_token = "1254974121265500160-ZW0Gy3GLNe1xWsMEasMUzQ0G67rufK",
+    consumer_secret = "egNsRyTB1qLJciGT6qweJjFhc2ZOXdU4t86Zfx9x0G9hD1rgUa",
+    access_secret = "YKNvlxrp5VhgVhJ3zZpP5KFalZPkKzC4VtnKS56JUoxtb"
 ))
 
 # Define diretorio de trabalho e carrega progresso de infectados
@@ -311,7 +311,7 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
     dev.off()
     
     # Posta tweets da previsao de curto prazo
-    Sys.sleep(3)
+    Sys.sleep(5)
     try(updateStatus(
       paste(
         format(aux_dh, '%d/%m/%Y'),
@@ -321,9 +321,10 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
       ),
       mediaPath = "grafico_temp.jpg"
     ))
+    file.remove("grafico_temp.jpg")
     
     
-    # Previso para 15 dias (solicitação daa SES),
+    # Previso para 15 dias (solicitação da SES),
     try(previsao <- forecast(modelo, level = c(90), h = 15))
     jpeg(
       "tabela_temp.jpg",
@@ -331,15 +332,14 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
       height = 450,
       quality = 90
     )
-    df_previsao <-
-      data.frame(previsao)[, c('Point.Forecast', 'Hi.100')]
+    df_previsao <- data.frame(previsao)
     colnames(df_previsao) <-
-      c('Previsao', 'Limite superior (95%)')
-    grid.table(df_previsao)
+      c('Previsao', 'Limite inferior (95%)', 'Limite superior (95%)')
+    grid.table(round(df_previsao[, c(1,3)], 1))
     dev.off()
     
     # Posta tabela no Twitter.
-    Sys.sleep(3)
+    Sys.sleep(5)
     try(updateStatus(
       paste(
         format(aux_dh, '%d/%m/%Y'),
@@ -349,6 +349,7 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
       ),
       mediaPath = "tabela_temp.jpg"
     ))
+    file.remove("tabela_temp.jpg")
     
     
     # Taxas de crescimento
@@ -436,7 +437,7 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
     
     dev.off()
     i_va <- last(modelo_in1s$forecast)
-    Sys.sleep(3)
+    Sys.sleep(5)
     try(updateStatus(
       paste(
         format(aux_dh, '%d/%m/%Y'),
@@ -451,7 +452,7 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
       ),
       mediaPath = "in1s_temp.jpg"
     ))
-    
+    file.remove("in1s_temp.jpg")
     
     # Estima R
     dados_MT <- as.numeric(diff(infectados))
@@ -487,9 +488,9 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
         ']'
       )
     })
-    Sys.sleep(3)
+    Sys.sleep(5)
     try(updateStatus(r_saida, mediaPath = 'r_temp.jpg'))
-    
+    file.remove("r_temp.jpg")
     
     # Insere registro na tabela de Rs por ERS
     df_lolipop <-
@@ -549,7 +550,7 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
     }
     
     # Posta resultados no Twitter.
-    Sys.sleep(3)
+    Sys.sleep(5)
     try(updateStatus(paste(
       format(aux_dh, '%d/%m/%Y'),
       '-',
@@ -561,7 +562,7 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
       res_tendencia
     ),
     mediaPath = "r30_temp.jpg"))
-    Sys.sleep(3)
+    file.remove("r30_temp.jpg")
     
     # Estima estatistica do Estado
     if (aux_nivel == 'Mato Grosso') {
@@ -593,7 +594,7 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
       
       dev.off()
       
-      Sys.sleep(3)
+      Sys.sleep(5)
       try(updateStatus(
         paste(
           format(aux_dh, '%d/%m/%Y'),
@@ -609,7 +610,7 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
         ),
         mediaPath = "enfermarias_temp.jpg"
       ))
-      
+      file.remove("enfermarias_temp.jpg")
       
       # Velocidade de avanco em UTIs
       UTI <-
@@ -636,7 +637,7 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
       
       dev.off()
       
-      Sys.sleep(3)
+      Sys.sleep(5)
       try(updateStatus(
         paste(
           format(aux_dh, '%d/%m/%Y'),
@@ -652,9 +653,9 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
         ),
         mediaPath = "UTI_temp.jpg"
       ))
+      file.remove("UTI_temp.jpg")
       
-      
-      # Velocidade do indice de velocidade de avanço geral
+      # Velocidade de velocidade de avanço ponderada
       iva_geral <- (as.numeric(modelo_in1s$y) +
                     3*as.numeric(modelo_enfermarias$y) +
                     5*as.numeric(modelo_UTI$y))/9 
@@ -678,22 +679,23 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
       )
       dev.off()
       
-      Sys.sleep(3)
+      Sys.sleep(5)
       try(updateStatus(
         paste(
           format(aux_dh, '%d/%m/%Y'),
           '-',
           aux_nivel,
-          '- Velocidade de avanço para o indice geral em MT (t+1) com SMA(7):',
+          '- Velocidade de avanço ponderada (t+1) com SMA(7):',
           formatC(
-            last(geral),
+            modelo_iva$forecast,
             format = 'f',
             digits =
               5
           )
         ),  mediaPath = "iva_temp.jpg" 
       ))
-      
+      file.remove("iva_temp.jpg")
+      rm(infectados)
     }
   }
 }
@@ -717,7 +719,7 @@ jpeg(
 )
 
 # Grafico do R
-try({
+# try({
   ggplot(df_lolipop) +
     geom_segment(aes(
       x = aux_nivel,
@@ -729,17 +731,17 @@ try({
     geom_point(
       aes(x = aux_nivel, y = r_aux_025),
       color = rgb(0.2, 0.7, 0.1, 0.5),
-      size = 3
+      size = 4
     ) +
     geom_point(
       aes(x = aux_nivel, y = r_aux_975),
       color = rgb(0.7, 0.2, 0.1, 0.5),
-      size = 3
+      size = 4
     ) +
     geom_point(
       aes(x = aux_nivel, y = r_aux_50),
       color = 'black',
-      size = 1,
+      size = 2,
       shape = 3
     ) +
     geom_hline(
@@ -759,15 +761,15 @@ try({
     theme_ipsum() +
     theme(legend.position = "none", )
   dev.off()
-})
+# })
 
 # Posta intervalosde confianca do R no Twitter
 r_saida <-
   paste(format(aux_dh, '%d/%m/%Y'),
         '- Intervalos de confiança do R por ERS e Mato Grosso.')
-Sys.sleep(3)
+Sys.sleep(5)
 try(updateStatus(r_saida, mediaPath = 'lolipop_temp.jpg'))
-
+file.remove("lolipop_temp.jpg")
 
 #
 # SIR
@@ -1021,7 +1023,7 @@ ers_aux_df_sim <- mt_df_sim
 ers_aux_df_sim <-
   ers_aux_df_sim[which.max(ers_aux_df_sim$Infectados), ]
 
-# Localiza os maximos de infectados nas ERS e os armazenam
+# Localiza os maximos de infectados nas ERS e os armazena.
 for (aux_ers in levels(aux_df_sim$ERS)) {
   aux_ers_df_sim <- aux_df_sim[aux_df_sim$ERS == aux_ers,]
   aux_ers_df_sim <-
@@ -1043,15 +1045,15 @@ r_saida <-
     format(aux_dh, '%d/%m/%Y'),
     '- Estimativa das datas de maximo de infectados por ERS e Mato Grosso.'
   )
-Sys.sleep(3)
+Sys.sleep(5)
 try(updateStatus(r_saida, mediaPath = 'pico_temp.jpg'))
+file.remove("pico_temp.jpg")
 
-
-# Estima o total de UTIs utilizadas no MT
+# Estima o total de UTIs utilizadas no MT.
 # Seleciona o ultimo registro do arquivo de parâmetros de MT.
 param_mt <- tail(total_param_mt, 1)
 
-# Define atalhos para os parâmetros.
+# Define atalhos para os parametros.
 uti_sus <- param_mt$leitos_uti_sus
 p_uti <- param_mt$uti_utilizadas/param_mt$casos_confirmados
 uti_utilizados <- param_mt$uti_utilizadas
@@ -1069,7 +1071,7 @@ aux_mt_df_sim <-
   mt_df_sim[1:(which.max(mt_df_sim$Infectados) + 30), ]
 plot(
   aux_mt_df_sim$Data,
-  aux_mt_df_sim$'Recuperados/Fatalidades' / 10000*1, #<-
+  aux_mt_df_sim$'Recuperados/Fatalidades' / 10000,
   type = "l",
   frame = TRUE,
   cex = 0.1,
@@ -1082,7 +1084,7 @@ plot(
 )
 lines(
   aux_mt_df_sim$Data,
-  aux_mt_df_sim$Infectados / 10000*1, #<-
+  aux_mt_df_sim$Infectados / 10000,
   cex = 0.1,
   pch = 1,
   col = "red",
@@ -1102,7 +1104,7 @@ legend(
 
 abline(v = mt_df_sim[which.max(mt_df_sim$Infectados), ]$Data,
        col = "gray", lty = 'dashed')
-abline(h = mt_df_sim[which.max(mt_df_sim$Infectados), ]$Infectados/10000*1, #<- 
+abline(h = mt_df_sim[which.max(mt_df_sim$Infectados), ]$Infectados/10000, 
        col = "gray", lty = 'dashed')
 text(mt_df_sim[which.max(mt_df_sim$Infectados), ]$Data,
      1,
@@ -1113,9 +1115,12 @@ r_saida <-
     format(aux_dh, '%d/%m/%Y'),
     '- Projeção de infectados e recuperados/fatalidades no Mato Grosso.'
   )
-Sys.sleep(3)
-try(updateStatus(r_saida, mediaPath = 'cepi_temp.jpg'))
 
+# stop('Para depuracao.')
+
+Sys.sleep(5)
+try(updateStatus(r_saida, mediaPath = 'cepi_temp.jpg'))
+file.remove("cepi_temp.jpg")
 
 # Cria indexador
 mt_df_sim$d <-
@@ -1123,7 +1128,7 @@ mt_df_sim$d <-
 colnames(mt_df_sim)[6] <- 'd'
 
 # Funcao de decaimento exponencial adaptada para ajustar a ocupacao pre-existente.
-decaimento <- function(d, p = 1.0508) { #<-
+decaimento <- function(d, p = 1.5) { #<-
   # Decaimento de 50% em 14 dias: 1.0508.
   # Decaimento de 99% em 20 dias: 1.257.
   decaimento <- 1 - (1 / p) ** d
@@ -1138,14 +1143,14 @@ mt_df_sim$to_uti <- as.numeric(unlist(
   ) /
     uti_sus
 ))
-mt_df_sim$to_uti <- mt_df_sim$to_uti*0.035 #<-
+mt_df_sim$to_uti <- mt_df_sim$to_uti*1 #<-
 data_max_mt_df_sim <-
   mt_df_sim[which.max(mt_df_sim$to_uti), 'Data']
 mt_df_sim$dif_data <- sign(mt_df_sim$Data - data_max_mt_df_sim)
 
 # Localiza o registro mais proximo da taxa de ocupacao de 60%.
 mt_df_sim$abs_dif_to_uti <- as.numeric(unlist(mt_df_sim$dif_data *
-                                                1 / abs(0.6 - mt_df_sim$to_uti)))
+                                                1 / abs(1.0 - mt_df_sim$to_uti)))
 l60_mt_df_sim <- which.min(mt_df_sim$abs_dif_to_uti)
 p60_mt_df_sim <- mt_df_sim[l60_mt_df_sim, ]
 
@@ -1169,7 +1174,7 @@ plot(
   lty = 1,
   lwd = 1
 )
-abline(h = 60, col = "gray", lty = 'dashed')
+abline(h = 100, col = "gray", lty = 'dashed')
 abline(v = p60_mt_df_sim$Data,
        col = "gray", lty = 'dashed')
 text(p60_mt_df_sim$Data,
@@ -1188,16 +1193,112 @@ dev.off()
 r_saida <-
   paste(
     format(aux_dh, '%d/%m/%Y'),
-    '- MT - Projeção da data em que a TO/SUS/COVID-19 atingirá 60% da capacidade atual',
+    '- MT - Projeção da data em que a TO/SUS/COVID-19 atingirá 100% da capacidade atual',
     p60_mt_df_sim$Data
   )
-Sys.sleep(3)
-try(updateStatus(r_saida, mediaPath = 'uti_temp.jpg'))
-
+Sys.sleep(5)
+# try(updateStatus(r_saida, mediaPath = 'uti_temp.jpg'))
+file.remove("uti_temp.jpg")
 
 toc()
 
-stop('Para depuracao.')
+# stop('Para depuracao.')
+
+
+
+# Cria objeto TS
+
+# Converte para data
+total_param_mt$data <-
+  as.Date(parse_date_time(total_param_mt[["data"]], '%d%m%y'), format = '%d%m%y')
+
+
+to_uti <-
+  ts(total_param_mt$to_leitos_uti_sus,
+     start = total_param_mt[1, 'Dia_Juliano'],
+     frequency = 1)
+to_uti <- na_kalman(to_uti, model = "StructTS", smooth = TRUE)
+to_uti <- tail(to_uti, 21)
+
+# Pequisa transformacao de Box-Cox
+l <- BoxCox.lambda(to_uti)
+
+# Testa os modelos disponiveis no pacote Forecast
+try({
+  ets_ajuste <- ets(to_uti, lambda = l)
+  arima_ajuste <-
+    auto.arima(
+      infectados,
+      stepwise = FALSE,
+      approximation = FALSE,
+      trace = FALSE,
+      lambda = l
+    )
+  bats_ajuste <- bats(to_uti, lambda = l)
+  bagged_ajuste <- baggedModel(to_uti, lambda = l)
+  croston_ajuste <- croston(to_uti)
+  tslm_ajuste <- tslm(to_uti ~ trend)
+  # try(nnetar_ajuste <- nnetar(infectados, repeats = 10, lambda = l))
+  tbats_ajuste <- tbats(to_uti, use.box.cox = TRUE)
+  theta_ajuste <- thetaf(to_uti)
+})
+
+# Verifica qual dos modelos foi o mais acurado
+modelo <- ets_ajuste
+acuracia_modelo <- forecast::accuracy(modelo)[2]
+for (aux_teste in list(
+  #arima_ajuste,
+  bats_ajuste,
+  bagged_ajuste,
+  croston_ajuste,
+  theta_ajuste,
+  tslm_ajuste,
+  #nnetar_ajuste, # O modelo por RN apresenta alguns problemas para validacao
+  tbats_ajuste
+)) {
+  try({
+    aux_acuracia <- forecast::accuracy(aux_teste)[2]
+    if (aux_acuracia < acuracia_modelo) {
+      modelo <- aux_teste
+      acuracia_modelo <- aux_acuracia
+    }
+  })
+}
+
+# plot(to_uti)
+
+previsao <- forecast(modelo, level = c(95), h = 7)
+jpeg(
+  "tabela_to_temp.jpg",
+  width = 400,
+  height = 450,
+  quality = 90
+)
+df_previsao <- data.frame(previsao)
+colnames(df_previsao) <-
+  c('Previsao', 'Limite inferior (95%)', 'Limite superior (95%)')
+grid.table(round(df_previsao, 2))
+r_saida <-
+  paste(
+    format(aux_dh, '%d/%m/%Y'),
+    '- MT - Previsão TO/SUS/COVID-19 para 7 dias.')
+dev.off()
+try(updateStatus(r_saida, mediaPath = 'tabela_to_temp.jpg'))
+
+jpeg(
+  "grafico_to_temp.jpg",
+  width = 700,
+  height = 500,
+  quality = 95
+)
+plot(previsao)
+r_saida <-
+  paste(
+    format(aux_dh, '%d/%m/%Y'),
+    '- MT - Previsão TO/SUS/COVID-19 para 7 dias.')
+dev.off()
+try(updateStatus(r_saida, mediaPath = 'grafico_to_temp.jpg'))
+
 
 
 #
@@ -1210,14 +1311,13 @@ ers <- read.csv("geocode_ers.csv",
                 stringsAsFactors = FALSE) %>% 
   mutate(Geocodigo = as.character(Geocodigo))
 
-df_lolipop <- df_lolipop[, c('aux_nivel', 'r_aux_50', 'i_va')]
-colnames(df_lolipop) <- c('ers', 'Rt', 'VANI')
+aux_df_lolipop <- df_lolipop[, c('aux_nivel', 'r_aux_50', 'i_va')]
+colnames(aux_df_lolipop) <- c('ers', 'Rt', 'VANI')
 
-ers <- ers %>% left_join(df_lolipop, by = "ers")
+ers <- ers %>% left_join(aux_df_lolipop, by = "ers")
 regionais <- regionais %>% left_join(ers, by = "Geocodigo")
 
-# Mapa por variavel selecionada (r_aux_025)
-# Cria post no Twitter
+# Mapa por variavel selecionada (Rt)
 jpeg('rt_mapa.jpg',
      width = 920,
      height = 696,
@@ -1230,15 +1330,17 @@ ggplot(regionais) +
 
 dev.off()
 
+# Cria post no Twitter
 r_saida <-
   paste(
     format(aux_dh, '%d/%m/%Y'),
     '- MT - Mapa de Rt por ERS'
   )
-Sys.sleep(3)
+Sys.sleep(5)
 try(updateStatus(r_saida, mediaPath = 'rt_mapa.jpg'))
+file.remove("rt_mapa.jpg")
 
-
+# Mapa por variavel selecionada (VANI)
 jpeg('vani_mapa.jpg',
      width = 920,
      height = 696,
@@ -1251,13 +1353,17 @@ ggplot(regionais) +
 
 dev.off()
 
+# Cria post no Twitter
 r_saida <-
   paste(
     format(aux_dh, '%d/%m/%Y'),
     '- MT - Mapa da VANI por ERS'
   )
-Sys.sleep(3)
+Sys.sleep(5)
 try(updateStatus(r_saida, mediaPath = 'vani_mapa.jpg'))
+file.remove("vani_mapa.jpg")
+
+stop('Para depuracao.')
 
 
 #
@@ -1469,6 +1575,12 @@ r_saida <-
         '- MMC ref. concluido com',
         round(tproc[2] - tproc[1], 1),
         's.')
-Sys.sleep(3)
+Sys.sleep(5)
 try(updateStatus(r_saida))
 
+
+#
+# Roda classificacao de risco Fuzzy em Python
+#
+
+# install.packages('reticulate')

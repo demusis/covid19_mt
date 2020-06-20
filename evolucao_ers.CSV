@@ -1170,7 +1170,7 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 14/05/2020,Baixada Cuiabana,Nossa Senhora do Livramento,1,0,0,1
 14/05/2020,Pontes e Lacerda,Nova Lacerda,2,0,0,2
 14/05/2020,Alta Floresta,Nova Monte Verde,0,1,0,1
-14/05/2020,Sinop,Nova Mutum,4,8,1,13
+14/05/2020,Sinop,Nova Mutum,3,8,1,12
 14/05/2020,Peixoto de Azevedo,Peixoto de Azevedo,9,4,0,13
 14/05/2020,Baixada Cuiabana,Pocone,0,2,0,2
 14/05/2020,Barra do Garcas,Pontal do Araguaia,2,1,0,3
@@ -1366,7 +1366,7 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 17/05/2020,Sinop,Tapurah,7,0,0,7
 17/05/2020,Sinop,Uniao do Sul,0,1,0,1
 17/05/2020,Pontes e Lacerda,Vale de Sao Domingos,1,0,1,2
-17/05/2020,Baixada Cuiabana,Varzea Grande,54,18,4,91
+17/05/2020,Baixada Cuiabana,Varzea Grande,54,18,4,76
 17/05/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,2,0,0,2
 17/05/2020,Porto Alegre do Norte,Vila Rica,4,0,0,4
 18/05/2020,Baixada Cuiabana,Acorizal,1,0,0,1
@@ -2142,7 +2142,7 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 28/05/2020,Rondonopolis,Guiratinga,1,0,0,1
 28/05/2020,Sinop,Ipiranga do Norte,1,3,0,4
 28/05/2020,Rondonopolis,Jaciara,18,18,0,36
-28/05/2020,Baixada Cuiabana,Jangada,2,7,1,10
+28/05/2020,Baixada Cuiabana,Jangada,2,6,1,9
 28/05/2020,Pontes e Lacerda,Jauru,1,0,1,2
 28/05/2020,Juara,Juara,2,0,1,3
 28/05/2020,Juina,Juina,3,3,1,7
@@ -2236,9 +2236,9 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 29/05/2020,Juina,Juina,3,3,1,7
 29/05/2020,Rondonopolis,Juscimeira,1,2,0,3
 29/05/2020,Caceres,Lambari do Oeste,0,1,0,1
-29/05/2020,Sinop,Lucas do Rio Verde,44,29,2,75
+29/05/2020,Sinop,Lucas do Rio Verde,43,29,2,74
 29/05/2020,Sao Felix do Araguaia,Luciara,1,0,0,1
-29/05/2020,Peixoto de Azevedo,Matupa,3,0,0,3
+29/05/2020,Peixoto de Azevedo,Matupa,7,0,0,7
 29/05/2020,Caceres,Mirassol do Oeste,5,7,1,13
 29/05/2020,Diamantino,Nobres,2,1,0,3
 29/05/2020,Baixada Cuiabana,Nossa Senhora do Livramento,5,1,0,6
@@ -2293,7 +2293,7 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 30/05/2020,Agua Boa,Agua Boa,3,2,0,5
 30/05/2020,Alta Floresta,Alta Floresta,22,12,3,37
 30/05/2020,Rondonopolis,Alto Araguaia,7,2,1,10
-30/05/2020,Sao Felix do Araguaia,Alto Boa Vista,2,0,1,2
+30/05/2020,Sao Felix do Araguaia,Alto Boa Vista,2,0,1,3
 30/05/2020,Rondonopolis,Alto Garcas,0,1,0,1
 30/05/2020,Diamantino,Alto Paraguai,1,0,0,1
 30/05/2020,Diamantino,Arenapolis,1,0,0,1
@@ -2370,7 +2370,7 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 30/05/2020,Caceres,Sao Jose dos Quatro Marcos,2,5,0,7
 30/05/2020,Rondonopolis,Sao Pedro da Cipa,2,4,1,7
 30/05/2020,Tangara da Serra,Sapezal,21,1,0,22
-30/05/2020,Sinop,Sinop,33,20,2,55
+30/05/2020,Sinop,Sinop,31,20,2,53
 30/05/2020,Sinop,Sorriso,59,25,0,84
 30/05/2020,Tangara da Serra,Tangara da Serra,72,39,0,111
 30/05/2020,Sinop,Tapurah,9,3,0,12
@@ -2392,7 +2392,7 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 31/05/2020,Diamantino,Arenapolis,1,0,0,1
 31/05/2020,Juina,Aripuana,20,4,1,25
 31/05/2020,Tangara da Serra,Barra do Bugres,1,0,0,1
-31/05/2020,Barra do Garcas,Barra do Garcas,44,24,4,72
+31/05/2020,Barra do Garcas,Barra do Garcas,44,25,4,73
 31/05/2020,Sao Felix do Araguaia,Bom Jesus do Araguaia,2,2,0,4
 31/05/2020,Caceres,Caceres,12,16,3,31
 31/05/2020,Tangara da Serra,Campo Novo do Parecis,15,2,0,17
@@ -2417,7 +2417,7 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 31/05/2020,Rondonopolis,Jaciara,13,25,0,38
 31/05/2020,Baixada Cuiabana,Jangada,2,6,1,9
 31/05/2020,Pontes e Lacerda,Jauru,1,0,1,2
-31/05/2020,Juara,Juara,4,0,1,5
+31/05/2020,Juara,Juara,3,0,1,4
 31/05/2020,Juina,Juina,3,3,1,7
 31/05/2020,Rondonopolis,Juscimeira,5,2,0,7
 31/05/2020,Caceres,Lambari do Oeste,1,1,0,2
@@ -2439,7 +2439,7 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 31/05/2020,Peixoto de Azevedo,Novo Mundo,12,0,0,12
 31/05/2020,Sao Felix do Araguaia,Novo Santo Antonio,3,0,0,3
 31/05/2020,Alta Floresta,Paranaita,1,0,0,1
-31/05/2020,Rondonopolis,Pedra Preta,4,0,0,4
+31/05/2020,Rondonopolis,Pedra Preta,5,0,0,5
 31/05/2020,Peixoto de Azevedo,Peixoto de Azevedo,10,15,0,25
 31/05/2020,Baixada Cuiabana,Pocone,0,3,0,3
 31/05/2020,Barra do Garcas,Pontal do Araguaia,5,2,0,7
@@ -2475,3 +2475,2082 @@ Data,ERS,Municipio,Infectados,Recuperados,Obitos,Total
 31/05/2020,Sinop,Vera,3,0,0,3
 31/05/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,2,2,0,4
 31/05/2020,Porto Alegre do Norte,Vila Rica,12,0,0,12
+01/06/2020,Baixada Cuiabana,Acorizal,6,2,1,9
+01/06/2020,Agua Boa,Agua Boa,3,2,0,5
+01/06/2020,Alta Floresta,Alta Floresta,21,13,3,37
+01/06/2020,Rondonopolis,Alto Araguaia,7,2,1,10
+01/06/2020,Sao Felix do Araguaia,Alto Boa Vista,2,0,1,3
+01/06/2020,Rondonopolis,Alto Garcas,1,0,0,1
+01/06/2020,Diamantino,Alto Paraguai,1,0,0,1
+01/06/2020,Caceres,Araputanga,2,0,0,2
+01/06/2020,Diamantino,Arenapolis,1,0,0,1
+01/06/2020,Juina,Aripuana,20,4,1,25
+01/06/2020,Tangara da Serra,Barra do Bugres,1,0,0,1
+01/06/2020,Barra do Garcas,Barra do Garcas,43,25,5,73
+01/06/2020,Sao Felix do Araguaia,Bom Jesus do Araguaia,3,2,0,5
+01/06/2020,Caceres,Caceres,14,16,3,33
+01/06/2020,Tangara da Serra,Campo Novo do Parecis,9,8,0,17
+01/06/2020,Rondonopolis,Campo Verde,42,1,0,43
+01/06/2020,Pontes e Lacerda,Campos de Julio,5,1,0,6
+01/06/2020,Agua Boa,Canarana,9,2,0,11
+01/06/2020,Baixada Cuiabana,Chapada dos Guimaraes,6,4,2,12
+01/06/2020,Colider,Colider,8,0,0,8
+01/06/2020,Juina,Colniza,1,0,0,1
+01/06/2020,Pontes e Lacerda,Comodoro,5,0,0,5
+01/06/2020,Porto Alegre do Norte,Confresa,65,17,0,82
+01/06/2020,Pontes e Lacerda,Conquista do Oeste,4,1,0,5
+01/06/2020,Juina,Cotriguacu,2,1,1,4
+01/06/2020,Baixada Cuiabana,Cuiaba,568,216,11,795
+01/06/2020,Caceres,Curvelandia,0,3,1,4
+01/06/2020,Tangara da Serra,Denise,4,0,0,4
+01/06/2020,Rondonopolis,Dom Aquino,4,0,0,4
+01/06/2020,Peixoto de Azevedo,Guaranta do Norte,10,2,0,12
+01/06/2020,Rondonopolis,Guiratinga,1,0,0,1
+01/06/2020,Sinop,Ipiranga do Norte,2,3,0,5
+01/06/2020,Sinop,Itanhanga,1,0,0,1
+01/06/2020,Rondonopolis,Jaciara,12,27,0,39
+01/06/2020,Baixada Cuiabana,Jangada,2,6,1,9
+01/06/2020,Pontes e Lacerda,Jauru,1,0,1,2
+01/06/2020,Juara,Juara,3,0,1,4
+01/06/2020,Juina,Juina,7,3,1,11
+01/06/2020,Rondonopolis,Juscimeira,5,2,0,7
+01/06/2020,Caceres,Lambari do Oeste,1,1,0,2
+01/06/2020,Sinop,Lucas do Rio Verde,44,30,2,76
+01/06/2020,Sao Felix do Araguaia,Luciara,1,0,0,1
+01/06/2020,Colider,Marcelandia,6,0,0,6
+01/06/2020,Peixoto de Azevedo,Matupa,7,0,0,7
+01/06/2020,Caceres,Mirassol do Oeste,6,7,1,14
+01/06/2020,Diamantino,Nobres,2,1,0,3
+01/06/2020,Baixada Cuiabana,Nossa Senhora do Livramento,6,3,0,9
+01/06/2020,Colider,Nova Guarita,2,0,0,2
+01/06/2020,Pontes e Lacerda,Nova Lacerda,1,3,0,4
+01/06/2020,Diamantino,Nova Maringa,1,0,0,1
+01/06/2020,Alta Floresta,Nova Monte Verde,0,1,0,1
+01/06/2020,Sinop,Nova Mutum,17,14,1,32
+01/06/2020,Tangara da Serra,Nova Olimpia,3,1,0,4
+01/06/2020,Colider,Nova Santa Helena,4,0,0,4
+01/06/2020,Sinop,Nova Ubirata,19,0,0,19
+01/06/2020,Barra do Garcas,Nova Xavantina,1,0,0,1
+01/06/2020,Peixoto de Azevedo,Novo Mundo,11,1,0,12
+01/06/2020,Sao Felix do Araguaia,Novo Santo Antonio,3,0,0,3
+01/06/2020,Alta Floresta,Paranaita,1,0,0,1
+01/06/2020,Rondonopolis,Pedra Preta,5,1,0,6
+01/06/2020,Peixoto de Azevedo,Peixoto de Azevedo,10,17,0,27
+01/06/2020,Baixada Cuiabana,Pocone,0,3,0,3
+01/06/2020,Barra do Garcas,Pontal do Araguaia,5,2,0,7
+01/06/2020,Barra do Garcas,Ponte Branca,0,0,1,1
+01/06/2020,Pontes e Lacerda,Pontes e Lacerda,29,10,1,40
+01/06/2020,Porto Alegre do Norte,Porto Alegre do Norte,1,1,0,2
+01/06/2020,Caceres,Porto Esperidiao,4,0,0,4
+01/06/2020,Rondonopolis,Poxoreu,0,2,0,2
+01/06/2020,Rondonopolis,Primavera do Leste,100,17,0,117
+01/06/2020,Agua Boa,Querencia,8,8,1,17
+01/06/2020,Agua Boa,Ribeirao Cascalheira,5,0,0,5
+01/06/2020,Caceres,Rio Branco,1,2,0,3
+01/06/2020,Pontes e Lacerda,Rondolandia,0,2,0,2
+01/06/2020,Rondonopolis,Rondonopolis,145,54,7,206
+01/06/2020,Diamantino,Rosario Oeste,19,23,0,42
+01/06/2020,Sinop,Santa Rita do Trivelato,1,0,0,1
+01/06/2020,Tangara da Serra,Santo Afonso,1,0,0,1
+01/06/2020,Baixada Cuiabana,Santo Antonio do Leverger,4,1,0,5
+01/06/2020,Sao Felix do Araguaia,Sao Felix do Araguaia,0,1,0,1
+01/06/2020,Rondonopolis,Sao Jose do Povo,1,0,0,1
+01/06/2020,Porto Alegre do Norte,Sao Jose do Xingu,1,0,0,1
+01/06/2020,Caceres,Sao Jose dos Quatro Marcos,2,5,0,7
+01/06/2020,Rondonopolis,Sao Pedro da Cipa,2,4,1,7
+01/06/2020,Tangara da Serra,Sapezal,20,5,0,25
+01/06/2020,Sinop,Sinop,35,20,3,58
+01/06/2020,Sinop,Sorriso,62,25,0,87
+01/06/2020,Tangara da Serra,Tangara da Serra,54,59,0,113
+01/06/2020,Sinop,Tapurah,11,5,0,16
+01/06/2020,Peixoto de Azevedo,Terra Nova do Norte,1,0,0,1
+01/06/2020,Sinop,Uniao do Sul,0,1,0,1
+01/06/2020,Pontes e Lacerda,Vale de Sao Domingos,0,1,1,2
+01/06/2020,Baixada Cuiabana,Varzea Grande,200,45,12,257
+01/06/2020,Sinop,Vera,3,0,0,3
+01/06/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,5,2,0,7
+01/06/2020,Porto Alegre do Norte,Vila Rica,15,0,0,15
+02/06/2020,Baixada Cuiabana,Acorizal,6,2,1,9
+02/06/2020,Agua Boa,Agua Boa,4,2,0,6
+02/06/2020,Alta Floresta,Alta Floresta,19,15,3,37
+02/06/2020,Rondonopolis,Alto Araguaia,3,6,1,10
+02/06/2020,Sao Felix do Araguaia,Alto Boa Vista,2,0,1,3
+02/06/2020,Rondonopolis,Alto Garcas,0,1,0,1
+02/06/2020,Diamantino,Alto Paraguai,1,0,0,1
+02/06/2020,Caceres,Araputanga,2,0,0,2
+02/06/2020,Diamantino,Arenapolis,1,0,0,1
+02/06/2020,Juina,Aripuana,16,8,1,25
+02/06/2020,Tangara da Serra,Barra do Bugres,1,0,0,1
+02/06/2020,Barra do Garcas,Barra do Garcas,43,29,5,77
+02/06/2020,Sao Felix do Araguaia,Bom Jesus do Araguaia,4,2,0,6
+02/06/2020,Caceres,Caceres,15,16,3,34
+02/06/2020,Tangara da Serra,Campo Novo do Parecis,13,8,0,21
+02/06/2020,Rondonopolis,Campo Verde,43,1,0,44
+02/06/2020,Pontes e Lacerda,Campos de Julio,5,1,0,6
+02/06/2020,Agua Boa,Canarana,14,2,0,16
+02/06/2020,Baixada Cuiabana,Chapada dos Guimaraes,5,5,2,12
+02/06/2020,Colider,Colider,8,0,0,8
+02/06/2020,Juina,Colniza,1,0,0,1
+02/06/2020,Pontes e Lacerda,Comodoro,6,0,0,6
+02/06/2020,Porto Alegre do Norte,Confresa,75,23,1,99
+02/06/2020,Pontes e Lacerda,Conquista do Oeste,6,1,0,7
+02/06/2020,Juina,Cotriguacu,3,1,1,5
+02/06/2020,Baixada Cuiabana,Cuiaba,577,239,13,829
+02/06/2020,Caceres,Curvelandia,0,3,1,4
+02/06/2020,Tangara da Serra,Denise,4,0,0,4
+02/06/2020,Rondonopolis,Dom Aquino,4,0,0,4
+02/06/2020,Peixoto de Azevedo,Guaranta do Norte,14,2,0,16
+02/06/2020,Rondonopolis,Guiratinga,1,0,0,1
+02/06/2020,Sinop,Ipiranga do Norte,2,3,0,5
+02/06/2020,Sinop,Itanhanga,1,0,0,1
+02/06/2020,Rondonopolis,Jaciara,15,27,0,42
+02/06/2020,Baixada Cuiabana,Jangada,2,6,1,9
+02/06/2020,Pontes e Lacerda,Jauru,1,0,1,2
+02/06/2020,Juara,Juara,3,0,1,4
+02/06/2020,Juina,Juina,7,3,1,11
+02/06/2020,Rondonopolis,Juscimeira,5,2,0,7
+02/06/2020,Caceres,Lambari do Oeste,1,1,0,2
+02/06/2020,Sinop,Lucas do Rio Verde,48,30,2,80
+02/06/2020,Sao Felix do Araguaia,Luciara,1,0,0,1
+02/06/2020,Colider,Marcelandia,6,0,0,6
+02/06/2020,Peixoto de Azevedo,Matupa,20,0,0,20
+02/06/2020,Caceres,Mirassol do Oeste,6,7,1,14
+02/06/2020,Diamantino,Nobres,3,1,0,4
+02/06/2020,Baixada Cuiabana,Nossa Senhora do Livramento,6,3,0,9
+02/06/2020,Colider,Nova Guarita,3,0,0,3
+02/06/2020,Pontes e Lacerda,Nova Lacerda,1,3,0,4
+02/06/2020,Diamantino,Nova Maringa,1,0,0,1
+02/06/2020,Alta Floresta,Nova Monte Verde,0,1,0,1
+02/06/2020,Sinop,Nova Mutum,19,15,1,35
+02/06/2020,Tangara da Serra,Nova Olimpia,3,1,0,4
+02/06/2020,Colider,Nova Santa Helena,4,0,0,4
+02/06/2020,Sinop,Nova Ubirata,19,0,0,19
+02/06/2020,Barra do Garcas,Nova Xavantina,1,0,0,1
+02/06/2020,Peixoto de Azevedo,Novo Mundo,13,1,0,14
+02/06/2020,Sao Felix do Araguaia,Novo Santo Antonio,3,0,0,3
+02/06/2020,Alta Floresta,Paranaita,1,0,0,1
+02/06/2020,Rondonopolis,Paranatinga,2,0,0,2
+02/06/2020,Rondonopolis,Pedra Preta,5,1,0,6
+02/06/2020,Peixoto de Azevedo,Peixoto de Azevedo,11,17,0,28
+02/06/2020,Baixada Cuiabana,Pocone,0,3,0,3
+02/06/2020,Barra do Garcas,Pontal do Araguaia,5,2,0,7
+02/06/2020,Barra do Garcas,Ponte Branca,0,0,1,1
+02/06/2020,Pontes e Lacerda,Pontes e Lacerda,29,10,1,40
+02/06/2020,Porto Alegre do Norte,Porto Alegre do Norte,1,1,0,2
+02/06/2020,Caceres,Porto Esperidiao,6,0,0,6
+02/06/2020,Rondonopolis,Poxoreu,0,2,0,2
+02/06/2020,Rondonopolis,Primavera do Leste,113,17,0,130
+02/06/2020,Agua Boa,Querencia,16,8,1,25
+02/06/2020,Agua Boa,Ribeirao Cascalheira,5,0,0,5
+02/06/2020,Caceres,Rio Branco,0,3,0,3
+02/06/2020,Pontes e Lacerda,Rondolandia,0,2,0,2
+02/06/2020,Rondonopolis,Rondonopolis,172,54,8,234
+02/06/2020,Diamantino,Rosario Oeste,18,26,0,44
+02/06/2020,Sinop,Santa Rita do Trivelato,1,0,0,1
+02/06/2020,Tangara da Serra,Santo Afonso,1,0,0,1
+02/06/2020,Rondonopolis,Santo Antonio do Leste,1,0,0,1
+02/06/2020,Baixada Cuiabana,Santo Antonio do Leverger,5,1,0,6
+02/06/2020,Sao Felix do Araguaia,Sao Felix do Araguaia,0,1,0,1
+02/06/2020,Rondonopolis,Sao Jose do Povo,1,0,0,1
+02/06/2020,Porto Alegre do Norte,Sao Jose do Xingu,1,0,0,1
+02/06/2020,Caceres,Sao Jose dos Quatro Marcos,2,5,0,7
+02/06/2020,Rondonopolis,Sao Pedro da Cipa,2,4,1,7
+02/06/2020,Tangara da Serra,Sapezal,21,5,0,26
+02/06/2020,Sinop,Sinop,39,20,3,62
+02/06/2020,Sinop,Sorriso,61,26,0,87
+02/06/2020,Tangara da Serra,Tangara da Serra,55,59,1,115
+02/06/2020,Sinop,Tapurah,11,5,0,16
+02/06/2020,Peixoto de Azevedo,Terra Nova do Norte,1,0,0,1
+02/06/2020,Sinop,Uniao do Sul,0,1,0,1
+02/06/2020,Pontes e Lacerda,Vale de Sao Domingos,0,1,1,2
+02/06/2020,Baixada Cuiabana,Varzea Grande,205,45,15,265
+02/06/2020,Sinop,Vera,3,0,0,3
+02/06/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,5,2,0,7
+02/06/2020,Porto Alegre do Norte,Vila Rica,15,0,0,15
+03/06/2020,Baixada Cuiabana,Acorizal,6,2,1,9
+03/06/2020,Agua Boa,Agua Boa,4,2,0,6
+03/06/2020,Alta Floresta,Alta Floresta,17,17,3,37
+03/06/2020,Rondonopolis,Alto Araguaia,3,6,1,10
+03/06/2020,Sao Felix do Araguaia,Alto Boa Vista,2,0,1,3
+03/06/2020,Rondonopolis,Alto Garcas,0,1,0,1
+03/06/2020,Diamantino,Alto Paraguai,0,1,0,1
+03/06/2020,Caceres,Araputanga,2,0,0,2
+03/06/2020,Diamantino,Arenapolis,1,0,0,1
+03/06/2020,Juina,Aripuana,16,8,1,25
+03/06/2020,Tangara da Serra,Barra do Bugres,1,0,0,1
+03/06/2020,Barra do Garcas,Barra do Garcas,43,34,5,82
+03/06/2020,Sao Felix do Araguaia,Bom Jesus do Araguaia,4,2,0,6
+03/06/2020,Caceres,Caceres,13,19,3,35
+03/06/2020,Tangara da Serra,Campo Novo do Parecis,6,15,0,21
+03/06/2020,Rondonopolis,Campo Verde,33,16,0,49
+03/06/2020,Pontes e Lacerda,Campos de Julio,6,1,0,7
+03/06/2020,Porto Alegre do Norte,Cana Brava do Norte,5,0,0,5
+03/06/2020,Agua Boa,Canarana,14,2,0,16
+03/06/2020,Baixada Cuiabana,Chapada dos Guimaraes,5,5,2,12
+03/06/2020,Colider,Colider,5,4,0,9
+03/06/2020,Juina,Colniza,1,0,0,1
+03/06/2020,Pontes e Lacerda,Comodoro,6,0,0,6
+03/06/2020,Porto Alegre do Norte,Confresa,75,28,2,105
+03/06/2020,Pontes e Lacerda,Conquista do Oeste,4,3,0,7
+03/06/2020,Juina,Cotriguacu,1,3,1,5
+03/06/2020,Baixada Cuiabana,Cuiaba,627,248,13,888
+03/06/2020,Caceres,Curvelandia,0,3,1,4
+03/06/2020,Tangara da Serra,Denise,3,1,0,4
+03/06/2020,Rondonopolis,Dom Aquino,2,5,0,7
+03/06/2020,Peixoto de Azevedo,Guaranta do Norte,14,2,0,16
+03/06/2020,Rondonopolis,Guiratinga,1,0,0,1
+03/06/2020,Sinop,Ipiranga do Norte,2,3,0,5
+03/06/2020,Sinop,Itanhanga,1,0,0,1
+03/06/2020,Rondonopolis,Jaciara,15,29,0,44
+03/06/2020,Baixada Cuiabana,Jangada,3,6,1,10
+03/06/2020,Pontes e Lacerda,Jauru,0,1,1,2
+03/06/2020,Juara,Juara,4,0,1,5
+03/06/2020,Juina,Juina,6,4,1,11
+03/06/2020,Rondonopolis,Juscimeira,5,2,0,7
+03/06/2020,Caceres,Lambari do Oeste,0,2,0,2
+03/06/2020,Sinop,Lucas do Rio Verde,48,30,2,80
+03/06/2020,Sao Felix do Araguaia,Luciara,1,0,0,1
+03/06/2020,Colider,Marcelandia,6,0,0,6
+03/06/2020,Peixoto de Azevedo,Matupa,20,0,0,20
+03/06/2020,Caceres,Mirassol do Oeste,6,7,1,14
+03/06/2020,Diamantino,Nobres,3,1,0,4
+03/06/2020,Baixada Cuiabana,Nossa Senhora do Livramento,6,3,0,9
+03/06/2020,Colider,Nova Guarita,3,0,0,3
+03/06/2020,Pontes e Lacerda,Nova Lacerda,1,3,0,4
+03/06/2020,Diamantino,Nova Maringa,1,0,0,1
+03/06/2020,Alta Floresta,Nova Monte Verde,0,1,0,1
+03/06/2020,Sinop,Nova Mutum,19,15,1,35
+03/06/2020,Tangara da Serra,Nova Olimpia,2,2,0,4
+03/06/2020,Colider,Nova Santa Helena,4,0,0,4
+03/06/2020,Sinop,Nova Ubirata,19,0,0,19
+03/06/2020,Barra do Garcas,Nova Xavantina,1,0,0,1
+03/06/2020,Peixoto de Azevedo,Novo Mundo,13,1,0,14
+03/06/2020,Sao Felix do Araguaia,Novo Santo Antonio,3,0,0,3
+03/06/2020,Alta Floresta,Paranaita,1,0,0,1
+03/06/2020,Rondonopolis,Paranatinga,0,2,0,2
+03/06/2020,Rondonopolis,Pedra Preta,7,1,0,8
+03/06/2020,Peixoto de Azevedo,Peixoto de Azevedo,16,17,0,33
+03/06/2020,Baixada Cuiabana,Pocone,0,3,0,3
+03/06/2020,Barra do Garcas,Pontal do Araguaia,6,2,0,8
+03/06/2020,Barra do Garcas,Ponte Branca,0,0,1,1
+03/06/2020,Pontes e Lacerda,Pontes e Lacerda,30,15,1,46
+03/06/2020,Porto Alegre do Norte,Porto Alegre do Norte,0,2,0,2
+03/06/2020,Caceres,Porto Esperidiao,6,0,0,6
+03/06/2020,Rondonopolis,Poxoreu,0,2,0,2
+03/06/2020,Rondonopolis,Primavera do Leste,108,35,0,143
+03/06/2020,Agua Boa,Querencia,9,17,1,27
+03/06/2020,Agua Boa,Ribeirao Cascalheira,5,0,0,5
+03/06/2020,Caceres,Rio Branco,0,3,0,3
+03/06/2020,Pontes e Lacerda,Rondolandia,0,2,0,2
+03/06/2020,Rondonopolis,Rondonopolis,188,54,9,251
+03/06/2020,Diamantino,Rosario Oeste,14,30,1,45
+03/06/2020,Porto Alegre do Norte,Santa Cruz do Xingu,1,0,0,1
+03/06/2020,Sinop,Santa Rita do Trivelato,1,0,0,1
+03/06/2020,Tangara da Serra,Santo Afonso,2,0,0,2
+03/06/2020,Rondonopolis,Santo Antonio do Leste,2,0,0,2
+03/06/2020,Baixada Cuiabana,Santo Antonio do Leverger,5,1,0,6
+03/06/2020,Sao Felix do Araguaia,Sao Felix do Araguaia,0,1,0,1
+03/06/2020,Rondonopolis,Sao Jose do Povo,1,0,0,1
+03/06/2020,Porto Alegre do Norte,Sao Jose do Xingu,1,0,0,1
+03/06/2020,Caceres,Sao Jose dos Quatro Marcos,2,5,0,7
+03/06/2020,Rondonopolis,Sao Pedro da Cipa,2,4,1,7
+03/06/2020,Tangara da Serra,Sapezal,13,13,0,26
+03/06/2020,Sinop,Sinop,40,20,3,63
+03/06/2020,Sinop,Sorriso,62,26,0,88
+03/06/2020,Tangara da Serra,Tangara da Serra,72,71,1,144
+03/06/2020,Sinop,Tapurah,11,5,0,16
+03/06/2020,Peixoto de Azevedo,Terra Nova do Norte,1,0,0,1
+03/06/2020,Sinop,Uniao do Sul,0,1,0,1
+03/06/2020,Pontes e Lacerda,Vale de Sao Domingos,0,1,1,2
+03/06/2020,Baixada Cuiabana,Varzea Grande,238,45,16,299
+03/06/2020,Sinop,Vera,3,0,0,3
+03/06/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,8,2,0,10
+03/06/2020,Porto Alegre do Norte,Vila Rica,21,0,0,21
+04/06/2020,Baixada Cuiabana,Acorizal,6,2,1,9
+04/06/2020,Agua Boa,Agua Boa,4,2,0,6
+04/06/2020,Alta Floresta,Alta Floresta,15,20,3,38
+04/06/2020,Rondonopolis,Alto Araguaia,1,8,1,10
+04/06/2020,Sao Felix do Araguaia,Alto Boa Vista,2,0,1,3
+04/06/2020,Rondonopolis,Alto Garcas,0,1,0,1
+04/06/2020,Diamantino,Alto Paraguai,0,1,0,1
+04/06/2020,Caceres,Araputanga,3,0,0,3
+04/06/2020,Diamantino,Arenapolis,1,0,0,1
+04/06/2020,Juina,Aripuana,16,8,1,25
+04/06/2020,Tangara da Serra,Barra do Bugres,5,0,0,5
+04/06/2020,Barra do Garcas,Barra do Garcas,43,39,5,87
+04/06/2020,Sao Felix do Araguaia,Bom Jesus do Araguaia,4,2,0,6
+04/06/2020,Caceres,Caceres,13,19,4,36
+04/06/2020,Tangara da Serra,Campo Novo do Parecis,13,15,0,28
+04/06/2020,Rondonopolis,Campo Verde,41,22,0,63
+04/06/2020,Pontes e Lacerda,Campos de Julio,9,1,0,10
+04/06/2020,Porto Alegre do Norte,Cana Brava do Norte,5,0,0,5
+04/06/2020,Agua Boa,Canarana,14,2,0,16
+04/06/2020,Baixada Cuiabana,Chapada dos Guimaraes,5,5,2,12
+04/06/2020,Colider,Colider,5,4,0,9
+04/06/2020,Juina,Colniza,1,0,0,1
+04/06/2020,Pontes e Lacerda,Comodoro,6,0,0,6
+04/06/2020,Porto Alegre do Norte,Confresa,94,29,3,126
+04/06/2020,Pontes e Lacerda,Conquista do Oeste,4,3,0,7
+04/06/2020,Juina,Cotriguacu,1,3,1,5
+04/06/2020,Baixada Cuiabana,Cuiaba,709,253,13,975
+04/06/2020,Caceres,Curvelandia,0,3,1,4
+04/06/2020,Tangara da Serra,Denise,3,1,0,4
+04/06/2020,Rondonopolis,Dom Aquino,2,3,0,5
+04/06/2020,Peixoto de Azevedo,Guaranta do Norte,14,2,0,16
+04/06/2020,Rondonopolis,Guiratinga,1,0,0,1
+04/06/2020,Sinop,Ipiranga do Norte,0,5,0,5
+04/06/2020,Sinop,Itanhanga,1,0,0,1
+04/06/2020,Rondonopolis,Itiquira,1,0,0,1
+04/06/2020,Rondonopolis,Jaciara,12,33,0,45
+04/06/2020,Baixada Cuiabana,Jangada,3,6,1,10
+04/06/2020,Pontes e Lacerda,Jauru,0,1,1,2
+04/06/2020,Juara,Juara,4,0,1,5
+04/06/2020,Juina,Juina,6,4,1,11
+04/06/2020,Rondonopolis,Juscimeira,5,2,0,7
+04/06/2020,Caceres,Lambari do Oeste,0,2,0,2
+04/06/2020,Sinop,Lucas do Rio Verde,58,39,2,99
+04/06/2020,Sao Felix do Araguaia,Luciara,1,0,0,1
+04/06/2020,Colider,Marcelandia,7,0,0,7
+04/06/2020,Peixoto de Azevedo,Matupa,20,0,0,20
+04/06/2020,Caceres,Mirassol do Oeste,9,7,1,17
+04/06/2020,Diamantino,Nobres,3,1,0,4
+04/06/2020,Baixada Cuiabana,Nossa Senhora do Livramento,11,3,0,14
+04/06/2020,Colider,Nova Guarita,3,0,0,3
+04/06/2020,Pontes e Lacerda,Nova Lacerda,1,3,0,4
+04/06/2020,Diamantino,Nova Maringa,1,0,0,1
+04/06/2020,Alta Floresta,Nova Monte Verde,0,1,0,1
+04/06/2020,Sinop,Nova Mutum,23,27,1,51
+04/06/2020,Tangara da Serra,Nova Olimpia,2,2,0,4
+04/06/2020,Colider,Nova Santa Helena,4,0,0,4
+04/06/2020,Sinop,Nova Ubirata,17,2,0,19
+04/06/2020,Barra do Garcas,Nova Xavantina,1,0,0,1
+04/06/2020,Peixoto de Azevedo,Novo Mundo,10,4,0,14
+04/06/2020,Sao Felix do Araguaia,Novo Santo Antonio,3,0,0,3
+04/06/2020,Alta Floresta,Paranaita,1,0,0,1
+04/06/2020,Rondonopolis,Paranatinga,0,2,0,2
+04/06/2020,Rondonopolis,Pedra Preta,13,1,0,14
+04/06/2020,Peixoto de Azevedo,Peixoto de Azevedo,13,20,0,33
+04/06/2020,Baixada Cuiabana,Pocone,1,3,0,4
+04/06/2020,Barra do Garcas,Pontal do Araguaia,6,2,0,8
+04/06/2020,Barra do Garcas,Ponte Branca,0,0,1,1
+04/06/2020,Pontes e Lacerda,Pontes e Lacerda,43,16,2,61
+04/06/2020,Porto Alegre do Norte,Porto Alegre do Norte,0,2,0,2
+04/06/2020,Caceres,Porto Esperidiao,6,0,0,6
+04/06/2020,Rondonopolis,Poxoreu,0,2,0,2
+04/06/2020,Rondonopolis,Primavera do Leste,118,35,0,153
+04/06/2020,Agua Boa,Querencia,9,17,1,27
+04/06/2020,Agua Boa,Ribeirao Cascalheira,5,0,0,5
+04/06/2020,Caceres,Rio Branco,0,3,0,3
+04/06/2020,Pontes e Lacerda,Rondolandia,0,2,0,2
+04/06/2020,Rondonopolis,Rondonopolis,190,54,9,253
+04/06/2020,Diamantino,Rosario Oeste,13,31,1,45
+04/06/2020,Porto Alegre do Norte,Santa Cruz do Xingu,1,0,0,1
+04/06/2020,Sinop,Santa Rita do Trivelato,1,0,0,1
+04/06/2020,Tangara da Serra,Santo Afonso,2,0,0,2
+04/06/2020,Rondonopolis,Santo Antonio do Leste,2,0,0,2
+04/06/2020,Baixada Cuiabana,Santo Antonio do Leverger,6,1,0,7
+04/06/2020,Sao Felix do Araguaia,Sao Felix do Araguaia,0,1,0,1
+04/06/2020,Rondonopolis,Sao Jose do Povo,2,1,0,3
+04/06/2020,Diamantino,Sao Jose do Rio Claro,1,0,1,2
+04/06/2020,Porto Alegre do Norte,Sao Jose do Xingu,2,0,0,2
+04/06/2020,Caceres,Sao Jose dos Quatro Marcos,4,5,1,10
+04/06/2020,Rondonopolis,Sao Pedro da Cipa,2,4,1,7
+04/06/2020,Tangara da Serra,Sapezal,18,13,0,31
+04/06/2020,Sinop,Sinop,48,32,3,83
+04/06/2020,Sinop,Sorriso,100,34,0,134
+04/06/2020,Tangara da Serra,Tangara da Serra,80,71,1,152
+04/06/2020,Sinop,Tapurah,25,5,0,30
+04/06/2020,Peixoto de Azevedo,Terra Nova do Norte,1,0,0,1
+04/06/2020,Sinop,Uniao do Sul,0,1,0,1
+04/06/2020,Pontes e Lacerda,Vale de Sao Domingos,0,1,1,2
+04/06/2020,Baixada Cuiabana,Varzea Grande,206,102,16,324
+04/06/2020,Sinop,Vera,3,0,0,3
+04/06/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,12,2,0,14
+04/06/2020,Porto Alegre do Norte,Vila Rica,23,0,0,23
+05/06/2020,Baixada Cuiabana,Acorizal,6,2,1,9
+05/06/2020,Agua Boa,Agua Boa,2,4,0,6
+05/06/2020,Alta Floresta,Alta Floresta,12,23,3,38
+05/06/2020,Rondonopolis,Alto Araguaia,1,8,1,10
+05/06/2020,Sao Felix do Araguaia,Alto Boa Vista,3,0,1,4
+05/06/2020,Rondonopolis,Alto Garcas,0,1,0,1
+05/06/2020,Diamantino,Alto Paraguai,0,1,0,1
+05/06/2020,Caceres,Araputanga,5,0,0,5
+05/06/2020,Diamantino,Arenapolis,1,0,0,1
+05/06/2020,Juina,Aripuana,22,8,1,31
+05/06/2020,Tangara da Serra,Barra do Bugres,5,0,0,5
+05/06/2020,Barra do Garcas,Barra do Garcas,47,39,5,91
+05/06/2020,Sao Felix do Araguaia,Bom Jesus do Araguaia,4,2,0,6
+05/06/2020,Caceres,Caceres,14,19,4,37
+05/06/2020,Tangara da Serra,Campo Novo do Parecis,12,16,0,28
+05/06/2020,Rondonopolis,Campo Verde,44,26,0,70
+05/06/2020,Pontes e Lacerda,Campos de Julio,9,1,0,10
+05/06/2020,Porto Alegre do Norte,Cana Brava do Norte,5,0,0,5
+05/06/2020,Agua Boa,Canarana,14,2,0,16
+05/06/2020,Baixada Cuiabana,Chapada dos Guimaraes,6,5,2,13
+05/06/2020,Colider,Colider,6,4,0,10
+05/06/2020,Juina,Colniza,1,0,0,1
+05/06/2020,Pontes e Lacerda,Comodoro,7,0,0,7
+05/06/2020,Porto Alegre do Norte,Confresa,69,58,3,130
+05/06/2020,Pontes e Lacerda,Conquista do Oeste,4,3,0,7
+05/06/2020,Juina,Cotriguacu,1,3,1,5
+05/06/2020,Baixada Cuiabana,Cuiaba,766,255,17,1038
+05/06/2020,Caceres,Curvelandia,0,3,1,4
+05/06/2020,Tangara da Serra,Denise,3,1,0,4
+05/06/2020,Diamantino,Diamantino,1,0,0,1
+05/06/2020,Rondonopolis,Dom Aquino,1,4,0,5
+05/06/2020,Peixoto de Azevedo,Guaranta do Norte,24,2,0,26
+05/06/2020,Rondonopolis,Guiratinga,0,2,0,2
+05/06/2020,Sinop,Ipiranga do Norte,0,5,0,5
+05/06/2020,Sinop,Itanhanga,1,0,0,1
+05/06/2020,Rondonopolis,Itiquira,4,0,0,4
+05/06/2020,Rondonopolis,Jaciara,14,34,0,48
+05/06/2020,Baixada Cuiabana,Jangada,3,6,1,10
+05/06/2020,Pontes e Lacerda,Jauru,0,1,1,2
+05/06/2020,Juara,Juara,6,0,1,7
+05/06/2020,Juina,Juina,7,5,1,13
+05/06/2020,Rondonopolis,Juscimeira,3,4,0,7
+05/06/2020,Caceres,Lambari do Oeste,1,2,0,3
+05/06/2020,Sinop,Lucas do Rio Verde,58,39,2,99
+05/06/2020,Sao Felix do Araguaia,Luciara,1,0,0,1
+05/06/2020,Colider,Marcelandia,4,3,0,7
+05/06/2020,Peixoto de Azevedo,Matupa,19,8,0,27
+05/06/2020,Caceres,Mirassol do Oeste,11,7,1,19
+05/06/2020,Diamantino,Nobres,3,1,0,4
+05/06/2020,Baixada Cuiabana,Nossa Senhora do Livramento,12,3,0,15
+05/06/2020,Colider,Nova Guarita,3,0,0,3
+05/06/2020,Pontes e Lacerda,Nova Lacerda,1,3,0,4
+05/06/2020,Diamantino,Nova Maringa,1,0,0,1
+05/06/2020,Alta Floresta,Nova Monte Verde,0,1,0,1
+05/06/2020,Sinop,Nova Mutum,23,27,1,51
+05/06/2020,Tangara da Serra,Nova Olimpia,2,2,0,4
+05/06/2020,Colider,Nova Santa Helena,5,0,0,5
+05/06/2020,Sinop,Nova Ubirata,17,2,0,19
+05/06/2020,Barra do Garcas,Nova Xavantina,1,0,0,1
+05/06/2020,Peixoto de Azevedo,Novo Mundo,6,8,0,14
+05/06/2020,Sao Felix do Araguaia,Novo Santo Antonio,6,0,0,6
+05/06/2020,Alta Floresta,Paranaita,1,0,0,1
+05/06/2020,Rondonopolis,Paranatinga,2,2,0,4
+05/06/2020,Rondonopolis,Pedra Preta,15,0,1,16
+05/06/2020,Peixoto de Azevedo,Peixoto de Azevedo,12,21,0,33
+05/06/2020,Baixada Cuiabana,Pocone,1,3,0,4
+05/06/2020,Barra do Garcas,Pontal do Araguaia,7,2,0,9
+05/06/2020,Barra do Garcas,Ponte Branca,0,0,1,1
+05/06/2020,Pontes e Lacerda,Pontes e Lacerda,43,15,3,61
+05/06/2020,Porto Alegre do Norte,Porto Alegre do Norte,0,2,0,2
+05/06/2020,Caceres,Porto Esperidiao,7,0,0,7
+05/06/2020,Rondonopolis,Poxoreu,0,2,0,2
+05/06/2020,Rondonopolis,Primavera do Leste,123,38,0,161
+05/06/2020,Agua Boa,Querencia,9,17,1,27
+05/06/2020,Agua Boa,Ribeirao Cascalheira,5,0,0,5
+05/06/2020,Caceres,Rio Branco,0,3,0,3
+05/06/2020,Pontes e Lacerda,Rondolandia,0,2,0,2
+05/06/2020,Rondonopolis,Rondonopolis,211,54,9,274
+05/06/2020,Diamantino,Rosario Oeste,10,33,2,45
+05/06/2020,Sinop,Santa Carmem,1,0,0,1
+05/06/2020,Porto Alegre do Norte,Santa Cruz do Xingu,1,0,0,1
+05/06/2020,Sinop,Santa Rita do Trivelato,1,0,0,1
+05/06/2020,Tangara da Serra,Santo Afonso,2,0,0,2
+05/06/2020,Rondonopolis,Santo Antonio do Leste,2,0,0,2
+05/06/2020,Baixada Cuiabana,Santo Antonio do Leverger,6,1,0,7
+05/06/2020,Sao Felix do Araguaia,Sao Felix do Araguaia,0,1,0,1
+05/06/2020,Rondonopolis,Sao Jose do Povo,2,1,0,3
+05/06/2020,Diamantino,Sao Jose do Rio Claro,1,0,1,2
+05/06/2020,Porto Alegre do Norte,Sao Jose do Xingu,2,0,0,2
+05/06/2020,Caceres,Sao Jose dos Quatro Marcos,10,5,1,16
+05/06/2020,Rondonopolis,Sao Pedro da Cipa,0,6,1,7
+05/06/2020,Tangara da Serra,Sapezal,19,13,0,32
+05/06/2020,Sinop,Sinop,55,32,4,91
+05/06/2020,Sinop,Sorriso,100,34,0,134
+05/06/2020,Tangara da Serra,Tangara da Serra,80,71,1,152
+05/06/2020,Sinop,Tapurah,26,5,0,31
+05/06/2020,Peixoto de Azevedo,Terra Nova do Norte,1,0,0,1
+05/06/2020,Sinop,Uniao do Sul,0,1,0,1
+05/06/2020,Pontes e Lacerda,Vale de Sao Domingos,0,1,1,2
+05/06/2020,Baixada Cuiabana,Varzea Grande,222,107,17,346
+05/06/2020,Sinop,Vera,4,0,0,4
+05/06/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,12,2,0,14
+05/06/2020,Porto Alegre do Norte,Vila Rica,21,2,0,23
+06/06/2020,Baixada Cuiabana,Acorizal,6,2,1,9
+06/06/2020,Agua Boa,Agua Boa,2,4,0,6
+06/06/2020,Alta Floresta,Alta Floresta,12,23,3,38
+06/06/2020,Rondonopolis,Alto Araguaia,0,8,2,10
+06/06/2020,Sao Felix do Araguaia,Alto Boa Vista,3,0,1,4
+06/06/2020,Rondonopolis,Alto Garcas,0,1,0,1
+06/06/2020,Diamantino,Alto Paraguai,0,1,0,1
+06/06/2020,Caceres,Araputanga,8,0,0,8
+06/06/2020,Diamantino,Arenapolis,5,0,0,5
+06/06/2020,Juina,Aripuana,26,9,1,36
+06/06/2020,Tangara da Serra,Barra do Bugres,5,0,0,5
+06/06/2020,Barra do Garcas,Barra do Garcas,39,49,5,93
+06/06/2020,Sao Felix do Araguaia,Bom Jesus do Araguaia,4,2,0,6
+06/06/2020,Caceres,Caceres,16,21,4,41
+06/06/2020,Tangara da Serra,Campo Novo do Parecis,12,16,0,28
+06/06/2020,Rondonopolis,Campo Verde,44,34,0,78
+06/06/2020,Pontes e Lacerda,Campos de Julio,9,1,0,10
+06/06/2020,Porto Alegre do Norte,Cana Brava do Norte,6,0,0,6
+06/06/2020,Agua Boa,Canarana,14,2,0,16
+06/06/2020,Baixada Cuiabana,Chapada dos Guimaraes,3,8,2,13
+06/06/2020,Colider,Colider,4,7,1,12
+06/06/2020,Juina,Colniza,1,0,0,1
+06/06/2020,Pontes e Lacerda,Comodoro,7,0,0,7
+06/06/2020,Porto Alegre do Norte,Confresa,71,58,3,132
+06/06/2020,Pontes e Lacerda,Conquista do Oeste,4,3,0,7
+06/06/2020,Juina,Cotriguacu,1,3,1,5
+06/06/2020,Baixada Cuiabana,Cuiaba,802,262,17,1081
+06/06/2020,Caceres,Curvelandia,0,3,1,4
+06/06/2020,Tangara da Serra,Denise,3,1,0,4
+06/06/2020,Diamantino,Diamantino,2,0,0,2
+06/06/2020,Rondonopolis,Dom Aquino,1,4,0,5
+06/06/2020,Peixoto de Azevedo,Guaranta do Norte,29,2,0,31
+06/06/2020,Rondonopolis,Guiratinga,0,2,0,2
+06/06/2020,Sinop,Ipiranga do Norte,0,5,0,5
+06/06/2020,Sinop,Itanhanga,1,0,0,1
+06/06/2020,Rondonopolis,Itiquira,6,0,0,6
+06/06/2020,Rondonopolis,Jaciara,15,34,0,49
+06/06/2020,Baixada Cuiabana,Jangada,3,6,1,10
+06/06/2020,Pontes e Lacerda,Jauru,0,1,1,2
+06/06/2020,Juara,Juara,6,0,1,7
+06/06/2020,Juina,Juina,7,5,1,13
+06/06/2020,Rondonopolis,Juscimeira,4,4,0,8
+06/06/2020,Caceres,Lambari do Oeste,3,2,0,5
+06/06/2020,Sinop,Lucas do Rio Verde,64,39,2,105
+06/06/2020,Sao Felix do Araguaia,Luciara,1,0,0,1
+06/06/2020,Colider,Marcelandia,5,3,0,8
+06/06/2020,Peixoto de Azevedo,Matupa,19,8,0,27
+06/06/2020,Caceres,Mirassol do Oeste,10,8,1,19
+06/06/2020,Diamantino,Nobres,3,1,0,4
+06/06/2020,Baixada Cuiabana,Nossa Senhora do Livramento,13,3,0,16
+06/06/2020,Colider,Nova Guarita,3,0,0,3
+06/06/2020,Pontes e Lacerda,Nova Lacerda,1,3,0,4
+06/06/2020,Diamantino,Nova Maringa,1,0,0,1
+06/06/2020,Alta Floresta,Nova Monte Verde,0,1,0,1
+06/06/2020,Sinop,Nova Mutum,31,27,1,59
+06/06/2020,Tangara da Serra,Nova Olimpia,2,2,0,4
+06/06/2020,Colider,Nova Santa Helena,5,0,0,5
+06/06/2020,Sinop,Nova Ubirata,11,8,0,19
+06/06/2020,Barra do Garcas,Nova Xavantina,1,0,0,1
+06/06/2020,Peixoto de Azevedo,Novo Mundo,6,8,0,14
+06/06/2020,Sao Felix do Araguaia,Novo Santo Antonio,6,0,0,6
+06/06/2020,Alta Floresta,Paranaita,1,0,0,1
+06/06/2020,Rondonopolis,Paranatinga,13,2,0,15
+06/06/2020,Rondonopolis,Pedra Preta,21,1,0,22
+06/06/2020,Peixoto de Azevedo,Peixoto de Azevedo,14,21,0,35
+06/06/2020,Baixada Cuiabana,Pocone,1,3,0,4
+06/06/2020,Barra do Garcas,Pontal do Araguaia,5,4,0,9
+06/06/2020,Barra do Garcas,Ponte Branca,0,0,1,1
+06/06/2020,Pontes e Lacerda,Pontes e Lacerda,42,19,5,66
+06/06/2020,Porto Alegre do Norte,Porto Alegre do Norte,0,2,0,2
+06/06/2020,Caceres,Porto Esperidiao,7,0,0,7
+06/06/2020,Rondonopolis,Poxoreu,0,2,0,2
+06/06/2020,Rondonopolis,Primavera do Leste,133,40,0,173
+06/06/2020,Agua Boa,Querencia,9,17,1,27
+06/06/2020,Agua Boa,Ribeirao Cascalheira,5,0,0,5
+06/06/2020,Caceres,Rio Branco,0,3,0,3
+06/06/2020,Pontes e Lacerda,Rondolandia,0,2,0,2
+06/06/2020,Rondonopolis,Rondonopolis,213,58,12,283
+06/06/2020,Diamantino,Rosario Oeste,11,33,1,45
+06/06/2020,Sinop,Santa Carmem,1,0,0,1
+06/06/2020,Porto Alegre do Norte,Santa Cruz do Xingu,1,0,0,1
+06/06/2020,Sinop,Santa Rita do Trivelato,1,0,0,1
+06/06/2020,Tangara da Serra,Santo Afonso,2,0,0,2
+06/06/2020,Rondonopolis,Santo Antonio do Leste,2,0,0,2
+06/06/2020,Baixada Cuiabana,Santo Antonio do Leverger,6,1,0,7
+06/06/2020,Sao Felix do Araguaia,Sao Felix do Araguaia,0,1,0,1
+06/06/2020,Rondonopolis,Sao Jose do Povo,2,1,0,3
+06/06/2020,Diamantino,Sao Jose do Rio Claro,1,0,1,2
+06/06/2020,Porto Alegre do Norte,Sao Jose do Xingu,2,0,0,2
+06/06/2020,Caceres,Sao Jose dos Quatro Marcos,10,5,1,16
+06/06/2020,Rondonopolis,Sao Pedro da Cipa,0,6,1,7
+06/06/2020,Tangara da Serra,Sapezal,26,13,0,39
+06/06/2020,Sinop,Sinop,55,34,4,93
+06/06/2020,Sinop,Sorriso,100,36,0,136
+06/06/2020,Tangara da Serra,Tangara da Serra,92,71,1,164
+06/06/2020,Sinop,Tapurah,26,5,0,31
+06/06/2020,Peixoto de Azevedo,Terra Nova do Norte,1,0,0,1
+06/06/2020,Sinop,Uniao do Sul,0,1,0,1
+06/06/2020,Pontes e Lacerda,Vale de Sao Domingos,0,1,1,2
+06/06/2020,Baixada Cuiabana,Varzea Grande,234,107,20,361
+06/06/2020,Sinop,Vera,5,0,0,5
+06/06/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,16,2,0,18
+06/06/2020,Porto Alegre do Norte,Vila Rica,24,2,0,26
+07/06/2020,Baixada Cuiabana,Acorizal,6,2,1,9
+07/06/2020,Agua Boa,Agua Boa,2,4,0,6
+07/06/2020,Alta Floresta,Alta Floresta,14,26,3,43
+07/06/2020,Rondonopolis,Alto Araguaia,0,8,2,10
+07/06/2020,Sao Felix do Araguaia,Alto Boa Vista,3,0,1,4
+07/06/2020,Rondonopolis,Alto Garcas,0,1,0,1
+07/06/2020,Diamantino,Alto Paraguai,0,1,0,1
+07/06/2020,Caceres,Araputanga,8,0,0,8
+07/06/2020,Diamantino,Arenapolis,7,0,0,7
+07/06/2020,Juina,Aripuana,26,9,1,36
+07/06/2020,Tangara da Serra,Barra do Bugres,5,0,0,5
+07/06/2020,Barra do Garcas,Barra do Garcas,39,49,5,93
+07/06/2020,Sao Felix do Araguaia,Bom Jesus do Araguaia,4,2,0,6
+07/06/2020,Caceres,Caceres,16,22,5,43
+07/06/2020,Tangara da Serra,Campo Novo do Parecis,14,16,0,30
+07/06/2020,Rondonopolis,Campo Verde,38,40,0,78
+07/06/2020,Pontes e Lacerda,Campos de Julio,9,1,0,10
+07/06/2020,Porto Alegre do Norte,Cana Brava do Norte,6,0,0,6
+07/06/2020,Agua Boa,Canarana,15,2,0,17
+07/06/2020,Baixada Cuiabana,Chapada dos Guimaraes,3,8,2,13
+07/06/2020,Colider,Colider,4,7,1,12
+07/06/2020,Juina,Colniza,1,0,0,1
+07/06/2020,Pontes e Lacerda,Comodoro,7,0,0,7
+07/06/2020,Porto Alegre do Norte,Confresa,77,58,3,138
+07/06/2020,Pontes e Lacerda,Conquista do Oeste,4,3,0,7
+07/06/2020,Juina,Cotriguacu,1,3,1,5
+07/06/2020,Baixada Cuiabana,Cuiaba,926,262,24,1212
+07/06/2020,Caceres,Curvelandia,0,3,1,4
+07/06/2020,Tangara da Serra,Denise,3,1,0,4
+07/06/2020,Diamantino,Diamantino,2,0,0,2
+07/06/2020,Rondonopolis,Dom Aquino,1,4,0,5
+07/06/2020,Peixoto de Azevedo,Guaranta do Norte,34,3,0,37
+07/06/2020,Rondonopolis,Guiratinga,1,2,0,3
+07/06/2020,Sinop,Ipiranga do Norte,0,5,0,5
+07/06/2020,Sinop,Itanhanga,1,0,0,1
+07/06/2020,Rondonopolis,Itiquira,6,0,0,6
+07/06/2020,Rondonopolis,Jaciara,15,34,0,49
+07/06/2020,Baixada Cuiabana,Jangada,3,6,1,10
+07/06/2020,Pontes e Lacerda,Jauru,0,1,1,2
+07/06/2020,Juara,Juara,6,0,1,7
+07/06/2020,Juina,Juina,7,5,1,13
+07/06/2020,Rondonopolis,Juscimeira,4,4,0,8
+07/06/2020,Caceres,Lambari do Oeste,3,2,0,5
+07/06/2020,Sinop,Lucas do Rio Verde,80,40,2,122
+07/06/2020,Sao Felix do Araguaia,Luciara,1,0,0,1
+07/06/2020,Colider,Marcelandia,5,3,0,8
+07/06/2020,Peixoto de Azevedo,Matupa,19,8,0,27
+07/06/2020,Caceres,Mirassol do Oeste,10,8,1,19
+07/06/2020,Diamantino,Nobres,3,1,0,4
+07/06/2020,Baixada Cuiabana,Nossa Senhora do Livramento,14,3,0,17
+07/06/2020,Colider,Nova Guarita,3,0,0,3
+07/06/2020,Pontes e Lacerda,Nova Lacerda,1,3,0,4
+07/06/2020,Tangara da Serra,Nova Marilandia,1,0,0,1
+07/06/2020,Juara,Nova Maringa,1,0,0,1
+07/06/2020,Alta Floresta,Nova Monte Verde,0,1,0,1
+07/06/2020,Sinop,Nova Mutum,34,31,1,66
+07/06/2020,Tangara da Serra,Nova Olimpia,2,2,0,4
+07/06/2020,Colider,Nova Santa Helena,5,0,0,5
+07/06/2020,Sinop,Nova Ubirata,10,10,0,20
+07/06/2020,Barra do Garcas,Nova Xavantina,3,0,0,3
+07/06/2020,Peixoto de Azevedo,Novo Mundo,6,8,0,14
+07/06/2020,Sao Felix do Araguaia,Novo Santo Antonio,6,0,0,6
+07/06/2020,Alta Floresta,Paranaita,1,0,0,1
+07/06/2020,Rondonopolis,Paranatinga,13,2,0,15
+07/06/2020,Rondonopolis,Pedra Preta,21,1,0,22
+07/06/2020,Peixoto de Azevedo,Peixoto de Azevedo,8,27,0,35
+07/06/2020,Baixada Cuiabana,Pocone,1,3,1,5
+07/06/2020,Barra do Garcas,Pontal do Araguaia,5,4,0,9
+07/06/2020,Barra do Garcas,Ponte Branca,0,0,1,1
+07/06/2020,Pontes e Lacerda,Pontes e Lacerda,42,19,5,66
+07/06/2020,Porto Alegre do Norte,Porto Alegre do Norte,0,2,0,2
+07/06/2020,Caceres,Porto Esperidiao,7,0,0,7
+07/06/2020,Rondonopolis,Poxoreu,0,2,0,2
+07/06/2020,Rondonopolis,Primavera do Leste,134,43,1,178
+07/06/2020,Agua Boa,Querencia,10,17,1,28
+07/06/2020,Agua Boa,Ribeirao Cascalheira,5,0,0,5
+07/06/2020,Caceres,Rio Branco,0,3,0,3
+07/06/2020,Pontes e Lacerda,Rondolandia,0,2,0,2
+07/06/2020,Rondonopolis,Rondonopolis,236,58,12,306
+07/06/2020,Diamantino,Rosario Oeste,11,33,1,45
+07/06/2020,Sinop,Santa Carmem,1,0,0,1
+07/06/2020,Porto Alegre do Norte,Santa Cruz do Xingu,1,0,0,1
+07/06/2020,Sinop,Santa Rita do Trivelato,1,0,0,1
+07/06/2020,Tangara da Serra,Santo Afonso,2,0,0,2
+07/06/2020,Rondonopolis,Santo Antonio do Leste,2,0,0,2
+07/06/2020,Baixada Cuiabana,Santo Antonio do Leverger,6,1,0,7
+07/06/2020,Sao Felix do Araguaia,Sao Felix do Araguaia,0,1,0,1
+07/06/2020,Rondonopolis,Sao Jose do Povo,2,1,0,3
+07/06/2020,Diamantino,Sao Jose do Rio Claro,2,0,1,3
+07/06/2020,Porto Alegre do Norte,Sao Jose do Xingu,2,0,0,2
+07/06/2020,Caceres,Sao Jose dos Quatro Marcos,10,5,1,16
+07/06/2020,Rondonopolis,Sao Pedro da Cipa,0,6,1,7
+07/06/2020,Tangara da Serra,Sapezal,26,13,0,39
+07/06/2020,Sinop,Sinop,60,34,6,100
+07/06/2020,Sinop,Sorriso,91,49,0,140
+07/06/2020,Tangara da Serra,Tangara da Serra,101,71,1,173
+07/06/2020,Sinop,Tapurah,26,5,0,31
+07/06/2020,Peixoto de Azevedo,Terra Nova do Norte,1,0,0,1
+07/06/2020,Sinop,Uniao do Sul,0,1,0,1
+07/06/2020,Pontes e Lacerda,Vale de Sao Domingos,0,1,1,2
+07/06/2020,Baixada Cuiabana,Varzea Grande,242,107,20,369
+07/06/2020,Sinop,Vera,5,0,0,5
+07/06/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,16,2,0,18
+07/06/2020,Porto Alegre do Norte,Vila Rica,24,2,0,26
+08/06/2020,Baixada Cuiabana,Acorizal,5,6,1,12
+08/06/2020,Agua Boa,Agua Boa,3,4,0,7
+08/06/2020,Alta Floresta,Alta Floresta,13,27,3,43
+08/06/2020,Rondonopolis,Alto Araguaia,0,8,2,10
+08/06/2020,Sao Felix do Araguaia,Alto Boa Vista,17,0,1,18
+08/06/2020,Rondonopolis,Alto Garcas,0,1,0,1
+08/06/2020,Diamantino,Alto Paraguai,0,1,0,1
+08/06/2020,Caceres,Araputanga,9,0,0,9
+08/06/2020,Diamantino,Arenapolis,7,0,0,7
+08/06/2020,Juina,Aripuana,10,25,1,36
+08/06/2020,Tangara da Serra,Barra do Bugres,5,0,0,5
+08/06/2020,Barra do Garcas,Barra do Garcas,37,51,5,93
+08/06/2020,Sao Felix do Araguaia,Bom Jesus do Araguaia,4,2,0,6
+08/06/2020,Caceres,Caceres,20,22,5,47
+08/06/2020,Barra do Garcas,Campinapolis,1,0,0,1
+08/06/2020,Tangara da Serra,Campo Novo do Parecis,9,22,0,31
+08/06/2020,Rondonopolis,Campo Verde,41,40,0,81
+08/06/2020,Pontes e Lacerda,Campos de Julio,10,1,0,11
+08/06/2020,Porto Alegre do Norte,Cana Brava do Norte,6,0,0,6
+08/06/2020,Agua Boa,Canarana,10,8,0,18
+08/06/2020,Baixada Cuiabana,Chapada dos Guimaraes,3,8,2,13
+08/06/2020,Colider,Colider,7,7,2,16
+08/06/2020,Juina,Colniza,1,0,0,1
+08/06/2020,Pontes e Lacerda,Comodoro,7,0,0,7
+08/06/2020,Porto Alegre do Norte,Confresa,59,92,3,154
+08/06/2020,Pontes e Lacerda,Conquista do Oeste,4,3,0,7
+08/06/2020,Juina,Cotriguacu,1,3,1,5
+08/06/2020,Baixada Cuiabana,Cuiaba,971,284,30,1285
+08/06/2020,Caceres,Curvelandia,0,3,1,4
+08/06/2020,Tangara da Serra,Denise,2,2,0,4
+08/06/2020,Diamantino,Diamantino,1,0,1,2
+08/06/2020,Rondonopolis,Dom Aquino,5,4,0,9
+08/06/2020,Sinop,Feliz Natal,2,0,0,2
+08/06/2020,Peixoto de Azevedo,Guaranta do Norte,35,3,0,38
+08/06/2020,Rondonopolis,Guiratinga,1,2,0,3
+08/06/2020,Sinop,Ipiranga do Norte,0,5,0,5
+08/06/2020,Sinop,Itanhanga,1,0,0,1
+08/06/2020,Rondonopolis,Itiquira,6,0,0,6
+08/06/2020,Rondonopolis,Jaciara,15,34,0,49
+08/06/2020,Baixada Cuiabana,Jangada,3,6,1,10
+08/06/2020,Pontes e Lacerda,Jauru,0,1,1,2
+08/06/2020,Juara,Juara,6,0,1,7
+08/06/2020,Juina,Juina,6,6,1,13
+08/06/2020,Rondonopolis,Juscimeira,5,4,0,9
+08/06/2020,Caceres,Lambari do Oeste,3,2,0,5
+08/06/2020,Sinop,Lucas do Rio Verde,84,41,2,127
+08/06/2020,Sao Felix do Araguaia,Luciara,0,1,0,1
+08/06/2020,Colider,Marcelandia,4,3,0,7
+08/06/2020,Peixoto de Azevedo,Matupa,19,8,0,27
+08/06/2020,Caceres,Mirassol do Oeste,10,8,1,19
+08/06/2020,Diamantino,Nobres,3,1,0,4
+08/06/2020,Baixada Cuiabana,Nossa Senhora do Livramento,14,3,1,18
+08/06/2020,Colider,Nova Guarita,1,3,0,4
+08/06/2020,Pontes e Lacerda,Nova Lacerda,3,4,0,7
+08/06/2020,Tangara da Serra,Nova Marilandia,2,0,0,2
+08/06/2020,Juara,Nova Maringa,1,0,0,1
+08/06/2020,Alta Floresta,Nova Monte Verde,0,1,0,1
+08/06/2020,Sinop,Nova Mutum,34,34,2,70
+08/06/2020,Tangara da Serra,Nova Olimpia,2,2,0,4
+08/06/2020,Colider,Nova Santa Helena,5,0,0,5
+08/06/2020,Sinop,Nova Ubirata,10,10,0,20
+08/06/2020,Barra do Garcas,Nova Xavantina,3,0,0,3
+08/06/2020,Peixoto de Azevedo,Novo Mundo,0,14,0,14
+08/06/2020,Sao Felix do Araguaia,Novo Santo Antonio,6,0,0,6
+08/06/2020,Alta Floresta,Paranaita,2,0,0,2
+08/06/2020,Rondonopolis,Paranatinga,17,2,0,19
+08/06/2020,Rondonopolis,Pedra Preta,20,4,0,24
+08/06/2020,Peixoto de Azevedo,Peixoto de Azevedo,8,27,0,35
+08/06/2020,Baixada Cuiabana,Pocone,2,3,1,6
+08/06/2020,Barra do Garcas,Pontal do Araguaia,5,4,0,9
+08/06/2020,Barra do Garcas,Ponte Branca,0,0,1,1
+08/06/2020,Pontes e Lacerda,Pontes e Lacerda,45,26,5,76
+08/06/2020,Porto Alegre do Norte,Porto Alegre do Norte,1,2,0,3
+08/06/2020,Caceres,Porto Esperidiao,8,0,0,8
+08/06/2020,Rondonopolis,Poxoreu,0,2,0,2
+08/06/2020,Rondonopolis,Primavera do Leste,139,43,1,183
+08/06/2020,Agua Boa,Querencia,13,17,1,31
+08/06/2020,Agua Boa,Ribeirao Cascalheira,6,0,0,6
+08/06/2020,Caceres,Rio Branco,0,3,0,3
+08/06/2020,Pontes e Lacerda,Rondolandia,0,2,0,2
+08/06/2020,Rondonopolis,Rondonopolis,241,59,12,312
+08/06/2020,Diamantino,Rosario Oeste,11,33,1,45
+08/06/2020,Sinop,Santa Carmem,1,0,0,1
+08/06/2020,Porto Alegre do Norte,Santa Cruz do Xingu,1,0,0,1
+08/06/2020,Sinop,Santa Rita do Trivelato,1,0,0,1
+08/06/2020,Tangara da Serra,Santo Afonso,2,0,0,2
+08/06/2020,Rondonopolis,Santo Antonio do Leste,3,0,0,3
+08/06/2020,Baixada Cuiabana,Santo Antonio do Leverger,5,1,0,6
+08/06/2020,Sao Felix do Araguaia,Sao Felix do Araguaia,0,1,0,1
+08/06/2020,Rondonopolis,Sao Jose do Povo,2,1,0,3
+08/06/2020,Diamantino,Sao Jose do Rio Claro,2,0,1,3
+08/06/2020,Porto Alegre do Norte,Sao Jose do Xingu,2,0,0,2
+08/06/2020,Caceres,Sao Jose dos Quatro Marcos,8,7,1,16
+08/06/2020,Rondonopolis,Sao Pedro da Cipa,0,6,1,7
+08/06/2020,Tangara da Serra,Sapezal,14,27,0,41
+08/06/2020,Sinop,Sinop,48,50,6,104
+08/06/2020,Sinop,Sorriso,87,53,0,140
+08/06/2020,Juara,Tabapora,1,0,0,1
+08/06/2020,Tangara da Serra,Tangara da Serra,51,124,1,176
+08/06/2020,Sinop,Tapurah,31,5,0,36
+08/06/2020,Peixoto de Azevedo,Terra Nova do Norte,1,1,0,2
+08/06/2020,Sinop,Uniao do Sul,0,1,0,1
+08/06/2020,Pontes e Lacerda,Vale de Sao Domingos,0,1,1,2
+08/06/2020,Baixada Cuiabana,Varzea Grande,246,107,22,375
+08/06/2020,Sinop,Vera,5,0,0,5
+08/06/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,18,2,0,20
+08/06/2020,Porto Alegre do Norte,Vila Rica,25,2,1,28
+09/06/2020,Baixada Cuiabana,Acorizal,5,6,1,12
+09/06/2020,Agua Boa,Agua Boa,4,4,0,8
+09/06/2020,Alta Floresta,Alta Floresta,13,27,3,43
+09/06/2020,Rondonopolis,Alto Araguaia,0,8,2,10
+09/06/2020,Sao Felix do Araguaia,Alto Boa Vista,18,0,1,19
+09/06/2020,Rondonopolis,Alto Garcas,2,1,0,3
+09/06/2020,Diamantino,Alto Paraguai,0,1,0,1
+09/06/2020,Caceres,Araputanga,9,0,0,9
+09/06/2020,Diamantino,Arenapolis,3,4,0,7
+09/06/2020,Juina,Aripuana,4,32,1,37
+09/06/2020,Tangara da Serra,Barra do Bugres,5,0,0,5
+09/06/2020,Barra do Garcas,Barra do Garcas,38,51,6,95
+09/06/2020,Sao Felix do Araguaia,Bom Jesus do Araguaia,8,2,0,10
+09/06/2020,Caceres,Caceres,23,22,5,50
+09/06/2020,Barra do Garcas,Campinapolis,3,0,0,3
+09/06/2020,Tangara da Serra,Campo Novo do Parecis,9,23,0,32
+09/06/2020,Rondonopolis,Campo Verde,50,43,0,93
+09/06/2020,Pontes e Lacerda,Campos de Julio,8,6,0,14
+09/06/2020,Porto Alegre do Norte,Cana Brava do Norte,6,0,0,6
+09/06/2020,Agua Boa,Canarana,11,8,0,19
+09/06/2020,Baixada Cuiabana,Chapada dos Guimaraes,7,8,2,17
+09/06/2020,Colider,Colider,8,7,2,17
+09/06/2020,Juina,Colniza,1,0,0,1
+09/06/2020,Pontes e Lacerda,Comodoro,7,0,0,7
+09/06/2020,Porto Alegre do Norte,Confresa,70,92,3,165
+09/06/2020,Pontes e Lacerda,Conquista do Oeste,4,3,0,7
+09/06/2020,Juina,Cotriguacu,3,3,1,7
+09/06/2020,Baixada Cuiabana,Cuiaba,1001,294,37,1332
+09/06/2020,Caceres,Curvelandia,0,3,1,4
+09/06/2020,Tangara da Serra,Denise,2,2,0,4
+09/06/2020,Diamantino,Diamantino,1,0,1,2
+09/06/2020,Rondonopolis,Dom Aquino,5,4,0,9
+09/06/2020,Sinop,Feliz Natal,2,0,0,2
+09/06/2020,Peixoto de Azevedo,Guaranta do Norte,30,8,0,38
+09/06/2020,Rondonopolis,Guiratinga,1,2,0,3
+09/06/2020,Sinop,Ipiranga do Norte,0,5,0,5
+09/06/2020,Sinop,Itanhanga,1,0,0,1
+09/06/2020,Colider,Itauba,1,0,0,1
+09/06/2020,Rondonopolis,Itiquira,7,0,0,7
+09/06/2020,Rondonopolis,Jaciara,17,35,0,52
+09/06/2020,Baixada Cuiabana,Jangada,3,6,1,10
+09/06/2020,Pontes e Lacerda,Jauru,0,1,1,2
+09/06/2020,Juara,Juara,4,2,1,7
+09/06/2020,Juina,Juina,6,6,1,13
+09/06/2020,Rondonopolis,Juscimeira,5,6,0,11
+09/06/2020,Caceres,Lambari do Oeste,1,4,0,5
+09/06/2020,Sinop,Lucas do Rio Verde,91,44,2,137
+09/06/2020,Sao Felix do Araguaia,Luciara,0,1,0,1
+09/06/2020,Colider,Marcelandia,5,5,0,10
+09/06/2020,Peixoto de Azevedo,Matupa,19,8,0,27
+09/06/2020,Caceres,Mirassol do Oeste,10,8,1,19
+09/06/2020,Diamantino,Nobres,3,1,0,4
+09/06/2020,Baixada Cuiabana,Nossa Senhora do Livramento,16,4,1,21
+09/06/2020,Colider,Nova Guarita,1,3,0,4
+09/06/2020,Pontes e Lacerda,Nova Lacerda,3,4,0,7
+09/06/2020,Tangara da Serra,Nova Marilandia,2,0,0,2
+09/06/2020,Juara,Nova Maringa,0,1,0,1
+09/06/2020,Alta Floresta,Nova Monte Verde,0,1,0,1
+09/06/2020,Sinop,Nova Mutum,37,39,2,78
+09/06/2020,Tangara da Serra,Nova Olimpia,0,4,0,4
+09/06/2020,Colider,Nova Santa Helena,4,0,1,5
+09/06/2020,Sinop,Nova Ubirata,13,10,0,23
+09/06/2020,Barra do Garcas,Nova Xavantina,3,0,0,3
+09/06/2020,Peixoto de Azevedo,Novo Mundo,0,14,0,14
+09/06/2020,Sao Felix do Araguaia,Novo Santo Antonio,1,5,0,6
+09/06/2020,Alta Floresta,Paranaita,3,0,0,3
+09/06/2020,Rondonopolis,Paranatinga,17,2,0,19
+09/06/2020,Rondonopolis,Pedra Preta,25,4,0,29
+09/06/2020,Peixoto de Azevedo,Peixoto de Azevedo,9,27,0,36
+09/06/2020,Baixada Cuiabana,Pocone,2,3,2,7
+09/06/2020,Barra do Garcas,Pontal do Araguaia,5,4,0,9
+09/06/2020,Barra do Garcas,Ponte Branca,0,0,1,1
+09/06/2020,Pontes e Lacerda,Pontes e Lacerda,45,26,5,76
+09/06/2020,Porto Alegre do Norte,Porto Alegre do Norte,1,2,0,3
+09/06/2020,Caceres,Porto Esperidiao,11,0,0,11
+09/06/2020,Rondonopolis,Poxoreu,0,2,0,2
+09/06/2020,Rondonopolis,Primavera do Leste,146,44,1,191
+09/06/2020,Agua Boa,Querencia,19,21,1,41
+09/06/2020,Agua Boa,Ribeirao Cascalheira,9,0,0,9
+09/06/2020,Caceres,Rio Branco,0,3,0,3
+09/06/2020,Pontes e Lacerda,Rondolandia,0,2,0,2
+09/06/2020,Rondonopolis,Rondonopolis,274,60,12,346
+09/06/2020,Diamantino,Rosario Oeste,11,33,1,45
+09/06/2020,Sinop,Santa Carmem,2,0,0,2
+09/06/2020,Porto Alegre do Norte,Santa Cruz do Xingu,1,0,0,1
+09/06/2020,Sinop,Santa Rita do Trivelato,1,0,0,1
+09/06/2020,Tangara da Serra,Santo Afonso,2,0,0,2
+09/06/2020,Rondonopolis,Santo Antonio do Leste,3,0,0,3
+09/06/2020,Baixada Cuiabana,Santo Antonio do Leverger,5,1,0,6
+09/06/2020,Sao Felix do Araguaia,Sao Felix do Araguaia,3,1,0,4
+09/06/2020,Rondonopolis,Sao Jose do Povo,5,2,0,7
+09/06/2020,Diamantino,Sao Jose do Rio Claro,2,0,1,3
+09/06/2020,Porto Alegre do Norte,Sao Jose do Xingu,2,0,0,2
+09/06/2020,Caceres,Sao Jose dos Quatro Marcos,8,7,1,16
+09/06/2020,Rondonopolis,Sao Pedro da Cipa,0,6,1,7
+09/06/2020,Tangara da Serra,Sapezal,9,35,0,44
+09/06/2020,Sinop,Sinop,52,53,7,112
+09/06/2020,Sinop,Sorriso,42,97,1,140
+09/06/2020,Juara,Tabapora,1,0,0,1
+09/06/2020,Tangara da Serra,Tangara da Serra,46,140,1,187
+09/06/2020,Sinop,Tapurah,30,9,0,39
+09/06/2020,Peixoto de Azevedo,Terra Nova do Norte,1,1,0,2
+09/06/2020,Sinop,Uniao do Sul,0,1,0,1
+09/06/2020,Pontes e Lacerda,Vale de Sao Domingos,0,1,1,2
+09/06/2020,Baixada Cuiabana,Varzea Grande,266,107,24,397
+09/06/2020,Sinop,Vera,6,0,0,6
+09/06/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,18,2,0,20
+09/06/2020,Porto Alegre do Norte,Vila Rica,26,2,1,29
+10/06/2020,Baixada Cuiabana,Acorizal,1,11,1,13
+10/06/2020,Agua Boa,Agua Boa,2,6,0,8
+10/06/2020,Alta Floresta,Alta Floresta,13,27,3,43
+10/06/2020,Rondonopolis,Alto Araguaia,0,8,2,10
+10/06/2020,Sao Felix do Araguaia,Alto Boa Vista,18,0,1,19
+10/06/2020,Rondonopolis,Alto Garcas,2,1,0,3
+10/06/2020,Diamantino,Alto Paraguai,0,1,0,1
+10/06/2020,Caceres,Araputanga,9,0,0,9
+10/06/2020,Diamantino,Arenapolis,5,4,0,9
+10/06/2020,Juina,Aripuana,4,32,1,37
+10/06/2020,Tangara da Serra,Barra do Bugres,5,0,0,5
+10/06/2020,Barra do Garcas,Barra do Garcas,41,51,7,99
+10/06/2020,Sao Felix do Araguaia,Bom Jesus do Araguaia,13,2,0,15
+10/06/2020,Juina,Brasnorte,2,0,0,2
+10/06/2020,Caceres,Caceres,23,22,5,50
+10/06/2020,Barra do Garcas,Campinapolis,3,0,0,3
+10/06/2020,Tangara da Serra,Campo Novo do Parecis,12,23,0,35
+10/06/2020,Rondonopolis,Campo Verde,55,49,0,104
+10/06/2020,Pontes e Lacerda,Campos de Julio,8,6,0,14
+10/06/2020,Porto Alegre do Norte,Cana Brava do Norte,14,2,0,16
+10/06/2020,Agua Boa,Canarana,12,11,0,23
+10/06/2020,Baixada Cuiabana,Chapada dos Guimaraes,7,8,2,17
+10/06/2020,Colider,Colider,11,7,2,20
+10/06/2020,Juina,Colniza,2,0,0,2
+10/06/2020,Pontes e Lacerda,Comodoro,4,3,0,7
+10/06/2020,Porto Alegre do Norte,Confresa,67,117,3,187
+10/06/2020,Pontes e Lacerda,Conquista do Oeste,4,3,0,7
+10/06/2020,Juina,Cotriguacu,3,3,1,7
+10/06/2020,Baixada Cuiabana,Cuiaba,1023,304,40,1367
+10/06/2020,Caceres,Curvelandia,0,3,1,4
+10/06/2020,Tangara da Serra,Denise,2,2,0,4
+10/06/2020,Diamantino,Diamantino,2,0,1,3
+10/06/2020,Rondonopolis,Dom Aquino,4,6,0,10
+10/06/2020,Sinop,Feliz Natal,3,0,0,3
+10/06/2020,Agua Boa,Gaucha do Norte,1,0,0,1
+10/06/2020,Peixoto de Azevedo,Guaranta do Norte,38,9,0,47
+10/06/2020,Rondonopolis,Guiratinga,3,2,0,5
+10/06/2020,Sinop,Ipiranga do Norte,0,5,0,5
+10/06/2020,Sinop,Itanhanga,0,1,0,1
+10/06/2020,Colider,Itauba,1,0,0,1
+10/06/2020,Rondonopolis,Itiquira,7,0,0,7
+10/06/2020,Rondonopolis,Jaciara,16,38,0,54
+10/06/2020,Baixada Cuiabana,Jangada,3,6,1,10
+10/06/2020,Pontes e Lacerda,Jauru,0,1,1,2
+10/06/2020,Juara,Juara,4,2,1,7
+10/06/2020,Juina,Juina,7,7,1,15
+10/06/2020,Rondonopolis,Juscimeira,6,6,0,12
+10/06/2020,Caceres,Lambari do Oeste,1,4,0,5
+10/06/2020,Sinop,Lucas do Rio Verde,95,44,2,141
+10/06/2020,Sao Felix do Araguaia,Luciara,0,1,0,1
+10/06/2020,Colider,Marcelandia,4,6,0,10
+10/06/2020,Peixoto de Azevedo,Matupa,20,8,0,28
+10/06/2020,Caceres,Mirassol do Oeste,10,8,1,19
+10/06/2020,Diamantino,Nobres,4,1,0,5
+10/06/2020,Baixada Cuiabana,Nossa Senhora do Livramento,23,4,1,28
+10/06/2020,Colider,Nova Guarita,1,3,0,4
+10/06/2020,Pontes e Lacerda,Nova Lacerda,3,4,0,7
+10/06/2020,Tangara da Serra,Nova Marilandia,2,0,0,2
+10/06/2020,Juara,Nova Maringa,0,1,0,1
+10/06/2020,Alta Floresta,Nova Monte Verde,2,1,0,3
+10/06/2020,Sinop,Nova Mutum,44,39,2,85
+10/06/2020,Tangara da Serra,Nova Olimpia,2,4,0,6
+10/06/2020,Colider,Nova Santa Helena,4,0,1,5
+10/06/2020,Sinop,Nova Ubirata,13,10,0,23
+10/06/2020,Barra do Garcas,Nova Xavantina,2,0,1,3
+10/06/2020,Peixoto de Azevedo,Novo Mundo,2,14,0,16
+10/06/2020,Sao Felix do Araguaia,Novo Santo Antonio,4,6,0,10
+10/06/2020,Alta Floresta,Paranaita,3,0,0,3
+10/06/2020,Rondonopolis,Paranatinga,17,2,0,19
+10/06/2020,Rondonopolis,Pedra Preta,26,4,0,30
+10/06/2020,Peixoto de Azevedo,Peixoto de Azevedo,10,28,0,38
+10/06/2020,Baixada Cuiabana,Pocone,2,3,2,7
+10/06/2020,Barra do Garcas,Pontal do Araguaia,5,4,0,9
+10/06/2020,Barra do Garcas,Ponte Branca,0,0,1,1
+10/06/2020,Pontes e Lacerda,Pontes e Lacerda,49,26,6,81
+10/06/2020,Porto Alegre do Norte,Porto Alegre do Norte,1,2,0,3
+10/06/2020,Caceres,Porto Esperidiao,12,0,0,12
+10/06/2020,Rondonopolis,Poxoreu,1,2,0,3
+10/06/2020,Rondonopolis,Primavera do Leste,157,44,1,202
+10/06/2020,Agua Boa,Querencia,27,22,1,50
+10/06/2020,Agua Boa,Ribeirao Cascalheira,11,2,0,13
+10/06/2020,Caceres,Rio Branco,0,3,0,3
+10/06/2020,Pontes e Lacerda,Rondolandia,0,2,0,2
+10/06/2020,Rondonopolis,Rondonopolis,275,73,12,360
+10/06/2020,Diamantino,Rosario Oeste,13,33,1,47
+10/06/2020,Sinop,Santa Carmem,2,0,0,2
+10/06/2020,Porto Alegre do Norte,Santa Cruz do Xingu,1,0,0,1
+10/06/2020,Sinop,Santa Rita do Trivelato,1,0,0,1
+10/06/2020,Tangara da Serra,Santo Afonso,2,0,0,2
+10/06/2020,Rondonopolis,Santo Antonio do Leste,3,0,0,3
+10/06/2020,Baixada Cuiabana,Santo Antonio do Leverger,5,1,0,6
+10/06/2020,Sao Felix do Araguaia,Sao Felix do Araguaia,3,1,0,4
+10/06/2020,Rondonopolis,Sao Jose do Povo,5,2,0,7
+10/06/2020,Diamantino,Sao Jose do Rio Claro,2,0,1,3
+10/06/2020,Porto Alegre do Norte,Sao Jose do Xingu,2,0,0,2
+10/06/2020,Caceres,Sao Jose dos Quatro Marcos,8,7,1,16
+10/06/2020,Rondonopolis,Sao Pedro da Cipa,0,6,1,7
+10/06/2020,Tangara da Serra,Sapezal,11,35,0,46
+10/06/2020,Sinop,Sinop,59,56,7,122
+10/06/2020,Sinop,Sorriso,53,97,1,151
+10/06/2020,Juara,Tabapora,1,0,0,1
+10/06/2020,Tangara da Serra,Tangara da Serra,49,141,1,191
+10/06/2020,Sinop,Tapurah,30,9,0,39
+10/06/2020,Peixoto de Azevedo,Terra Nova do Norte,1,1,0,2
+10/06/2020,Sinop,Uniao do Sul,0,1,0,1
+10/06/2020,Pontes e Lacerda,Vale de Sao Domingos,0,1,1,2
+10/06/2020,Baixada Cuiabana,Varzea Grande,274,116,28,418
+10/06/2020,Sinop,Vera,5,0,1,6
+10/06/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,18,2,0,20
+10/06/2020,Porto Alegre do Norte,Vila Rica,28,5,1,34
+11/06/2020,Baixada Cuiabana,Acorizal,1,11,1,13
+11/06/2020,Agua Boa,Agua Boa,2,6,0,8
+11/06/2020,Alta Floresta,Alta Floresta,35,30,3,68
+11/06/2020,Rondonopolis,Alto Araguaia,1,8,2,11
+11/06/2020,Sao Felix do Araguaia,Alto Boa Vista,18,0,1,19
+11/06/2020,Rondonopolis,Alto Garcas,6,1,0,7
+11/06/2020,Diamantino,Alto Paraguai,0,1,0,1
+11/06/2020,Caceres,Araputanga,9,0,0,9
+11/06/2020,Diamantino,Arenapolis,6,4,0,10
+11/06/2020,Juina,Aripuana,3,33,1,37
+11/06/2020,Tangara da Serra,Barra do Bugres,5,0,0,5
+11/06/2020,Barra do Garcas,Barra do Garcas,41,51,7,99
+11/06/2020,Sao Felix do Araguaia,Bom Jesus do Araguaia,13,2,0,15
+11/06/2020,Juina,Brasnorte,2,0,0,2
+11/06/2020,Caceres,Caceres,26,23,5,54
+11/06/2020,Barra do Garcas,Campinapolis,3,0,0,3
+11/06/2020,Tangara da Serra,Campo Novo do Parecis,33,23,0,56
+11/06/2020,Rondonopolis,Campo Verde,55,59,0,114
+11/06/2020,Pontes e Lacerda,Campos de Julio,8,6,0,14
+11/06/2020,Porto Alegre do Norte,Cana Brava do Norte,14,2,0,16
+11/06/2020,Agua Boa,Canarana,12,11,0,23
+11/06/2020,Baixada Cuiabana,Chapada dos Guimaraes,7,9,2,18
+11/06/2020,Sinop,Claudia,2,0,0,2
+11/06/2020,Colider,Colider,11,7,2,20
+11/06/2020,Juina,Colniza,2,0,0,2
+11/06/2020,Pontes e Lacerda,Comodoro,4,3,0,7
+11/06/2020,Porto Alegre do Norte,Confresa,67,117,3,187
+11/06/2020,Pontes e Lacerda,Conquista do Oeste,4,3,0,7
+11/06/2020,Juina,Cotriguacu,4,3,1,8
+11/06/2020,Baixada Cuiabana,Cuiaba,1101,319,43,1463
+11/06/2020,Caceres,Curvelandia,1,3,1,5
+11/06/2020,Tangara da Serra,Denise,2,2,0,4
+11/06/2020,Diamantino,Diamantino,3,0,1,4
+11/06/2020,Rondonopolis,Dom Aquino,4,6,0,10
+11/06/2020,Sinop,Feliz Natal,3,0,0,3
+11/06/2020,Agua Boa,Gaucha do Norte,1,0,0,1
+11/06/2020,Peixoto de Azevedo,Guaranta do Norte,30,17,0,47
+11/06/2020,Rondonopolis,Guiratinga,5,2,0,7
+11/06/2020,Sinop,Ipiranga do Norte,0,5,0,5
+11/06/2020,Sinop,Itanhanga,0,1,0,1
+11/06/2020,Colider,Itauba,1,0,0,1
+11/06/2020,Rondonopolis,Itiquira,9,0,0,9
+11/06/2020,Rondonopolis,Jaciara,14,40,0,54
+11/06/2020,Baixada Cuiabana,Jangada,1,8,1,10
+11/06/2020,Pontes e Lacerda,Jauru,0,1,1,2
+11/06/2020,Juara,Juara,4,2,1,7
+11/06/2020,Juina,Juina,7,7,1,15
+11/06/2020,Rondonopolis,Juscimeira,6,6,0,12
+11/06/2020,Caceres,Lambari do Oeste,4,4,0,8
+11/06/2020,Sinop,Lucas do Rio Verde,106,44,2,152
+11/06/2020,Sao Felix do Araguaia,Luciara,0,1,0,1
+11/06/2020,Colider,Marcelandia,4,6,0,10
+11/06/2020,Peixoto de Azevedo,Matupa,20,8,0,28
+11/06/2020,Caceres,Mirassol do Oeste,8,10,1,19
+11/06/2020,Diamantino,Nobres,2,3,0,5
+11/06/2020,Baixada Cuiabana,Nossa Senhora do Livramento,30,4,1,35
+11/06/2020,Colider,Nova Guarita,1,3,0,4
+11/06/2020,Pontes e Lacerda,Nova Lacerda,3,4,0,7
+11/06/2020,Tangara da Serra,Nova Marilandia,2,0,0,2
+11/06/2020,Juara,Nova Maringa,2,1,0,3
+11/06/2020,Alta Floresta,Nova Monte Verde,2,1,0,3
+11/06/2020,Sinop,Nova Mutum,53,42,2,97
+11/06/2020,Tangara da Serra,Nova Olimpia,2,4,0,6
+11/06/2020,Colider,Nova Santa Helena,4,0,1,5
+11/06/2020,Sinop,Nova Ubirata,13,10,0,23
+11/06/2020,Barra do Garcas,Nova Xavantina,2,0,1,3
+11/06/2020,Peixoto de Azevedo,Novo Mundo,2,14,0,16
+11/06/2020,Sao Felix do Araguaia,Novo Santo Antonio,4,6,0,10
+11/06/2020,Alta Floresta,Paranaita,3,0,0,3
+11/06/2020,Rondonopolis,Paranatinga,18,2,0,20
+11/06/2020,Rondonopolis,Pedra Preta,26,4,0,30
+11/06/2020,Peixoto de Azevedo,Peixoto de Azevedo,10,28,0,38
+11/06/2020,Baixada Cuiabana,Pocone,9,3,2,14
+11/06/2020,Barra do Garcas,Pontal do Araguaia,5,4,0,9
+11/06/2020,Barra do Garcas,Ponte Branca,0,0,1,1
+11/06/2020,Pontes e Lacerda,Pontes e Lacerda,49,26,6,81
+11/06/2020,Porto Alegre do Norte,Porto Alegre do Norte,1,2,0,3
+11/06/2020,Caceres,Porto Esperidiao,29,0,1,30
+11/06/2020,Rondonopolis,Poxoreu,1,2,0,3
+11/06/2020,Rondonopolis,Primavera do Leste,143,68,1,212
+11/06/2020,Agua Boa,Querencia,30,24,1,55
+11/06/2020,Agua Boa,Ribeirao Cascalheira,12,2,0,14
+11/06/2020,Caceres,Rio Branco,0,3,0,3
+11/06/2020,Pontes e Lacerda,Rondolandia,0,2,0,2
+11/06/2020,Rondonopolis,Rondonopolis,306,73,12,391
+11/06/2020,Diamantino,Rosario Oeste,10,38,2,50
+11/06/2020,Sinop,Santa Carmem,2,0,0,2
+11/06/2020,Porto Alegre do Norte,Santa Cruz do Xingu,1,0,0,1
+11/06/2020,Sinop,Santa Rita do Trivelato,1,0,0,1
+11/06/2020,Tangara da Serra,Santo Afonso,2,0,0,2
+11/06/2020,Rondonopolis,Santo Antonio do Leste,3,0,0,3
+11/06/2020,Baixada Cuiabana,Santo Antonio do Leverger,5,1,0,6
+11/06/2020,Sao Felix do Araguaia,Sao Felix do Araguaia,3,1,0,4
+11/06/2020,Rondonopolis,Sao Jose do Povo,2,5,0,7
+11/06/2020,Diamantino,Sao Jose do Rio Claro,3,0,1,4
+11/06/2020,Porto Alegre do Norte,Sao Jose do Xingu,2,0,0,2
+11/06/2020,Caceres,Sao Jose dos Quatro Marcos,9,7,1,17
+11/06/2020,Rondonopolis,Sao Pedro da Cipa,0,6,1,7
+11/06/2020,Tangara da Serra,Sapezal,11,35,1,47
+11/06/2020,Sinop,Sinop,67,57,7,131
+11/06/2020,Sinop,Sorriso,45,106,2,153
+11/06/2020,Juara,Tabapora,1,0,0,1
+11/06/2020,Tangara da Serra,Tangara da Serra,52,141,1,194
+11/06/2020,Sinop,Tapurah,30,9,0,39
+11/06/2020,Peixoto de Azevedo,Terra Nova do Norte,7,1,0,8
+11/06/2020,Sinop,Uniao do Sul,0,1,0,1
+11/06/2020,Pontes e Lacerda,Vale de Sao Domingos,0,1,1,2
+11/06/2020,Baixada Cuiabana,Varzea Grande,290,116,31,437
+11/06/2020,Sinop,Vera,5,0,1,6
+11/06/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,18,2,0,20
+11/06/2020,Porto Alegre do Norte,Vila Rica,28,5,1,34
+12/06/2020,Baixada Cuiabana,Acorizal,0,12,1,13
+12/06/2020,Agua Boa,Agua Boa,3,6,0,9
+12/06/2020,Alta Floresta,Alta Floresta,65,31,3,99
+12/06/2020,Rondonopolis,Alto Araguaia,1,8,2,11
+12/06/2020,Sao Felix do Araguaia,Alto Boa Vista,18,0,1,19
+12/06/2020,Rondonopolis,Alto Garcas,6,1,0,7
+12/06/2020,Diamantino,Alto Paraguai,0,1,0,1
+12/06/2020,Caceres,Araputanga,9,0,0,9
+12/06/2020,Diamantino,Arenapolis,6,4,0,10
+12/06/2020,Juina,Aripuana,4,33,1,38
+12/06/2020,Tangara da Serra,Barra do Bugres,6,0,1,7
+12/06/2020,Barra do Garcas,Barra do Garcas,41,51,7,99
+12/06/2020,Sao Felix do Araguaia,Bom Jesus do Araguaia,16,2,0,18
+12/06/2020,Juina,Brasnorte,2,0,0,2
+12/06/2020,Caceres,Caceres,28,23,5,56
+12/06/2020,Barra do Garcas,Campinapolis,3,0,0,3
+12/06/2020,Tangara da Serra,Campo Novo do Parecis,33,23,0,56
+12/06/2020,Rondonopolis,Campo Verde,59,59,0,118
+12/06/2020,Pontes e Lacerda,Campos de Julio,8,6,0,14
+12/06/2020,Porto Alegre do Norte,Cana Brava do Norte,14,2,0,16
+12/06/2020,Agua Boa,Canarana,10,13,0,23
+12/06/2020,Baixada Cuiabana,Chapada dos Guimaraes,7,9,2,18
+12/06/2020,Sinop,Claudia,2,0,0,2
+12/06/2020,Colider,Colider,12,7,2,21
+12/06/2020,Juina,Colniza,2,0,0,2
+12/06/2020,Pontes e Lacerda,Comodoro,3,3,1,7
+12/06/2020,Porto Alegre do Norte,Confresa,70,117,3,190
+12/06/2020,Pontes e Lacerda,Conquista do Oeste,4,3,0,7
+12/06/2020,Juina,Cotriguacu,4,3,1,8
+12/06/2020,Baixada Cuiabana,Cuiaba,1172,321,51,1544
+12/06/2020,Caceres,Curvelandia,1,3,1,5
+12/06/2020,Tangara da Serra,Denise,2,2,0,4
+12/06/2020,Diamantino,Diamantino,6,0,1,7
+12/06/2020,Rondonopolis,Dom Aquino,4,6,1,11
+12/06/2020,Sinop,Feliz Natal,3,0,0,3
+12/06/2020,Pontes e Lacerda,Figueiropolis do Oeste,0,0,1,1
+12/06/2020,Agua Boa,Gaucha do Norte,1,0,0,1
+12/06/2020,Peixoto de Azevedo,Guaranta do Norte,33,17,0,50
+12/06/2020,Rondonopolis,Guiratinga,5,2,0,7
+12/06/2020,Sinop,Ipiranga do Norte,0,5,0,5
+12/06/2020,Sinop,Itanhanga,0,1,0,1
+12/06/2020,Colider,Itauba,1,0,0,1
+12/06/2020,Rondonopolis,Itiquira,9,0,0,9
+12/06/2020,Rondonopolis,Jaciara,10,44,0,54
+12/06/2020,Baixada Cuiabana,Jangada,1,8,1,10
+12/06/2020,Pontes e Lacerda,Jauru,0,1,1,2
+12/06/2020,Juara,Juara,4,2,1,7
+12/06/2020,Juina,Juina,7,7,1,15
+12/06/2020,Rondonopolis,Juscimeira,6,6,0,12
+12/06/2020,Caceres,Lambari do Oeste,4,4,0,8
+12/06/2020,Sinop,Lucas do Rio Verde,96,64,2,162
+12/06/2020,Sao Felix do Araguaia,Luciara,0,1,0,1
+12/06/2020,Colider,Marcelandia,4,6,0,10
+12/06/2020,Peixoto de Azevedo,Matupa,20,8,0,28
+12/06/2020,Caceres,Mirassol do Oeste,8,10,1,19
+12/06/2020,Diamantino,Nobres,3,3,0,6
+12/06/2020,Baixada Cuiabana,Nossa Senhora do Livramento,21,14,1,36
+12/06/2020,Colider,Nova Guarita,1,3,0,4
+12/06/2020,Pontes e Lacerda,Nova Lacerda,3,4,0,7
+12/06/2020,Tangara da Serra,Nova Marilandia,4,0,0,4
+12/06/2020,Juara,Nova Maringa,2,1,0,3
+12/06/2020,Alta Floresta,Nova Monte Verde,2,1,0,3
+12/06/2020,Sinop,Nova Mutum,64,53,4,121
+12/06/2020,Tangara da Serra,Nova Olimpia,2,4,0,6
+12/06/2020,Colider,Nova Santa Helena,2,2,1,5
+12/06/2020,Sinop,Nova Ubirata,13,10,0,23
+12/06/2020,Barra do Garcas,Nova Xavantina,2,0,1,3
+12/06/2020,Peixoto de Azevedo,Novo Mundo,2,14,0,16
+12/06/2020,Sao Felix do Araguaia,Novo Santo Antonio,4,6,0,10
+12/06/2020,Alta Floresta,Paranaita,3,0,0,3
+12/06/2020,Rondonopolis,Paranatinga,18,2,0,20
+12/06/2020,Rondonopolis,Pedra Preta,26,4,0,30
+12/06/2020,Peixoto de Azevedo,Peixoto de Azevedo,10,28,0,38
+12/06/2020,Baixada Cuiabana,Pocone,10,3,2,15
+12/06/2020,Barra do Garcas,Pontal do Araguaia,5,4,0,9
+12/06/2020,Barra do Garcas,Ponte Branca,0,0,1,1
+12/06/2020,Pontes e Lacerda,Pontes e Lacerda,49,26,6,81
+12/06/2020,Porto Alegre do Norte,Porto Alegre do Norte,1,2,0,3
+12/06/2020,Juara,Porto dos Gauchos,5,0,0,5
+12/06/2020,Caceres,Porto Esperidiao,30,0,2,32
+12/06/2020,Rondonopolis,Poxoreu,1,2,0,3
+12/06/2020,Rondonopolis,Primavera do Leste,111,116,1,228
+12/06/2020,Agua Boa,Querencia,30,25,1,56
+12/06/2020,Agua Boa,Ribeirao Cascalheira,10,4,0,14
+12/06/2020,Caceres,Rio Branco,0,3,0,3
+12/06/2020,Pontes e Lacerda,Rondolandia,0,2,0,2
+12/06/2020,Rondonopolis,Rondonopolis,322,73,12,407
+12/06/2020,Diamantino,Rosario Oeste,10,38,2,50
+12/06/2020,Sinop,Santa Carmem,4,0,0,4
+12/06/2020,Porto Alegre do Norte,Santa Cruz do Xingu,1,0,0,1
+12/06/2020,Sinop,Santa Rita do Trivelato,1,0,0,1
+12/06/2020,Tangara da Serra,Santo Afonso,2,0,0,2
+12/06/2020,Rondonopolis,Santo Antonio do Leste,2,1,0,3
+12/06/2020,Baixada Cuiabana,Santo Antonio do Leverger,4,4,0,8
+12/06/2020,Sao Felix do Araguaia,Sao Felix do Araguaia,4,1,0,5
+12/06/2020,Rondonopolis,Sao Jose do Povo,2,5,0,7
+12/06/2020,Diamantino,Sao Jose do Rio Claro,3,0,1,4
+12/06/2020,Porto Alegre do Norte,Sao Jose do Xingu,2,0,0,2
+12/06/2020,Caceres,Sao Jose dos Quatro Marcos,9,7,1,17
+12/06/2020,Rondonopolis,Sao Pedro da Cipa,0,6,1,7
+12/06/2020,Tangara da Serra,Sapezal,11,35,1,47
+12/06/2020,Sao Felix do Araguaia,Serra Nova Dourada,1,0,0,1
+12/06/2020,Sinop,Sinop,73,66,8,147
+12/06/2020,Sinop,Sorriso,73,106,2,181
+12/06/2020,Juara,Tabapora,1,0,0,1
+12/06/2020,Tangara da Serra,Tangara da Serra,59,141,1,201
+12/06/2020,Sinop,Tapurah,30,9,0,39
+12/06/2020,Peixoto de Azevedo,Terra Nova do Norte,7,1,0,8
+12/06/2020,Sinop,Uniao do Sul,0,1,0,1
+12/06/2020,Pontes e Lacerda,Vale de Sao Domingos,0,1,1,2
+12/06/2020,Baixada Cuiabana,Varzea Grande,315,119,33,467
+12/06/2020,Sinop,Vera,5,0,1,6
+12/06/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,18,2,0,20
+12/06/2020,Porto Alegre do Norte,Vila Rica,28,5,1,34
+13/06/2020,Baixada Cuiabana,Acorizal,0,12,1,13
+13/06/2020,Agua Boa,Agua Boa,2,6,1,9
+13/06/2020,Alta Floresta,Alta Floresta,65,31,3,99
+13/06/2020,Rondonopolis,Alto Araguaia,2,8,2,12
+13/06/2020,Sao Felix do Araguaia,Alto Boa Vista,18,0,1,19
+13/06/2020,Rondonopolis,Alto Garcas,6,1,0,7
+13/06/2020,Diamantino,Alto Paraguai,0,1,0,1
+13/06/2020,Caceres,Araputanga,9,0,0,9
+13/06/2020,Diamantino,Arenapolis,7,4,0,11
+13/06/2020,Juina,Aripuana,4,33,1,38
+13/06/2020,Tangara da Serra,Barra do Bugres,6,0,1,7
+13/06/2020,Barra do Garcas,Barra do Garcas,47,52,7,106
+13/06/2020,Sao Felix do Araguaia,Bom Jesus do Araguaia,16,2,0,18
+13/06/2020,Juina,Brasnorte,2,0,0,2
+13/06/2020,Caceres,Caceres,22,33,5,60
+13/06/2020,Barra do Garcas,Campinapolis,4,0,0,4
+13/06/2020,Tangara da Serra,Campo Novo do Parecis,34,23,0,57
+13/06/2020,Rondonopolis,Campo Verde,63,71,0,134
+13/06/2020,Pontes e Lacerda,Campos de Julio,9,6,0,15
+13/06/2020,Porto Alegre do Norte,Cana Brava do Norte,14,2,0,16
+13/06/2020,Agua Boa,Canarana,11,14,0,25
+13/06/2020,Baixada Cuiabana,Chapada dos Guimaraes,9,9,2,20
+13/06/2020,Sinop,Claudia,2,0,0,2
+13/06/2020,Colider,Colider,22,7,2,31
+13/06/2020,Juina,Colniza,2,0,0,2
+13/06/2020,Pontes e Lacerda,Comodoro,3,3,1,7
+13/06/2020,Porto Alegre do Norte,Confresa,71,117,3,191
+13/06/2020,Pontes e Lacerda,Conquista do Oeste,4,3,0,7
+13/06/2020,Juina,Cotriguacu,4,3,1,8
+13/06/2020,Baixada Cuiabana,Cuiaba,1203,396,58,1657
+13/06/2020,Caceres,Curvelandia,1,3,1,5
+13/06/2020,Tangara da Serra,Denise,2,2,0,4
+13/06/2020,Diamantino,Diamantino,8,0,1,9
+13/06/2020,Rondonopolis,Dom Aquino,4,6,1,11
+13/06/2020,Sinop,Feliz Natal,9,0,0,9
+13/06/2020,Pontes e Lacerda,Figueiropolis do Oeste,0,0,1,1
+13/06/2020,Agua Boa,Gaucha do Norte,1,0,0,1
+13/06/2020,Barra do Garcas,General Carneiro,1,0,0,1
+13/06/2020,Peixoto de Azevedo,Guaranta do Norte,35,17,0,52
+13/06/2020,Rondonopolis,Guiratinga,5,2,0,7
+13/06/2020,Sinop,Ipiranga do Norte,0,5,0,5
+13/06/2020,Sinop,Itanhanga,0,1,0,1
+13/06/2020,Colider,Itauba,1,0,0,1
+13/06/2020,Rondonopolis,Itiquira,9,0,0,9
+13/06/2020,Rondonopolis,Jaciara,14,45,0,59
+13/06/2020,Baixada Cuiabana,Jangada,1,8,1,10
+13/06/2020,Pontes e Lacerda,Jauru,0,1,1,2
+13/06/2020,Juara,Juara,4,2,1,7
+13/06/2020,Juina,Juina,8,7,1,16
+13/06/2020,Rondonopolis,Juscimeira,8,6,0,14
+13/06/2020,Caceres,Lambari do Oeste,4,4,0,8
+13/06/2020,Sinop,Lucas do Rio Verde,96,65,2,163
+13/06/2020,Sao Felix do Araguaia,Luciara,0,1,0,1
+13/06/2020,Colider,Marcelandia,5,6,0,11
+13/06/2020,Peixoto de Azevedo,Matupa,21,8,0,29
+13/06/2020,Caceres,Mirassol do Oeste,6,13,1,20
+13/06/2020,Diamantino,Nobres,4,3,0,7
+13/06/2020,Baixada Cuiabana,Nossa Senhora do Livramento,23,14,1,38
+13/06/2020,Colider,Nova Guarita,1,3,0,4
+13/06/2020,Pontes e Lacerda,Nova Lacerda,3,4,0,7
+13/06/2020,Tangara da Serra,Nova Marilandia,4,0,0,4
+13/06/2020,Juara,Nova Maringa,2,1,0,3
+13/06/2020,Alta Floresta,Nova Monte Verde,2,1,0,3
+13/06/2020,Sinop,Nova Mutum,64,62,4,130
+13/06/2020,Tangara da Serra,Nova Olimpia,2,4,0,6
+13/06/2020,Colider,Nova Santa Helena,2,2,1,5
+13/06/2020,Sinop,Nova Ubirata,13,10,0,23
+13/06/2020,Barra do Garcas,Nova Xavantina,2,0,1,3
+13/06/2020,Peixoto de Azevedo,Novo Mundo,2,14,0,16
+13/06/2020,Sao Felix do Araguaia,Novo Santo Antonio,4,6,0,10
+13/06/2020,Alta Floresta,Paranaita,3,0,0,3
+13/06/2020,Rondonopolis,Paranatinga,18,2,0,20
+13/06/2020,Rondonopolis,Pedra Preta,26,10,1,37
+13/06/2020,Peixoto de Azevedo,Peixoto de Azevedo,10,28,0,38
+13/06/2020,Baixada Cuiabana,Pocone,11,3,3,17
+13/06/2020,Barra do Garcas,Pontal do Araguaia,5,4,0,9
+13/06/2020,Barra do Garcas,Ponte Branca,0,0,1,1
+13/06/2020,Pontes e Lacerda,Pontes e Lacerda,49,26,6,81
+13/06/2020,Porto Alegre do Norte,Porto Alegre do Norte,1,2,0,3
+13/06/2020,Juara,Porto dos Gauchos,5,0,0,5
+13/06/2020,Caceres,Porto Esperidiao,35,1,2,38
+13/06/2020,Rondonopolis,Poxoreu,3,2,1,6
+13/06/2020,Rondonopolis,Primavera do Leste,121,117,2,240
+13/06/2020,Agua Boa,Querencia,41,25,1,67
+13/06/2020,Agua Boa,Ribeirao Cascalheira,10,4,0,14
+13/06/2020,Caceres,Rio Branco,0,3,0,3
+13/06/2020,Pontes e Lacerda,Rondolandia,0,2,0,2
+13/06/2020,Rondonopolis,Rondonopolis,365,74,12,451
+13/06/2020,Diamantino,Rosario Oeste,12,38,2,52
+13/06/2020,Sinop,Santa Carmem,4,0,0,4
+13/06/2020,Porto Alegre do Norte,Santa Cruz do Xingu,1,0,0,1
+13/06/2020,Sinop,Santa Rita do Trivelato,1,0,0,1
+13/06/2020,Tangara da Serra,Santo Afonso,2,0,0,2
+13/06/2020,Rondonopolis,Santo Antonio do Leste,2,0,0,2
+13/06/2020,Baixada Cuiabana,Santo Antonio do Leverger,3,5,0,8
+13/06/2020,Sao Felix do Araguaia,Sao Felix do Araguaia,4,1,0,5
+13/06/2020,Rondonopolis,Sao Jose do Povo,2,5,0,7
+13/06/2020,Diamantino,Sao Jose do Rio Claro,3,0,1,4
+13/06/2020,Porto Alegre do Norte,Sao Jose do Xingu,2,0,0,2
+13/06/2020,Caceres,Sao Jose dos Quatro Marcos,3,13,1,17
+13/06/2020,Rondonopolis,Sao Pedro da Cipa,0,6,1,7
+13/06/2020,Tangara da Serra,Sapezal,16,35,1,52
+13/06/2020,Sao Felix do Araguaia,Serra Nova Dourada,1,0,0,1
+13/06/2020,Sinop,Sinop,84,67,10,161
+13/06/2020,Sinop,Sorriso,80,106,2,188
+13/06/2020,Juara,Tabapora,1,0,0,1
+13/06/2020,Tangara da Serra,Tangara da Serra,72,141,1,214
+13/06/2020,Sinop,Tapurah,33,10,0,43
+13/06/2020,Peixoto de Azevedo,Terra Nova do Norte,7,1,0,8
+13/06/2020,Sinop,Uniao do Sul,0,1,0,1
+13/06/2020,Pontes e Lacerda,Vale de Sao Domingos,0,1,1,2
+13/06/2020,Baixada Cuiabana,Varzea Grande,335,119,38,492
+13/06/2020,Sinop,Vera,5,0,1,6
+13/06/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,19,2,0,21
+13/06/2020,Porto Alegre do Norte,Vila Rica,28,5,1,34
+14/06/2020,Baixada Cuiabana,Acorizal,0,12,1,13
+14/06/2020,Agua Boa,Agua Boa,3,6,1,10
+14/06/2020,Alta Floresta,Alta Floresta,65,31,3,99
+14/06/2020,Rondonopolis,Alto Araguaia,2,8,2,12
+14/06/2020,Sao Felix do Araguaia,Alto Boa Vista,18,0,1,19
+14/06/2020,Rondonopolis,Alto Garcas,6,1,0,7
+14/06/2020,Diamantino,Alto Paraguai,1,1,0,2
+14/06/2020,Caceres,Araputanga,9,0,0,9
+14/06/2020,Diamantino,Arenapolis,9,4,0,13
+14/06/2020,Juina,Aripuana,4,35,1,40
+14/06/2020,Tangara da Serra,Barra do Bugres,7,0,1,8
+14/06/2020,Barra do Garcas,Barra do Garcas,51,52,7,110
+14/06/2020,Sao Felix do Araguaia,Bom Jesus do Araguaia,15,4,0,19
+14/06/2020,Juina,Brasnorte,2,0,0,2
+14/06/2020,Caceres,Caceres,28,33,5,66
+14/06/2020,Barra do Garcas,Campinapolis,4,0,0,4
+14/06/2020,Tangara da Serra,Campo Novo do Parecis,37,23,0,60
+14/06/2020,Rondonopolis,Campo Verde,60,76,0,136
+14/06/2020,Pontes e Lacerda,Campos de Julio,9,6,0,15
+14/06/2020,Porto Alegre do Norte,Cana Brava do Norte,14,2,0,16
+14/06/2020,Agua Boa,Canarana,13,15,0,28
+14/06/2020,Baixada Cuiabana,Chapada dos Guimaraes,9,9,2,20
+14/06/2020,Sinop,Claudia,3,0,0,3
+14/06/2020,Colider,Colider,22,7,2,31
+14/06/2020,Juina,Colniza,2,0,0,2
+14/06/2020,Pontes e Lacerda,Comodoro,3,3,1,7
+14/06/2020,Porto Alegre do Norte,Confresa,73,117,3,193
+14/06/2020,Pontes e Lacerda,Conquista do Oeste,4,3,0,7
+14/06/2020,Juina,Cotriguacu,4,3,1,8
+14/06/2020,Baixada Cuiabana,Cuiaba,1363,402,59,1824
+14/06/2020,Caceres,Curvelandia,2,3,1,6
+14/06/2020,Tangara da Serra,Denise,2,2,0,4
+14/06/2020,Diamantino,Diamantino,8,0,1,9
+14/06/2020,Rondonopolis,Dom Aquino,4,6,1,11
+14/06/2020,Sinop,Feliz Natal,9,0,0,9
+14/06/2020,Pontes e Lacerda,Figueiropolis do Oeste,0,0,1,1
+14/06/2020,Agua Boa,Gaucha do Norte,1,0,0,1
+14/06/2020,Barra do Garcas,General Carneiro,1,0,0,1
+14/06/2020,Peixoto de Azevedo,Guaranta do Norte,36,17,0,53
+14/06/2020,Rondonopolis,Guiratinga,5,2,0,7
+14/06/2020,Sinop,Ipiranga do Norte,0,5,0,5
+14/06/2020,Sinop,Itanhanga,0,1,0,1
+14/06/2020,Colider,Itauba,1,0,0,1
+14/06/2020,Rondonopolis,Itiquira,9,0,0,9
+14/06/2020,Rondonopolis,Jaciara,13,46,0,59
+14/06/2020,Baixada Cuiabana,Jangada,1,8,1,10
+14/06/2020,Pontes e Lacerda,Jauru,0,1,1,2
+14/06/2020,Juara,Juara,4,2,1,7
+14/06/2020,Juina,Juina,8,7,2,17
+14/06/2020,Rondonopolis,Juscimeira,6,9,0,15
+14/06/2020,Caceres,Lambari do Oeste,4,4,0,8
+14/06/2020,Sinop,Lucas do Rio Verde,97,65,4,166
+14/06/2020,Sao Felix do Araguaia,Luciara,0,1,0,1
+14/06/2020,Colider,Marcelandia,5,6,0,11
+14/06/2020,Peixoto de Azevedo,Matupa,21,8,0,29
+14/06/2020,Caceres,Mirassol do Oeste,6,13,1,20
+14/06/2020,Diamantino,Nobres,4,3,0,7
+14/06/2020,Baixada Cuiabana,Nossa Senhora do Livramento,22,15,2,39
+14/06/2020,Colider,Nova Guarita,1,3,0,4
+14/06/2020,Pontes e Lacerda,Nova Lacerda,3,4,0,7
+14/06/2020,Tangara da Serra,Nova Marilandia,4,0,0,4
+14/06/2020,Juara,Nova Maringa,2,1,0,3
+14/06/2020,Alta Floresta,Nova Monte Verde,2,1,0,3
+14/06/2020,Sinop,Nova Mutum,65,69,4,138
+14/06/2020,Tangara da Serra,Nova Olimpia,2,4,0,6
+14/06/2020,Colider,Nova Santa Helena,2,2,1,5
+14/06/2020,Sinop,Nova Ubirata,13,10,0,23
+14/06/2020,Barra do Garcas,Nova Xavantina,2,0,1,3
+14/06/2020,Peixoto de Azevedo,Novo Mundo,2,14,0,16
+14/06/2020,Sao Felix do Araguaia,Novo Santo Antonio,4,6,0,10
+14/06/2020,Alta Floresta,Paranaita,3,0,0,3
+14/06/2020,Rondonopolis,Paranatinga,18,2,0,20
+14/06/2020,Rondonopolis,Pedra Preta,26,10,1,37
+14/06/2020,Peixoto de Azevedo,Peixoto de Azevedo,10,28,1,39
+14/06/2020,Baixada Cuiabana,Pocone,11,3,3,17
+14/06/2020,Barra do Garcas,Pontal do Araguaia,5,4,0,9
+14/06/2020,Barra do Garcas,Ponte Branca,0,0,1,1
+14/06/2020,Pontes e Lacerda,Pontes e Lacerda,49,26,6,81
+14/06/2020,Porto Alegre do Norte,Porto Alegre do Norte,1,2,0,3
+14/06/2020,Juara,Porto dos Gauchos,5,0,0,5
+14/06/2020,Caceres,Porto Esperidiao,38,1,2,41
+14/06/2020,Rondonopolis,Poxoreu,3,2,0,5
+14/06/2020,Rondonopolis,Primavera do Leste,131,118,3,252
+14/06/2020,Agua Boa,Querencia,40,25,2,67
+14/06/2020,Agua Boa,Ribeirao Cascalheira,10,4,0,14
+14/06/2020,Caceres,Rio Branco,2,3,0,5
+14/06/2020,Pontes e Lacerda,Rondolandia,0,2,0,2
+14/06/2020,Rondonopolis,Rondonopolis,409,74,12,495
+14/06/2020,Diamantino,Rosario Oeste,12,38,2,52
+14/06/2020,Sinop,Santa Carmem,6,0,0,6
+14/06/2020,Porto Alegre do Norte,Santa Cruz do Xingu,1,0,0,1
+14/06/2020,Sinop,Santa Rita do Trivelato,1,0,0,1
+14/06/2020,Tangara da Serra,Santo Afonso,2,0,0,2
+14/06/2020,Rondonopolis,Santo Antonio do Leste,2,0,0,2
+14/06/2020,Baixada Cuiabana,Santo Antonio do Leverger,3,5,0,8
+14/06/2020,Sao Felix do Araguaia,Sao Felix do Araguaia,4,1,0,5
+14/06/2020,Rondonopolis,Sao Jose do Povo,2,5,0,7
+14/06/2020,Diamantino,Sao Jose do Rio Claro,3,0,1,4
+14/06/2020,Porto Alegre do Norte,Sao Jose do Xingu,2,0,0,2
+14/06/2020,Caceres,Sao Jose dos Quatro Marcos,3,13,1,17
+14/06/2020,Rondonopolis,Sao Pedro da Cipa,0,6,1,7
+14/06/2020,Tangara da Serra,Sapezal,17,35,1,53
+14/06/2020,Sao Felix do Araguaia,Serra Nova Dourada,1,0,0,1
+14/06/2020,Sinop,Sinop,83,69,11,163
+14/06/2020,Sinop,Sorriso,88,122,3,213
+14/06/2020,Juara,Tabapora,1,0,0,1
+14/06/2020,Tangara da Serra,Tangara da Serra,86,140,1,227
+14/06/2020,Sinop,Tapurah,33,10,0,43
+14/06/2020,Peixoto de Azevedo,Terra Nova do Norte,7,1,0,8
+14/06/2020,Sinop,Uniao do Sul,0,1,0,1
+14/06/2020,Pontes e Lacerda,Vale de Sao Domingos,0,1,1,2
+14/06/2020,Baixada Cuiabana,Varzea Grande,348,152,42,542
+14/06/2020,Sinop,Vera,7,0,1,8
+14/06/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,19,2,0,21
+14/06/2020,Porto Alegre do Norte,Vila Rica,28,5,1,34
+15/06/2020,Baixada Cuiabana,Acorizal,0,12,1,13
+15/06/2020,Agua Boa,Agua Boa,3,6,1,10
+15/06/2020,Alta Floresta,Alta Floresta,52,48,3,103
+15/06/2020,Rondonopolis,Alto Araguaia,3,8,2,13
+15/06/2020,Sao Felix do Araguaia,Alto Boa Vista,6,12,1,19
+15/06/2020,Rondonopolis,Alto Garcas,6,1,0,7
+15/06/2020,Diamantino,Alto Paraguai,1,1,0,2
+15/06/2020,Caceres,Araputanga,10,0,0,10
+15/06/2020,Diamantino,Arenapolis,5,8,0,13
+15/06/2020,Juina,Aripuana,4,39,1,44
+15/06/2020,Tangara da Serra,Barra do Bugres,3,4,1,8
+15/06/2020,Barra do Garcas,Barra do Garcas,57,52,7,116
+15/06/2020,Sao Felix do Araguaia,Bom Jesus do Araguaia,11,8,0,19
+15/06/2020,Juina,Brasnorte,2,0,0,2
+15/06/2020,Caceres,Caceres,30,33,5,68
+15/06/2020,Barra do Garcas,Campinapolis,4,0,0,4
+15/06/2020,Tangara da Serra,Campo Novo do Parecis,21,41,0,62
+15/06/2020,Rondonopolis,Campo Verde,58,76,0,134
+15/06/2020,Pontes e Lacerda,Campos de Julio,14,15,1,30
+15/06/2020,Porto Alegre do Norte,Cana Brava do Norte,17,2,0,19
+15/06/2020,Agua Boa,Canarana,14,15,1,30
+15/06/2020,Baixada Cuiabana,Chapada dos Guimaraes,10,10,2,22
+15/06/2020,Sinop,Claudia,3,0,0,3
+15/06/2020,Colider,Colider,29,7,2,38
+15/06/2020,Juina,Colniza,2,0,0,2
+15/06/2020,Pontes e Lacerda,Comodoro,5,8,1,14
+15/06/2020,Porto Alegre do Norte,Confresa,70,151,4,225
+15/06/2020,Pontes e Lacerda,Conquista do Oeste,4,3,0,7
+15/06/2020,Juina,Cotriguacu,3,4,1,8
+15/06/2020,Baixada Cuiabana,Cuiaba,1391,406,60,1857
+15/06/2020,Caceres,Curvelandia,2,3,1,6
+15/06/2020,Tangara da Serra,Denise,2,2,0,4
+15/06/2020,Diamantino,Diamantino,8,0,1,9
+15/06/2020,Rondonopolis,Dom Aquino,4,6,1,11
+15/06/2020,Sinop,Feliz Natal,9,0,0,9
+15/06/2020,Pontes e Lacerda,Figueiropolis do Oeste,0,0,1,1
+15/06/2020,Agua Boa,Gaucha do Norte,2,0,0,2
+15/06/2020,Barra do Garcas,General Carneiro,2,0,0,2
+15/06/2020,Peixoto de Azevedo,Guaranta do Norte,26,27,0,53
+15/06/2020,Rondonopolis,Guiratinga,5,2,0,7
+15/06/2020,Sinop,Ipiranga do Norte,0,5,0,5
+15/06/2020,Sinop,Itanhanga,0,1,0,1
+15/06/2020,Colider,Itauba,1,0,0,1
+15/06/2020,Rondonopolis,Itiquira,9,0,0,9
+15/06/2020,Rondonopolis,Jaciara,12,48,40,100
+15/06/2020,Baixada Cuiabana,Jangada,1,8,1,10
+15/06/2020,Pontes e Lacerda,Jauru,0,1,1,2
+15/06/2020,Juara,Juara,4,2,1,7
+15/06/2020,Juina,Juina,5,11,2,18
+15/06/2020,Rondonopolis,Juscimeira,6,9,0,15
+15/06/2020,Caceres,Lambari do Oeste,5,4,0,9
+15/06/2020,Sinop,Lucas do Rio Verde,100,65,5,170
+15/06/2020,Sao Felix do Araguaia,Luciara,0,1,0,1
+15/06/2020,Colider,Marcelandia,5,6,0,11
+15/06/2020,Peixoto de Azevedo,Matupa,21,8,0,29
+15/06/2020,Caceres,Mirassol do Oeste,7,13,1,21
+15/06/2020,Diamantino,Nobres,6,3,0,9
+15/06/2020,Baixada Cuiabana,Nossa Senhora do Livramento,30,15,2,47
+15/06/2020,Baixada Cuiabana,Nova Brasilandia,1,0,0,1
+15/06/2020,Colider,Nova Guarita,0,4,0,4
+15/06/2020,Pontes e Lacerda,Nova Lacerda,4,4,0,8
+15/06/2020,Tangara da Serra,Nova Marilandia,2,2,0,4
+15/06/2020,Juara,Nova Maringa,2,2,0,4
+15/06/2020,Alta Floresta,Nova Monte Verde,2,1,0,3
+15/06/2020,Sinop,Nova Mutum,60,74,4,138
+15/06/2020,Tangara da Serra,Nova Olimpia,1,5,0,6
+15/06/2020,Colider,Nova Santa Helena,2,2,1,5
+15/06/2020,Sinop,Nova Ubirata,11,16,0,27
+15/06/2020,Barra do Garcas,Nova Xavantina,2,0,1,3
+15/06/2020,Peixoto de Azevedo,Novo Mundo,3,14,0,17
+15/06/2020,Sao Felix do Araguaia,Novo Santo Antonio,0,10,0,10
+15/06/2020,Alta Floresta,Paranaita,3,0,0,3
+15/06/2020,Rondonopolis,Paranatinga,22,2,0,24
+15/06/2020,Rondonopolis,Pedra Preta,26,10,1,37
+15/06/2020,Peixoto de Azevedo,Peixoto de Azevedo,19,32,1,52
+15/06/2020,Baixada Cuiabana,Pocone,11,3,3,17
+15/06/2020,Barra do Garcas,Pontal do Araguaia,4,5,0,9
+15/06/2020,Barra do Garcas,Ponte Branca,0,0,1,1
+15/06/2020,Pontes e Lacerda,Pontes e Lacerda,61,38,6,105
+15/06/2020,Porto Alegre do Norte,Porto Alegre do Norte,1,2,0,3
+15/06/2020,Juara,Porto dos Gauchos,6,0,0,6
+15/06/2020,Caceres,Porto Esperidiao,40,1,2,43
+15/06/2020,Rondonopolis,Poxoreu,5,2,0,7
+15/06/2020,Rondonopolis,Primavera do Leste,147,121,4,272
+15/06/2020,Agua Boa,Querencia,40,25,2,67
+15/06/2020,Agua Boa,Ribeirao Cascalheira,10,4,0,14
+15/06/2020,Caceres,Rio Branco,0,3,0,3
+15/06/2020,Pontes e Lacerda,Rondolandia,0,2,0,2
+15/06/2020,Rondonopolis,Rondonopolis,421,76,12,509
+15/06/2020,Diamantino,Rosario Oeste,12,38,2,52
+15/06/2020,Sinop,Santa Carmem,8,0,0,8
+15/06/2020,Porto Alegre do Norte,Santa Cruz do Xingu,1,0,0,1
+15/06/2020,Sinop,Santa Rita do Trivelato,1,0,0,1
+15/06/2020,Tangara da Serra,Santo Afonso,1,1,0,2
+15/06/2020,Rondonopolis,Santo Antonio do Leste,2,0,0,2
+15/06/2020,Baixada Cuiabana,Santo Antonio do Leverger,4,5,0,9
+15/06/2020,Sao Felix do Araguaia,Sao Felix do Araguaia,5,1,0,6
+15/06/2020,Rondonopolis,Sao Jose do Povo,2,5,0,7
+15/06/2020,Diamantino,Sao Jose do Rio Claro,5,0,1,6
+15/06/2020,Porto Alegre do Norte,Sao Jose do Xingu,2,0,0,2
+15/06/2020,Caceres,Sao Jose dos Quatro Marcos,3,13,1,17
+15/06/2020,Rondonopolis,Sao Pedro da Cipa,0,7,1,8
+15/06/2020,Tangara da Serra,Sapezal,10,42,1,53
+15/06/2020,Sao Felix do Araguaia,Serra Nova Dourada,1,0,0,1
+15/06/2020,Sinop,Sinop,66,86,12,164
+15/06/2020,Sinop,Sorriso,80,130,3,213
+15/06/2020,Juara,Tabapora,1,0,0,1
+15/06/2020,Tangara da Serra,Tangara da Serra,67,177,1,245
+15/06/2020,Sinop,Tapurah,28,16,0,44
+15/06/2020,Peixoto de Azevedo,Terra Nova do Norte,6,2,0,8
+15/06/2020,Sinop,Uniao do Sul,0,1,0,1
+15/06/2020,Pontes e Lacerda,Vale de Sao Domingos,4,1,1,6
+15/06/2020,Baixada Cuiabana,Varzea Grande,361,152,44,557
+15/06/2020,Sinop,Vera,7,0,1,8
+15/06/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,19,2,1,22
+15/06/2020,Porto Alegre do Norte,Vila Rica,23,17,1,41
+16/06/2020,Baixada Cuiabana,Acorizal,0,12,1,13
+16/06/2020,Agua Boa,Agua Boa,4,7,1,12
+16/06/2020,Alta Floresta,Alta Floresta,52,48,3,103
+16/06/2020,Rondonopolis,Alto Araguaia,7,8,2,17
+16/06/2020,Sao Felix do Araguaia,Alto Boa Vista,7,12,1,20
+16/06/2020,Rondonopolis,Alto Garcas,6,1,0,7
+16/06/2020,Diamantino,Alto Paraguai,2,2,0,4
+16/06/2020,Caceres,Araputanga,10,0,0,10
+16/06/2020,Diamantino,Arenapolis,5,8,0,13
+16/06/2020,Juina,Aripuana,4,39,2,45
+16/06/2020,Baixada Cuiabana,Barao de Melgaco,3,0,0,3
+16/06/2020,Tangara da Serra,Barra do Bugres,3,4,1,8
+16/06/2020,Barra do Garcas,Barra do Garcas,63,52,7,122
+16/06/2020,Sao Felix do Araguaia,Bom Jesus do Araguaia,11,8,0,19
+16/06/2020,Juina,Brasnorte,3,0,0,3
+16/06/2020,Caceres,Caceres,41,33,5,79
+16/06/2020,Barra do Garcas,Campinapolis,4,0,0,4
+16/06/2020,Tangara da Serra,Campo Novo do Parecis,24,41,0,65
+16/06/2020,Rondonopolis,Campo Verde,69,76,0,145
+16/06/2020,Pontes e Lacerda,Campos de Julio,21,16,1,38
+16/06/2020,Porto Alegre do Norte,Cana Brava do Norte,17,2,0,19
+16/06/2020,Agua Boa,Canarana,14,15,1,30
+16/06/2020,Baixada Cuiabana,Chapada dos Guimaraes,11,10,2,23
+16/06/2020,Sinop,Claudia,3,0,0,3
+16/06/2020,Colider,Colider,29,7,2,38
+16/06/2020,Juina,Colniza,2,0,0,2
+16/06/2020,Pontes e Lacerda,Comodoro,5,8,1,14
+16/06/2020,Porto Alegre do Norte,Confresa,71,151,4,226
+16/06/2020,Pontes e Lacerda,Conquista do Oeste,4,3,0,7
+16/06/2020,Juina,Cotriguacu,3,4,1,8
+16/06/2020,Baixada Cuiabana,Cuiaba,1468,406,67,1941
+16/06/2020,Caceres,Curvelandia,2,3,1,6
+16/06/2020,Tangara da Serra,Denise,2,2,0,4
+16/06/2020,Diamantino,Diamantino,10,0,1,11
+16/06/2020,Rondonopolis,Dom Aquino,5,6,1,12
+16/06/2020,Sinop,Feliz Natal,12,0,0,12
+16/06/2020,Pontes e Lacerda,Figueiropolis do Oeste,0,0,1,1
+16/06/2020,Agua Boa,Gaucha do Norte,2,0,0,2
+16/06/2020,Barra do Garcas,General Carneiro,2,0,0,2
+16/06/2020,Peixoto de Azevedo,Guaranta do Norte,28,27,0,55
+16/06/2020,Rondonopolis,Guiratinga,6,2,0,8
+16/06/2020,Sinop,Ipiranga do Norte,0,5,0,5
+16/06/2020,Sinop,Itanhanga,0,1,0,1
+16/06/2020,Colider,Itauba,1,0,0,1
+16/06/2020,Rondonopolis,Itiquira,9,0,0,9
+16/06/2020,Rondonopolis,Jaciara,20,48,0,68
+16/06/2020,Baixada Cuiabana,Jangada,1,8,1,10
+16/06/2020,Pontes e Lacerda,Jauru,0,1,1,2
+16/06/2020,Juara,Juara,4,2,1,7
+16/06/2020,Juina,Juina,5,11,2,18
+16/06/2020,Juina,Juruena,1,0,0,1
+16/06/2020,Rondonopolis,Juscimeira,6,9,2,17
+16/06/2020,Caceres,Lambari do Oeste,5,4,0,9
+16/06/2020,Sinop,Lucas do Rio Verde,112,65,5,182
+16/06/2020,Sao Felix do Araguaia,Luciara,0,1,0,1
+16/06/2020,Colider,Marcelandia,14,6,0,20
+16/06/2020,Peixoto de Azevedo,Matupa,23,8,0,31
+16/06/2020,Caceres,Mirassol do Oeste,8,13,1,22
+16/06/2020,Diamantino,Nobres,8,3,0,11
+16/06/2020,Baixada Cuiabana,Nossa Senhora do Livramento,41,15,2,58
+16/06/2020,Baixada Cuiabana,Nova Brasilandia,1,0,0,1
+16/06/2020,Colider,Nova Guarita,0,4,0,4
+16/06/2020,Pontes e Lacerda,Nova Lacerda,4,4,0,8
+16/06/2020,Tangara da Serra,Nova Marilandia,3,2,0,5
+16/06/2020,Juara,Nova Maringa,2,2,0,4
+16/06/2020,Alta Floresta,Nova Monte Verde,2,1,0,3
+16/06/2020,Sinop,Nova Mutum,70,74,4,148
+16/06/2020,Tangara da Serra,Nova Olimpia,3,5,0,8
+16/06/2020,Colider,Nova Santa Helena,2,2,2,6
+16/06/2020,Sinop,Nova Ubirata,11,16,0,27
+16/06/2020,Barra do Garcas,Nova Xavantina,1,0,2,3
+16/06/2020,Peixoto de Azevedo,Novo Mundo,6,14,0,20
+16/06/2020,Sao Felix do Araguaia,Novo Santo Antonio,4,10,0,14
+16/06/2020,Alta Floresta,Paranaita,3,0,0,3
+16/06/2020,Rondonopolis,Paranatinga,22,2,0,24
+16/06/2020,Rondonopolis,Pedra Preta,27,10,1,38
+16/06/2020,Peixoto de Azevedo,Peixoto de Azevedo,19,32,1,52
+16/06/2020,Baixada Cuiabana,Pocone,11,4,3,18
+16/06/2020,Barra do Garcas,Pontal do Araguaia,4,5,0,9
+16/06/2020,Barra do Garcas,Ponte Branca,0,0,1,1
+16/06/2020,Pontes e Lacerda,Pontes e Lacerda,91,39,7,137
+16/06/2020,Porto Alegre do Norte,Porto Alegre do Norte,1,2,0,3
+16/06/2020,Juara,Porto dos Gauchos,6,0,0,6
+16/06/2020,Caceres,Porto Esperidiao,42,1,2,45
+16/06/2020,Rondonopolis,Poxoreu,8,2,0,10
+16/06/2020,Rondonopolis,Primavera do Leste,163,124,4,291
+16/06/2020,Agua Boa,Querencia,47,27,2,76
+16/06/2020,Agua Boa,Ribeirao Cascalheira,11,6,0,17
+16/06/2020,Caceres,Rio Branco,1,3,0,4
+16/06/2020,Pontes e Lacerda,Rondolandia,0,2,0,2
+16/06/2020,Rondonopolis,Rondonopolis,474,77,19,570
+16/06/2020,Diamantino,Rosario Oeste,14,38,2,54
+16/06/2020,Sinop,Santa Carmem,8,0,0,8
+16/06/2020,Porto Alegre do Norte,Santa Cruz do Xingu,1,0,0,1
+16/06/2020,Sinop,Santa Rita do Trivelato,1,0,0,1
+16/06/2020,Tangara da Serra,Santo Afonso,1,1,0,2
+16/06/2020,Rondonopolis,Santo Antonio do Leste,3,0,0,3
+16/06/2020,Baixada Cuiabana,Santo Antonio do Leverger,4,5,0,9
+16/06/2020,Sao Felix do Araguaia,Sao Felix do Araguaia,5,1,0,6
+16/06/2020,Rondonopolis,Sao Jose do Povo,3,6,0,9
+16/06/2020,Diamantino,Sao Jose do Rio Claro,5,0,1,6
+16/06/2020,Porto Alegre do Norte,Sao Jose do Xingu,2,0,0,2
+16/06/2020,Caceres,Sao Jose dos Quatro Marcos,3,13,1,17
+16/06/2020,Rondonopolis,Sao Pedro da Cipa,0,7,1,8
+16/06/2020,Tangara da Serra,Sapezal,17,42,1,60
+16/06/2020,Sao Felix do Araguaia,Serra Nova Dourada,1,0,0,1
+16/06/2020,Sinop,Sinop,68,86,13,167
+16/06/2020,Sinop,Sorriso,126,130,3,259
+16/06/2020,Juara,Tabapora,1,0,0,1
+16/06/2020,Tangara da Serra,Tangara da Serra,98,177,3,278
+16/06/2020,Sinop,Tapurah,30,16,0,46
+16/06/2020,Peixoto de Azevedo,Terra Nova do Norte,6,2,0,8
+16/06/2020,Sinop,Uniao do Sul,0,1,0,1
+16/06/2020,Pontes e Lacerda,Vale de Sao Domingos,4,1,1,6
+16/06/2020,Baixada Cuiabana,Varzea Grande,394,153,50,597
+16/06/2020,Sinop,Vera,7,0,1,8
+16/06/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,22,2,1,25
+16/06/2020,Porto Alegre do Norte,Vila Rica,23,17,1,41
+17/06/2020,Baixada Cuiabana,Acorizal,5,12,1,18
+17/06/2020,Agua Boa,Agua Boa,4,7,1,12
+17/06/2020,Alta Floresta,Alta Floresta,49,53,3,105
+17/06/2020,Rondonopolis,Alto Araguaia,8,8,2,18
+17/06/2020,Sao Felix do Araguaia,Alto Boa Vista,7,12,1,20
+17/06/2020,Rondonopolis,Alto Garcas,5,3,0,8
+17/06/2020,Diamantino,Alto Paraguai,2,2,0,4
+17/06/2020,Caceres,Araputanga,1,0,0,1
+17/06/2020,Diamantino,Arenapolis,2,12,0,14
+17/06/2020,Juina,Aripuana,5,39,2,46
+17/06/2020,Baixada Cuiabana,Barao de Melgaco,3,0,0,3
+17/06/2020,Tangara da Serra,Barra do Bugres,4,5,1,10
+17/06/2020,Barra do Garcas,Barra do Garcas,69,54,7,130
+17/06/2020,Sao Felix do Araguaia,Bom Jesus do Araguaia,6,13,0,19
+17/06/2020,Juina,Brasnorte,3,0,0,3
+17/06/2020,Caceres,Caceres,47,35,5,87
+17/06/2020,Barra do Garcas,Campinapolis,4,0,0,4
+17/06/2020,Tangara da Serra,Campo Novo do Parecis,31,53,1,85
+17/06/2020,Rondonopolis,Campo Verde,68,81,0,149
+17/06/2020,Pontes e Lacerda,Campos de Julio,25,20,1,46
+17/06/2020,Porto Alegre do Norte,Cana Brava do Norte,17,2,0,19
+17/06/2020,Agua Boa,Canarana,14,15,1,30
+17/06/2020,Baixada Cuiabana,Chapada dos Guimaraes,11,10,2,23
+17/06/2020,Sinop,Claudia,6,0,0,6
+17/06/2020,Colider,Colider,29,26,2,57
+17/06/2020,Juina,Colniza,2,0,0,2
+17/06/2020,Pontes e Lacerda,Comodoro,6,8,1,15
+17/06/2020,Porto Alegre do Norte,Confresa,90,152,4,246
+17/06/2020,Pontes e Lacerda,Conquista do Oeste,4,3,0,7
+17/06/2020,Juina,Cotriguacu,3,4,1,8
+17/06/2020,Baixada Cuiabana,Cuiaba,1544,406,71,2021
+17/06/2020,Caceres,Curvelandia,3,3,1,7
+17/06/2020,Tangara da Serra,Denise,1,3,0,4
+17/06/2020,Diamantino,Diamantino,8,4,1,13
+17/06/2020,Rondonopolis,Dom Aquino,6,6,1,13
+17/06/2020,Sinop,Feliz Natal,14,2,0,16
+17/06/2020,Pontes e Lacerda,Figueiropolis do Oeste,0,0,1,1
+17/06/2020,Agua Boa,Gaucha do Norte,2,0,0,2
+17/06/2020,Barra do Garcas,General Carneiro,3,0,0,3
+17/06/2020,Peixoto de Azevedo,Guaranta do Norte,32,27,1,60
+17/06/2020,Rondonopolis,Guiratinga,10,2,0,12
+17/06/2020,Sinop,Ipiranga do Norte,0,5,0,5
+17/06/2020,Sinop,Itanhanga,1,1,0,2
+17/06/2020,Colider,Itauba,1,0,0,1
+17/06/2020,Rondonopolis,Itiquira,4,5,0,9
+17/06/2020,Rondonopolis,Jaciara,21,52,0,73
+17/06/2020,Baixada Cuiabana,Jangada,1,8,1,10
+17/06/2020,Pontes e Lacerda,Jauru,0,1,1,2
+17/06/2020,Juara,Juara,4,2,1,7
+17/06/2020,Juina,Juina,5,11,2,18
+17/06/2020,Juina,Juruena,1,0,0,1
+17/06/2020,Rondonopolis,Juscimeira,6,9,0,15
+17/06/2020,Caceres,Lambari do Oeste,3,6,0,9
+17/06/2020,Sinop,Lucas do Rio Verde,130,65,5,200
+17/06/2020,Sao Felix do Araguaia,Luciara,0,1,0,1
+17/06/2020,Colider,Marcelandia,12,10,0,22
+17/06/2020,Peixoto de Azevedo,Matupa,22,9,0,31
+17/06/2020,Caceres,Mirassol do Oeste,9,13,1,23
+17/06/2020,Diamantino,Nobres,9,4,0,13
+17/06/2020,Diamantino,Nortelandia,1,0,0,1
+17/06/2020,Baixada Cuiabana,Nossa Senhora do Livramento,42,15,3,60
+17/06/2020,Baixada Cuiabana,Nova Brasilandia,0,1,0,1
+17/06/2020,Colider,Nova Guarita,0,4,0,4
+17/06/2020,Pontes e Lacerda,Nova Lacerda,3,4,1,8
+17/06/2020,Tangara da Serra,Nova Marilandia,4,3,0,7
+17/06/2020,Juara,Nova Maringa,2,2,0,4
+17/06/2020,Alta Floresta,Nova Monte Verde,2,1,0,3
+17/06/2020,Sinop,Nova Mutum,94,79,5,178
+17/06/2020,Tangara da Serra,Nova Olimpia,4,6,0,10
+17/06/2020,Colider,Nova Santa Helena,3,2,2,7
+17/06/2020,Sinop,Nova Ubirata,11,16,0,27
+17/06/2020,Barra do Garcas,Nova Xavantina,1,0,2,3
+17/06/2020,Peixoto de Azevedo,Novo Mundo,6,14,0,20
+17/06/2020,Sao Felix do Araguaia,Novo Santo Antonio,4,10,0,14
+17/06/2020,Alta Floresta,Paranaita,3,1,0,4
+17/06/2020,Rondonopolis,Paranatinga,22,2,0,24
+17/06/2020,Rondonopolis,Pedra Preta,37,10,1,48
+17/06/2020,Peixoto de Azevedo,Peixoto de Azevedo,19,33,1,53
+17/06/2020,Baixada Cuiabana,Pocone,20,4,3,27
+17/06/2020,Barra do Garcas,Pontal do Araguaia,7,5,0,12
+17/06/2020,Barra do Garcas,Ponte Branca,0,0,1,1
+17/06/2020,Pontes e Lacerda,Pontes e Lacerda,91,39,7,137
+17/06/2020,Porto Alegre do Norte,Porto Alegre do Norte,4,2,0,6
+17/06/2020,Juara,Porto dos Gauchos,6,0,0,6
+17/06/2020,Caceres,Porto Esperidiao,53,1,2,56
+17/06/2020,Rondonopolis,Poxoreu,8,4,0,12
+17/06/2020,Rondonopolis,Primavera do Leste,150,155,4,309
+17/06/2020,Agua Boa,Querencia,47,27,2,76
+17/06/2020,Agua Boa,Ribeirao Cascalheira,10,7,0,17
+17/06/2020,Caceres,Rio Branco,1,3,0,4
+17/06/2020,Pontes e Lacerda,Rondolandia,0,2,0,2
+17/06/2020,Rondonopolis,Rondonopolis,511,79,21,611
+17/06/2020,Diamantino,Rosario Oeste,10,43,2,55
+17/06/2020,Sinop,Santa Carmem,11,0,0,11
+17/06/2020,Porto Alegre do Norte,Santa Cruz do Xingu,1,0,0,1
+17/06/2020,Sinop,Santa Rita do Trivelato,1,0,0,1
+17/06/2020,Tangara da Serra,Santo Afonso,3,1,1,5
+17/06/2020,Rondonopolis,Santo Antonio do Leste,3,0,0,3
+17/06/2020,Baixada Cuiabana,Santo Antonio do Leverger,5,5,0,10
+17/06/2020,Sao Felix do Araguaia,Sao Felix do Araguaia,5,1,0,6
+17/06/2020,Rondonopolis,Sao Jose do Povo,3,6,0,9
+17/06/2020,Diamantino,Sao Jose do Rio Claro,7,0,1,8
+17/06/2020,Porto Alegre do Norte,Sao Jose do Xingu,2,0,0,2
+17/06/2020,Caceres,Sao Jose dos Quatro Marcos,3,13,1,17
+17/06/2020,Rondonopolis,Sao Pedro da Cipa,0,7,1,8
+17/06/2020,Tangara da Serra,Sapezal,9,56,1,66
+17/06/2020,Sao Felix do Araguaia,Serra Nova Dourada,1,0,0,1
+17/06/2020,Sinop,Sinop,93,88,15,196
+17/06/2020,Sinop,Sorriso,125,140,4,269
+17/06/2020,Juara,Tabapora,2,0,0,2
+17/06/2020,Tangara da Serra,Tangara da Serra,69,211,3,283
+17/06/2020,Sinop,Tapurah,35,21,0,56
+17/06/2020,Peixoto de Azevedo,Terra Nova do Norte,6,2,0,8
+17/06/2020,Sinop,Uniao do Sul,0,1,0,1
+17/06/2020,Pontes e Lacerda,Vale de Sao Domingos,4,1,1,6
+17/06/2020,Baixada Cuiabana,Varzea Grande,417,154,57,628
+17/06/2020,Sinop,Vera,9,3,1,13
+17/06/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,22,2,1,25
+17/06/2020,Porto Alegre do Norte,Vila Rica,25,17,1,43
+18/06/2020,Baixada Cuiabana,Acorizal,6,12,1,19
+18/06/2020,Agua Boa,Agua Boa,7,8,1,16
+18/06/2020,Alta Floresta,Alta Floresta,53,53,3,109
+18/06/2020,Rondonopolis,Alto Araguaia,9,8,2,19
+18/06/2020,Sao Felix do Araguaia,Alto Boa Vista,7,12,1,20
+18/06/2020,Rondonopolis,Alto Garcas,5,3,0,8
+18/06/2020,Diamantino,Alto Paraguai,2,2,0,4
+18/06/2020,Caceres,Araputanga,6,6,0,12
+18/06/2020,Diamantino,Arenapolis,2,12,0,14
+18/06/2020,Juina,Aripuana,8,40,2,50
+18/06/2020,Baixada Cuiabana,Barao de Melgaco,3,0,0,3
+18/06/2020,Tangara da Serra,Barra do Bugres,3,6,1,10
+18/06/2020,Barra do Garcas,Barra do Garcas,58,67,8,133
+18/06/2020,Sao Felix do Araguaia,Bom Jesus do Araguaia,6,13,0,19
+18/06/2020,Juina,Brasnorte,1,2,0,3
+18/06/2020,Caceres,Caceres,59,37,6,102
+18/06/2020,Barra do Garcas,Campinapolis,5,0,0,5
+18/06/2020,Tangara da Serra,Campo Novo do Parecis,27,67,1,95
+18/06/2020,Rondonopolis,Campo Verde,83,90,1,174
+18/06/2020,Pontes e Lacerda,Campos de Julio,28,21,2,51
+18/06/2020,Porto Alegre do Norte,Cana Brava do Norte,17,2,0,19
+18/06/2020,Agua Boa,Canarana,24,16,1,41
+18/06/2020,Baixada Cuiabana,Chapada dos Guimaraes,11,10,2,23
+18/06/2020,Sinop,Claudia,7,0,0,7
+18/06/2020,Colider,Colider,29,26,2,57
+18/06/2020,Juina,Colniza,2,0,0,2
+18/06/2020,Pontes e Lacerda,Comodoro,7,9,1,17
+18/06/2020,Porto Alegre do Norte,Confresa,101,152,5,258
+18/06/2020,Pontes e Lacerda,Conquista do Oeste,5,3,0,8
+18/06/2020,Juina,Cotriguacu,2,5,1,8
+18/06/2020,Baixada Cuiabana,Cuiaba,1676,406,77,2159
+18/06/2020,Caceres,Curvelandia,4,3,1,8
+18/06/2020,Tangara da Serra,Denise,1,3,0,4
+18/06/2020,Diamantino,Diamantino,9,4,1,14
+18/06/2020,Rondonopolis,Dom Aquino,6,6,1,13
+18/06/2020,Sinop,Feliz Natal,17,2,0,19
+18/06/2020,Pontes e Lacerda,Figueiropolis do Oeste,0,0,1,1
+18/06/2020,Agua Boa,Gaucha do Norte,3,1,0,4
+18/06/2020,Barra do Garcas,General Carneiro,9,0,0,9
+18/06/2020,Peixoto de Azevedo,Guaranta do Norte,42,27,1,70
+18/06/2020,Rondonopolis,Guiratinga,10,2,0,12
+18/06/2020,Sinop,Ipiranga do Norte,7,5,0,12
+18/06/2020,Sinop,Itanhanga,1,1,0,2
+18/06/2020,Colider,Itauba,1,0,0,1
+18/06/2020,Rondonopolis,Itiquira,4,5,0,9
+18/06/2020,Rondonopolis,Jaciara,23,52,0,75
+18/06/2020,Baixada Cuiabana,Jangada,9,9,1,19
+18/06/2020,Pontes e Lacerda,Jauru,0,1,1,2
+18/06/2020,Juara,Juara,5,5,1,11
+18/06/2020,Juina,Juina,7,11,2,20
+18/06/2020,Juina,Juruena,1,0,0,1
+18/06/2020,Rondonopolis,Juscimeira,6,9,0,15
+18/06/2020,Caceres,Lambari do Oeste,5,7,0,12
+18/06/2020,Sinop,Lucas do Rio Verde,174,65,6,245
+18/06/2020,Sao Felix do Araguaia,Luciara,0,1,0,1
+18/06/2020,Colider,Marcelandia,17,11,0,28
+18/06/2020,Peixoto de Azevedo,Matupa,39,11,0,50
+18/06/2020,Caceres,Mirassol do Oeste,11,15,1,27
+18/06/2020,Diamantino,Nobres,11,4,0,15
+18/06/2020,Diamantino,Nortelandia,1,0,0,1
+18/06/2020,Baixada Cuiabana,Nossa Senhora do Livramento,58,18,3,79
+18/06/2020,Baixada Cuiabana,Nova Brasilandia,0,1,0,1
+18/06/2020,Colider,Nova Canaa do Norte,2,0,0,2
+18/06/2020,Colider,Nova Guarita,1,4,0,5
+18/06/2020,Pontes e Lacerda,Nova Lacerda,3,4,1,8
+18/06/2020,Tangara da Serra,Nova Marilandia,4,3,0,7
+18/06/2020,Juara,Nova Maringa,2,2,0,4
+18/06/2020,Alta Floresta,Nova Monte Verde,0,3,0,3
+18/06/2020,Sinop,Nova Mutum,111,88,5,204
+18/06/2020,Tangara da Serra,Nova Olimpia,6,4,0,10
+18/06/2020,Colider,Nova Santa Helena,3,2,2,7
+18/06/2020,Sinop,Nova Ubirata,19,16,0,35
+18/06/2020,Barra do Garcas,Nova Xavantina,1,0,2,3
+18/06/2020,Peixoto de Azevedo,Novo Mundo,4,16,0,20
+18/06/2020,Sao Felix do Araguaia,Novo Santo Antonio,1,13,0,14
+18/06/2020,Alta Floresta,Paranaita,3,1,0,4
+18/06/2020,Rondonopolis,Paranatinga,22,2,0,24
+18/06/2020,Rondonopolis,Pedra Preta,37,10,1,48
+18/06/2020,Peixoto de Azevedo,Peixoto de Azevedo,40,35,1,76
+18/06/2020,Baixada Cuiabana,Pocone,32,6,3,41
+18/06/2020,Barra do Garcas,Pontal do Araguaia,12,5,0,17
+18/06/2020,Barra do Garcas,Ponte Branca,0,0,1,1
+18/06/2020,Pontes e Lacerda,Pontes e Lacerda,95,56,9,160
+18/06/2020,Porto Alegre do Norte,Porto Alegre do Norte,6,2,0,8
+18/06/2020,Juara,Porto dos Gauchos,6,0,0,6
+18/06/2020,Caceres,Porto Esperidiao,56,10,2,68
+18/06/2020,Rondonopolis,Poxoreu,8,4,0,12
+18/06/2020,Rondonopolis,Primavera do Leste,171,158,5,334
+18/06/2020,Agua Boa,Querencia,53,27,3,83
+18/06/2020,Agua Boa,Ribeirao Cascalheira,10,7,0,17
+18/06/2020,Caceres,Rio Branco,1,3,0,4
+18/06/2020,Pontes e Lacerda,Rondolandia,0,2,0,2
+18/06/2020,Rondonopolis,Rondonopolis,578,93,21,692
+18/06/2020,Diamantino,Rosario Oeste,13,45,2,60
+18/06/2020,Sinop,Santa Carmem,13,0,0,13
+18/06/2020,Porto Alegre do Norte,Santa Cruz do Xingu,5,0,0,5
+18/06/2020,Sinop,Santa Rita do Trivelato,1,0,0,1
+18/06/2020,Tangara da Serra,Santo Afonso,3,1,1,5
+18/06/2020,Rondonopolis,Santo Antonio do Leste,3,0,0,3
+18/06/2020,Baixada Cuiabana,Santo Antonio do Leverger,8,5,0,13
+18/06/2020,Sao Felix do Araguaia,Sao Felix do Araguaia,7,1,0,8
+18/06/2020,Rondonopolis,Sao Jose do Povo,2,9,0,11
+18/06/2020,Diamantino,Sao Jose do Rio Claro,7,0,1,8
+18/06/2020,Porto Alegre do Norte,Sao Jose do Xingu,2,0,0,2
+18/06/2020,Caceres,Sao Jose dos Quatro Marcos,3,13,1,17
+18/06/2020,Rondonopolis,Sao Pedro da Cipa,0,7,1,8
+18/06/2020,Tangara da Serra,Sapezal,18,56,1,75
+18/06/2020,Sao Felix do Araguaia,Serra Nova Dourada,1,0,0,1
+18/06/2020,Sinop,Sinop,123,91,16,230
+18/06/2020,Sinop,Sorriso,175,152,4,331
+18/06/2020,Juara,Tabapora,3,0,0,3
+18/06/2020,Tangara da Serra,Tangara da Serra,73,217,3,293
+18/06/2020,Sinop,Tapurah,35,21,0,56
+18/06/2020,Peixoto de Azevedo,Terra Nova do Norte,6,2,0,8
+18/06/2020,Sinop,Uniao do Sul,0,1,0,1
+18/06/2020,Pontes e Lacerda,Vale de Sao Domingos,4,1,1,6
+18/06/2020,Baixada Cuiabana,Varzea Grande,453,154,61,668
+18/06/2020,Sinop,Vera,9,3,1,13
+18/06/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,36,2,1,39
+18/06/2020,Porto Alegre do Norte,Vila Rica,28,16,1,45
+19/06/2020,Baixada Cuiabana,Acorizal,6,12,1,19
+19/06/2020,Agua Boa,Agua Boa,10,9,1,20
+19/06/2020,Alta Floresta,Alta Floresta,55,55,3,113
+19/06/2020,Rondonopolis,Alto Araguaia,9,8,2,19
+19/06/2020,Sao Felix do Araguaia,Alto Boa Vista,6,13,1,20
+19/06/2020,Rondonopolis,Alto Garcas,5,3,0,8
+19/06/2020,Diamantino,Alto Paraguai,2,2,0,4
+19/06/2020,Caceres,Araputanga,6,6,0,12
+19/06/2020,Diamantino,Arenapolis,2,12,0,14
+19/06/2020,Juina,Aripuana,7,44,2,53
+19/06/2020,Baixada Cuiabana,Barao de Melgaco,3,0,0,3
+19/06/2020,Tangara da Serra,Barra do Bugres,3,6,1,10
+19/06/2020,Barra do Garcas,Barra do Garcas,62,69,9,140
+19/06/2020,Sao Felix do Araguaia,Bom Jesus do Araguaia,6,13,0,19
+19/06/2020,Juina,Brasnorte,1,2,0,3
+19/06/2020,Caceres,Caceres,56,40,6,102
+19/06/2020,Barra do Garcas,Campinapolis,5,0,0,5
+19/06/2020,Tangara da Serra,Campo Novo do Parecis,35,67,1,103
+19/06/2020,Rondonopolis,Campo Verde,88,97,1,186
+19/06/2020,Pontes e Lacerda,Campos de Julio,28,21,2,51
+19/06/2020,Porto Alegre do Norte,Cana Brava do Norte,4,15,0,19
+19/06/2020,Agua Boa,Canarana,24,18,1,43
+19/06/2020,Juina,Castanheira,0,1,0,1
+19/06/2020,Baixada Cuiabana,Chapada dos Guimaraes,10,10,3,23
+19/06/2020,Sinop,Claudia,7,0,0,7
+19/06/2020,Colider,Colider,37,26,2,65
+19/06/2020,Juina,Colniza,2,0,0,2
+19/06/2020,Pontes e Lacerda,Comodoro,7,9,1,17
+19/06/2020,Porto Alegre do Norte,Confresa,111,150,5,266
+19/06/2020,Pontes e Lacerda,Conquista do Oeste,5,3,0,8
+19/06/2020,Juina,Cotriguacu,2,5,1,8
+19/06/2020,Baixada Cuiabana,Cuiaba,1631,522,88,2241
+19/06/2020,Caceres,Curvelandia,3,4,1,8
+19/06/2020,Tangara da Serra,Denise,1,3,0,4
+19/06/2020,Diamantino,Diamantino,11,4,1,16
+19/06/2020,Rondonopolis,Dom Aquino,5,12,1,18
+19/06/2020,Sinop,Feliz Natal,17,2,0,19
+19/06/2020,Pontes e Lacerda,Figueiropolis do Oeste,0,0,1,1
+19/06/2020,Agua Boa,Gaucha do Norte,6,1,0,7
+19/06/2020,Barra do Garcas,General Carneiro,9,0,0,9
+19/06/2020,Peixoto de Azevedo,Guaranta do Norte,48,27,1,76
+19/06/2020,Rondonopolis,Guiratinga,10,2,0,12
+19/06/2020,Caceres,Indiavai,1,0,0,1
+19/06/2020,Sinop,Ipiranga do Norte,7,5,0,12
+19/06/2020,Sinop,Itanhanga,1,1,0,2
+19/06/2020,Colider,Itauba,0,3,0,3
+19/06/2020,Rondonopolis,Itiquira,7,5,0,12
+19/06/2020,Rondonopolis,Jaciara,25,57,1,83
+19/06/2020,Baixada Cuiabana,Jangada,10,10,1,21
+19/06/2020,Pontes e Lacerda,Jauru,0,1,1,2
+19/06/2020,Juara,Juara,5,5,1,11
+19/06/2020,Juina,Juina,8,11,2,21
+19/06/2020,Juina,Juruena,1,0,0,1
+19/06/2020,Rondonopolis,Juscimeira,6,9,0,15
+19/06/2020,Caceres,Lambari do Oeste,6,7,0,13
+19/06/2020,Sinop,Lucas do Rio Verde,194,65,8,267
+19/06/2020,Sao Felix do Araguaia,Luciara,0,1,0,1
+19/06/2020,Colider,Marcelandia,20,11,0,31
+19/06/2020,Peixoto de Azevedo,Matupa,69,16,0,85
+19/06/2020,Caceres,Mirassol do Oeste,11,15,1,27
+19/06/2020,Diamantino,Nobres,11,4,0,15
+19/06/2020,Diamantino,Nortelandia,1,0,0,1
+19/06/2020,Baixada Cuiabana,Nossa Senhora do Livramento,65,24,3,92
+19/06/2020,Baixada Cuiabana,Nova Brasilandia,0,1,0,1
+19/06/2020,Colider,Nova Canaa do Norte,2,0,0,2
+19/06/2020,Colider,Nova Guarita,1,4,0,5
+19/06/2020,Pontes e Lacerda,Nova Lacerda,3,4,1,8
+19/06/2020,Tangara da Serra,Nova Marilandia,4,3,0,7
+19/06/2020,Juara,Nova Maringa,2,2,0,4
+19/06/2020,Alta Floresta,Nova Monte Verde,0,3,0,3
+19/06/2020,Sinop,Nova Mutum,134,91,5,230
+19/06/2020,Tangara da Serra,Nova Olimpia,6,4,0,10
+19/06/2020,Colider,Nova Santa Helena,13,2,2,17
+19/06/2020,Sinop,Nova Ubirata,19,16,0,35
+19/06/2020,Barra do Garcas,Nova Xavantina,1,0,2,3
+19/06/2020,Peixoto de Azevedo,Novo Mundo,7,16,0,23
+19/06/2020,Sao Felix do Araguaia,Novo Santo Antonio,8,13,0,21
+19/06/2020,Alta Floresta,Paranaita,3,1,0,4
+19/06/2020,Rondonopolis,Paranatinga,22,2,0,24
+19/06/2020,Rondonopolis,Pedra Preta,51,17,1,69
+19/06/2020,Peixoto de Azevedo,Peixoto de Azevedo,51,35,1,87
+19/06/2020,Baixada Cuiabana,Pocone,29,14,3,46
+19/06/2020,Barra do Garcas,Pontal do Araguaia,13,5,0,18
+19/06/2020,Barra do Garcas,Ponte Branca,0,0,1,1
+19/06/2020,Pontes e Lacerda,Pontes e Lacerda,95,56,10,161
+19/06/2020,Porto Alegre do Norte,Porto Alegre do Norte,5,3,0,8
+19/06/2020,Juara,Porto dos Gauchos,8,1,0,9
+19/06/2020,Caceres,Porto Esperidiao,59,13,2,74
+19/06/2020,Tangara da Serra,Porto Estrela,1,0,0,1
+19/06/2020,Rondonopolis,Poxoreu,17,5,0,22
+19/06/2020,Rondonopolis,Primavera do Leste,190,161,7,358
+19/06/2020,Agua Boa,Querencia,65,28,3,96
+19/06/2020,Agua Boa,Ribeirao Cascalheira,11,7,0,18
+19/06/2020,Caceres,Rio Branco,3,3,0,6
+19/06/2020,Pontes e Lacerda,Rondolandia,0,2,0,2
+19/06/2020,Rondonopolis,Rondonopolis,610,99,24,733
+19/06/2020,Diamantino,Rosario Oeste,11,46,3,60
+19/06/2020,Sinop,Santa Carmem,13,0,0,13
+19/06/2020,Porto Alegre do Norte,Santa Cruz do Xingu,13,0,0,13
+19/06/2020,Sinop,Santa Rita do Trivelato,4,0,0,4
+19/06/2020,Porto Alegre do Norte,Santa Terezinha,1,0,0,1
+19/06/2020,Tangara da Serra,Santo Afonso,4,1,1,6
+19/06/2020,Rondonopolis,Santo Antonio do Leste,7,0,0,7
+19/06/2020,Baixada Cuiabana,Santo Antonio do Leverger,8,5,0,13
+19/06/2020,Sao Felix do Araguaia,Sao Felix do Araguaia,8,1,0,9
+19/06/2020,Rondonopolis,Sao Jose do Povo,2,9,0,11
+19/06/2020,Diamantino,Sao Jose do Rio Claro,7,0,1,8
+19/06/2020,Porto Alegre do Norte,Sao Jose do Xingu,2,0,0,2
+19/06/2020,Caceres,Sao Jose dos Quatro Marcos,4,13,1,18
+19/06/2020,Rondonopolis,Sao Pedro da Cipa,0,7,1,8
+19/06/2020,Tangara da Serra,Sapezal,23,56,1,80
+19/06/2020,Sao Felix do Araguaia,Serra Nova Dourada,2,0,0,2
+19/06/2020,Sinop,Sinop,98,121,16,235
+19/06/2020,Sinop,Sorriso,210,152,4,366
+19/06/2020,Juara,Tabapora,3,0,0,3
+19/06/2020,Tangara da Serra,Tangara da Serra,98,217,3,318
+19/06/2020,Sinop,Tapurah,47,21,0,68
+19/06/2020,Peixoto de Azevedo,Terra Nova do Norte,6,2,0,8
+19/06/2020,Sinop,Uniao do Sul,0,1,0,1
+19/06/2020,Pontes e Lacerda,Vale de Sao Domingos,7,1,1,9
+19/06/2020,Baixada Cuiabana,Varzea Grande,462,155,65,682
+19/06/2020,Sinop,Vera,11,3,1,15
+19/06/2020,Pontes e Lacerda,Vila Bela da Santissima Trindade,36,2,1,39
+19/06/2020,Porto Alegre do Norte,Vila Rica,33,16,1,50

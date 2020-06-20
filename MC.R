@@ -4,7 +4,7 @@
 
 n_simulacoes <- 5 # Numero de simulacoes por iteracoes para o calculo de media.
 n_cores <- 3 # Numero de cores disponiveis no computador.
-mc_n_simulacoes <- 200 # Numero de simulacoes por MC.
+mc_n_simulacoes <- 150 # Numero de simulacoes por MC.
 max_dias <- 14 # Horizonte a ser considerado.
 min_casos <- 5 # Minimo de infectados para se efetuar a busca de parametros
 
