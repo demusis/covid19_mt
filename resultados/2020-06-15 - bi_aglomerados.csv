@@ -1,0 +1,142 @@
+"municipio";"cod_ibge";"classificacao_epidemiologica";"infectados_n";"recuperados_n";"obitos_n";"r_025";"r_500";"r_975";"r_mm7";"n_va";"p_va";"ia_cat";"iv_cat";"risco";"to_uti"
+"Acorizal";5100102;"TRANSMISSAO LOCAL";"0";"12";"1";0,0635596570924175;0,44042556837139;1,46208991454896;1,36390494023622;-0,152380952380952;-0,152380952380952;"Muito baixo";"Alto";"Alto";0,759
+"Agua Boa";5100201;"TRANSMISSAO LOCAL";"3";"6";"1";0,344928905545705;1,16216179158359;2,77473344666825;1,4724141152816;0,928571428571429;0,928571428571429;"Baixo";"Alto";"Alto";0,759
+"Alta Floresta";5100250;"TRANSMISSAO COMUNITARIA";"52";"48";"3";1,0805218339994;1,40488161002348;1,78847940883208;2,16160768364505;21,5523809523809;21,5523809523809;"Moderado";"Alto";"Alto";0,759
+"Alto Araguaia";5100300;"TRANSMISSAO LOCAL";"3";"8";"2";0,648093378282052;2,18360754783981;5,21349862064589;1,95317320224951;-0,142857142857143;-0,142857142857143;"Baixo";"Alto";"Alto";0,759
+"Alto Boa Vista";5100359;"TRANSMISSAO LOCAL";"6";"12";"1";0,0180777788230806;0,125266818250305;0,415850860495377;1,38401893040471;;;"Muito baixo";"Alto";"Alto";0,759
+"Alto Garcas";5100409;"CASOS ISOLADOS";"6";"1";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Alto Paraguai";5100508;"CASOS ISOLADOS";"1";"1";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Alto Taquari";5100607;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Apiacas";5100805;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Araguaiana";5101001;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Araguainha";5101209;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Araputanga";5101258;"TRANSMISSAO LOCAL";"10";"0";"0";0,0877715854681625;0,608197907053925;2,01904723479513;0,917920009103285;;;"Muito baixo";"Alto";"Alto";0,759
+"Arenapolis";5101308;"TRANSMISSAO LOCAL";"5";"8";"0";0,454666747364796;1,07749502792525;2,10978770948085;1,40594175021997;;;"Baixo";"Alto";"Alto";0,759
+"Aripuana";5101407;"TRANSMISSAO LOCAL";"4";"39";"1";0,602002403604822;1,2681060322449;2,30586087202621;0,830700849720941;-0,476865291571174;-0,476865291571174;"Baixo";"Alto";"Alto";0,759
+"Barao de Melgaco";5101605;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Barra do Bugres";5101704;"CASOS ISOLADOS";"3";"4";"1";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Barra do Garcas";5101803;"TRANSMISSAO COMUNITARIA";"57";"52";"7";1,02194719430094;1,57290367628359;2,29356434981324;1,03668323360554;-0,041390240306649;-0,041390240306649;"Moderado";"Alto";"Alto";0,759
+"Bom Jesus do Araguaia";5101852;"TRANSMISSAO LOCAL";"11";"8";"0";0,752526998403042;1,34383576567478;2,18567095723388;1,99824563123982;;;"Baixo";"Alto";"Alto";0,759
+"Brasnorte";5101902;"CASOS ISOLADOS";"2";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Caceres";5102504;"TRANSMISSAO COMUNITARIA";"30";"33";"5";0,734627447151098;1,15451309399186;1,71042242986074;1,29579781714342;0,7217044859902;0,7217044859902;"Moderado";"Alto";"Alto";0,759
+"Campinapolis";5102603;"CASOS ISOLADOS";"4";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Campo Novo do Parecis";5102637;"TRANSMISSAO LOCAL";"21";"41";"0";0,878398033739811;1,27085691993647;1,76586871864877;1,41780537868282;0,795630559916274;0,795630559916274;"Baixo";"Alto";"Alto";0,759
+"Campo Verde";5102678;"TRANSMISSAO COMUNITARIA";"58";"76";"0";-999;-999;-999;-999;0,546158045950631;0,546158045950631;"Moderado";"Alto";"Alto";0,759
+"Campos de Julio";5102686;"TRANSMISSAO LOCAL";"14";"15";"1";2,28829817169791;3,68398695988466;5,55770074331941;1,39957448185096;;;"Baixo";"Alto";"Alto";0,759
+"Canabrava do Norte";5102694;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Canarana";5102702;"TRANSMISSAO LOCAL";"14";"15";"1";0,777265620152981;1,42251466307775;2,35377509785508;1,20973332402807;0,0746903889761034;0,0746903889761034;"Baixo";"Alto";"Alto";0,759
+"Carlinda";5102793;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Castanheira";5102850;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Chapada Dos Guimaraes";5103007;"TRANSMISSAO LOCAL";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Claudia";5103056;"CASOS ISOLADOS";"3";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Cocalinho";5103106;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Colider";5103205;"TRANSMISSAO LOCAL";"29";"7";"2";1,00109214788263;1,55639598096354;2,28700823755869;1,60655093976102;;;"Baixo";"Alto";"Alto";0,759
+"Colniza";5103254;"CASOS ISOLADOS";"2";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Comodoro";5103304;"TRANSMISSAO LOCAL";"5";"8";"1";3,95237868145866;8,77627413497112;16,504529378395;1,75189503396824;;;"Baixo";"Alto";"Alto";0,759
+"Confresa";5103353;"TRANSMISSAO COMUNITARIA";"70";"151";"4";0,965952977277326;1,22883112192337;1,53557871144475;1,06719315516891;0,0956989262932509;0,0956989262932509;"Moderado";"Alto";"Alto";0,759
+"Conquista D'Oeste";5103361;"TRANSMISSAO LOCAL";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Cotriguacu";5103379;"CASOS ISOLADOS";"3";"4";"1";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Cuiaba";5103403;"TRANSMISSAO COMUNITARIA";"1391";"406";"60";0,997550191248737;1,08391437040778;1,17512524723439;1,17424329856;0,529475279167169;0,529475279167169;"Moderado";"Alto";"Alto";0,759
+"Curvelandia";5103437;"CASOS ISOLADOS";"2";"3";"1";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Denise";5103452;"CASOS ISOLADOS";"2";"2";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Diamantino";5103502;"CASOS ISOLADOS";"8";"0";"1";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Dom Aquino";5103601;"CASOS ISOLADOS";"4";"6";"1";-999;-999;-999;-999;;;"Muito baixo";"Alto";"Alto";0,759
+"Feliz Natal";5103700;"CASOS ISOLADOS";"9";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Figueiropolis D'Oeste";5103809;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Gaucha do Norte";5103858;"CASOS ISOLADOS";"2";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"General Carneiro";5103908;"CASOS ISOLADOS";"2";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Gloria D'Oeste";5103957;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Guaranta do Norte";5104104;"TRANSMISSAO COMUNITARIA";"26";"27";"0";0,459693163799671;0,787549360447977;1,24356849413128;1,08009728336995;0,776638849871932;0,776638849871932;"Moderado";"Alto";"Alto";0,759
+"Guiratinga";5104203;"CASOS ISOLADOS";"5";"2";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Indiavai";5104500;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Ipiranga do Norte";5104526;"CASOS ISOLADOS";"0";"5";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Itanhanga";5104542;"CASOS ISOLADOS";"0";"1";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Itauba";5104559;"CASOS ISOLADOS";"1";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Itiquira";5104609;"TRANSMISSAO LOCAL";"9";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Jaciara";5104807;"TRANSMISSAO LOCAL";"12";"48";"40";3,93451533660367;5,23443045241332;6,79345506588495;1,58978349958826;0,46017316017316;0,46017316017316;"Baixo";"Alto";"Alto";0,759
+"Jangada";5104906;"TRANSMISSAO LOCAL";"1";"8";"1";0,0562264847827606;1,53936033578226;8,19236501915484;1,09029715346256;-0,928571428571429;-0,928571428571429;"Baixo";"Alto";"Alto";0,759
+"Jauru";5105002;"CASOS ISOLADOS";"0";"1";"1";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Juara";5105101;"TRANSMISSAO LOCAL";"4";"2";"1";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Juina";5105150;"TRANSMISSAO LOCAL";"5";"11";"2";0,599788579188855;1,54453281203567;3,17841436220895;1,1593510014438;;;"Baixo";"Alto";"Alto";0,759
+"Juruena";5105176;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Juscimeira";5105200;"TRANSMISSAO LOCAL";"6";"9";"0";0,493917271591602;1,17051314491526;2,29192171000839;1,47551113341305;1,27857142857143;1,27857142857143;"Baixo";"Alto";"Alto";0,759
+"Lambari D'Oeste";5105234;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Lucas do Rio Verde";5105259;"TRANSMISSAO COMUNITARIA";"100";"65";"5";0,649777883098824;0,887504334646373;1,17719897506622;1,14479806719643;0,764438468935962;0,764438468935962;"Moderado";"Alto";"Alto";0,759
+"Luciara";5105309;"CASOS ISOLADOS";"0";"1";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Marcelandia";5105580;"TRANSMISSAO LOCAL";"5";"6";"0";-999;-999;-999;-999;;;"Muito baixo";"Alto";"Alto";0,759
+"Matupa";5105606;"TRANSMISSAO LOCAL";"21";"8";"0";0,122998571561425;0,531631516412445;1,4363444387124;0,492216283435807;;;"Muito baixo";"Alto";"Alto";0,759
+"Mirassol D'Oeste";5105622;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Nobres";5105903;"CASOS ISOLADOS";"6";"3";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Nortelandia";5106000;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Nossa Senhora de Livramento";5106109;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Nova Bandeirantes";5106158;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Nova Brasilandia";5106208;"CASOS ISOLADOS";"1";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Nova Canaa do Norte";5106216;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Nova Guarita";5108808;"CASOS ISOLADOS";"0";"4";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Nova Lacerda";5106182;"CASOS ISOLADOS";"4";"4";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Nova Marilandia";5108857;"CASOS ISOLADOS";"2";"2";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Nova Maringa";5108907;"CASOS ISOLADOS";"2";"2";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Nova Monte Verde";5108956;"CASOS ISOLADOS";"2";"1";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Nova Mutum";5106224;"TRANSMISSAO COMUNITARIA";"60";"74";"4";0,907206068411973;1,16035726664489;1,45674138381036;1,43524741095661;1,78234068747116;1,78234068747116;"Moderado";"Alto";"Alto";0,759
+"Nova Nazare";5106174;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Nova Olimpia";5106232;"CASOS ISOLADOS";"1";"5";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Nova Santa Helena";5106190;"CASOS ISOLADOS";"2";"2";"1";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Nova Ubirata";5106240;"TRANSMISSAO LOCAL";"11";"16";"0";0,852741161073923;1,89351547483712;3,56091677427959;1,15792399855007;0,799058084772371;0,799058084772371;"Baixo";"Alto";"Alto";0,759
+"Nova Xavantina";5106257;"CASOS ISOLADOS";"2";"0";"1";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Novo Horizonte do Norte";5106273;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Novo Mundo";5106265;"TRANSMISSAO LOCAL";"3";"14";"0";0,448055195081819;1,50962305528094;3,60431879079573;1,02966070965202;;;"Baixo";"Alto";"Alto";0,759
+"Novo Santo Antonio";5106315;"TRANSMISSAO LOCAL";"0";"10";"0";0,395751602101407;1,13861113027339;2,49655626990442;1,51610098368843;;;"Baixo";"Alto";"Alto";0,759
+"Novo Sao Joaquim";5106281;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Paranaita";5106299;"CASOS ISOLADOS";"3";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Paranatinga";5106307;"TRANSMISSAO LOCAL";"22";"2";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Pedra Preta";5106372;"TRANSMISSAO LOCAL";"26";"10";"1";0,50940525435885;0,909677661376667;1,47953797309231;1,12787359847927;;;"Muito baixo";"Alto";"Alto";0,759
+"Peixoto de Azevedo";5106422;"TRANSMISSAO COMUNITARIA";"19";"32";"1";2,1469263223632;3,55564738303886;5,47776093916307;1,2170404222098;0,0523809523809524;0,0523809523809524;"Moderado";"Alto";"Alto";0,759
+"Planalto da Serra";5106455;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Pocone";5106505;"CASOS ISOLADOS";"11";"3";"3";0,647858207443208;1,21915220823537;2,05644959805731;2,04905131647855;5,52380952380952;5,52380952380952;"Baixo";"Alto";"Alto";0,759
+"Pontal do Araguaia";5106653;"TRANSMISSAO LOCAL";"4";"5";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Ponte Branca";5106703;"CASOS ISOLADOS";"0";"0";"1";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Pontes E Lacerda";5106752;"TRANSMISSAO COMUNITARIA";"0";"0";"0";;;;;;;"Moderado";"Alto";"Alto";0,759
+"Porto Alegre do Norte";5106778;"CASOS ISOLADOS";"1";"2";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Porto Dos Gauchos";5106802;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Porto Esperidiao";5106828;"TRANSMISSAO LOCAL";"40";"1";"2";1,04732241035908;1,48152387142658;2,02189672681402;2,23456918275934;;;"Baixo";"Alto";"Alto";0,759
+"Porto Estrela";5106851;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Poxoreu";5107008;"CASOS ISOLADOS";"5";"2";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Primavera do Leste";5107040;"TRANSMISSAO COMUNITARIA";"147";"121";"4";1,08448591264804;1,34367323226784;1,64120777956582;1,10514044020496;0,0762464930194522;0,0762464930194522;"Moderado";"Alto";"Alto";0,759
+"Querencia";5107065;"TRANSMISSAO LOCAL";"40";"25";"2";0,847816850743907;1,19329700421914;1,62196535816881;1,59130457601889;1,69526901669759;1,69526901669759;"Baixo";"Alto";"Alto";0,759
+"Reserva do Cabacal";5107156;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Ribeirao Cascalheira";5107180;"CASOS ISOLADOS";"10";"4";"0";0,547495418603055;1,15328815765449;2,09708176547267;2,57625263166043;;;"Baixo";"Alto";"Alto";0,759
+"Ribeiraozinho";5107198;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Rio Branco";5107206;"CASOS ISOLADOS";"0";"3";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Rondolandia";5107578;"CASOS ISOLADOS";"0";"2";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Rondonopolis";5107602;"TRANSMISSAO COMUNITARIA";"421";"76";"12";1,13435173421576;1,30834285179846;1,49927898774899;1,27749982737;0,504851134200192;0,504851134200192;"Moderado";"Alto";"Alto";0,759
+"Rosario Oeste";5107701;"TRANSMISSAO LOCAL";"12";"38";"2";0,563772540569428;1,25185939014841;2,35422797471585;1,19484773077943;0,401360544217687;0,401360544217687;"Baixo";"Alto";"Alto";0,759
+"Salto do Ceu";5107750;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Santa Carmem";5107248;"CASOS ISOLADOS";"8";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Santa Cruz do Xingu";5107743;"CASOS ISOLADOS";"1";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Santa Rita do Trivelato";5107768;"CASOS ISOLADOS";"1";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Santa Terezinha";5107776;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Santo Afonso";5107263;"CASOS ISOLADOS";"1";"1";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Santo Antonio de Leverger";5107800;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Santo Antonio do Leste";5107792;"CASOS ISOLADOS";"2";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Sao Felix do Araguaia";5107859;"CASOS ISOLADOS";"5";"1";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Sao Jose do Povo";5107297;"CASOS ISOLADOS";"2";"5";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Sao Jose do Rio Claro";5107305;"CASOS ISOLADOS";"5";"0";"1";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Sao Jose do Xingu";5107354;"CASOS ISOLADOS";"2";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Sao Jose Dos Quatro Marcos";5107107;"TRANSMISSAO LOCAL";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Sao Pedro da Cipa";5107404;"TRANSMISSAO LOCAL";"0";"7";"1";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Sapezal";5107875;"TRANSMISSAO LOCAL";"10";"42";"1";0,46093728898301;0,843585558574671;1,39584549264832;0,971343533762023;;;"Muito baixo";"Alto";"Alto";0,759
+"Serra Nova Dourada";5107883;"CASOS ISOLADOS";"1";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Sinop";5107909;"TRANSMISSAO COMUNITARIA";"66";"86";"12";0,827352059522627;1,07571328673312;1,36943287562651;1,2421953495631;0,711976010259763;0,711976010259763;"Moderado";"Alto";"Alto";0,759
+"Sorriso";5107925;"TRANSMISSAO COMUNITARIA";"80";"130";"3";1,02276609689853;1,29666733387011;1,61560418490995;1,11965325732014;0,0781017676672631;0,0781017676672631;"Moderado";"Alto";"Alto";0,759
+"Tabapora";5107941;"CASOS ISOLADOS";"1";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Tangara da Serra";5107958;"TRANSMISSAO COMUNITARIA";"67";"177";"1";1,05122264487733;1,34208497972682;1,68223405232575;1,04105295666156;0,0820309890898906;0,0820309890898906;"Moderado";"Alto";"Alto";0,759
+"Tapurah";5108006;"TRANSMISSAO LOCAL";"28";"16";"0";0,32304081821343;0,680479027633066;1,2373491838658;0,931905947537355;0,6796992481203;0,6796992481203;"Baixo";"Alto";"Alto";0,759
+"Terra Nova do Norte";5108055;"CASOS ISOLADOS";"6";"2";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Tesouro";5108105;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Torixoreu";5108204;"CASOS ISOLADOS";"0";"0";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Uniao do Sul";5108303;"CASOS ISOLADOS";"0";"1";"0";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Vale de Sao Domingos";5108352;"CASOS ISOLADOS";"4";"1";"1";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Varzea Grande";5108402;"TRANSMISSAO COMUNITARIA";"361";"152";"44";1,12353489070766;1,30351388294141;1,50176116319253;1,13246840653044;0,183170817085932;0,183170817085932;"Moderado";"Alto";"Alto";0,759
+"Vera";5108501;"CASOS ISOLADOS";"7";"0";"1";;;;;;;"Muito baixo";"Alto";"Alto";0,759
+"Vila Bela da Santissima Trindade";5105507;"TRANSMISSAO LOCAL";"19";"2";"1";0,113466357248122;0,490430830210825;1,32502978811347;0,72620215338379;-0,0847937776509205;-0,0847937776509205;"Muito baixo";"Alto";"Alto";0,759
+"Vila Rica";5108600;"TRANSMISSAO LOCAL";"23";"17";"1";0,803426005352634;1,43472938958641;2,33350416651123;1,05147154336025;0,277551020408163;0,277551020408163;"Baixo";"Alto";"Alto";0,759
