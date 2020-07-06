@@ -89,6 +89,10 @@ library(zoo)
 library(dplyr)
 library(hrbrthemes)
 library(Metrics)
+library(rdrop2)
+
+# Carrega tokes do Dropbox.
+token <<- readRDS("droptoken.rds")
 
 # Parametros gerais VA.
 peso_infectados_va <- 1
@@ -113,7 +117,7 @@ df_lolipop <- data.frame(
   r_mm7  = double(), # Media movel de 7 dias de r_500
   n_va = double(), ## Velocidade de avanco de casos novos.
   p_va = double(), ## Velocidade de avanco ponderada.
-  to_uti = double(), # Taxa de ocupação de UTI.
+  to_uti = double(), # Taxa de ocupa??o de UTI.
   stringsAsFactors = FALSE
 )
 
@@ -125,7 +129,7 @@ df_estado <- data.frame(
   n_va = double(), ## Velocidade de avanco de casos novos.
   enfermarias_va = double(), # Velocidade de avanco de enfermarias.
   uti_va = double(), # Velocidade de avanco de UTIs.
-  to_uti = double(), # Taxa de ocupação de UTI.  
+  to_uti = double(), # Taxa de ocupa??o de UTI.  
   stringsAsFactors = FALSE
 )
 
@@ -148,20 +152,14 @@ proj_aglomerado <- data.frame(
   stringsAsFactors = FALSE  
 )
 
-# Configuracao do Twitter
-#try(setup_twitter_oauth(
-#    consumer_key = "K8H2usTrUWKWrdUDhqZoMtYxT",
-#    access_token = "1254974121265500160-ZW0Gy3GLNe1xWsMEasMUzQ0G67rufK",
-#    consumer_secret = "egNsRyTB1qLJciGT6qweJjFhc2ZOXdU4t86Zfx9x0G9hD1rgUa",
-#    access_secret = "YKNvlxrp5VhgVhJ3zZpP5KFalZPkKzC4VtnKS56JUoxtb"
-#))
-
 # Define diretorio de trabalho e carrega progresso de infectados
-setwd("D:/Mega/COVID-19")
-# setwd("~/COVID-19")
+# setwd("D:/Mega/COVID-19")
+setwd("~/COVID-19")
 
 # Carrega aglomerados
 # aglomerados <- read.xlsx("aglomerados.xlsx", 1, header = TRUE)
+drop_download(dtoken = token, 'covid19mt/aglomerados.csv', overwrite = TRUE)
+
 aglomerados <-
   read.csv("aglomerados.csv",
            header = TRUE,
@@ -170,7 +168,7 @@ aglomerados <-
 # Apaga eventuais celulas vazias.
 aglomerados <- aglomerados[!is.na(aglomerados$aglomerado), ]
 
-# Converte para data
+# Converte para data.
 aglomerados$data <-
   as.Date(parse_date_time(aglomerados[["data"]], '%d%m%y'), format = '%d%m%y')
 
@@ -184,12 +182,16 @@ colnames(aglomerados)[1] <- 'aglomerado'
 # 80-90% nÃ£o precisam de internacao.
 # 20% dos internados em UTI morrem.
 # 5-15% dos internados precisam de UTI.
+drop_download(dtoken = token, 'covid19mt/mato_grosso.CSV', overwrite = TRUE)
+
 total_param_mt <-
   read.csv("mato_grosso.CSV", stringsAsFactors = FALSE)
 total_param_mt$data <- dmy(total_param_mt$data)
 total_param_mt$Dia_Juliano <- yday(total_param_mt$data)
 
 # Carrega as series temporais da epidemia.
+drop_download(dtoken = token, 'covid19mt/evolucao_ers.CSV', overwrite = TRUE)
+
 aux_dados <- read.csv("evolucao_ers.CSV", stringsAsFactors = FALSE)
 aux_dados$Data <- dmy(aux_dados$Data)
 aux_dados$Dia_Juliano <- yday(aux_dados$Data)
@@ -299,10 +301,10 @@ for (aux_nivel in levels(mt_aux_dados$Municipio)) {
   if (max(infectados) >= 10 && length(infectados) >= 15) {
     print(paste('TS - municipio -', aux_nivel))
     
-    # Pequisa transformacao de Box-Cox
+    # Pesquisa transformacao de Box-Cox.
     l <- BoxCox.lambda(infectados)
     
-    # Testa os modelos disponiveis no pacote Forecast
+    # Testa os modelos disponiveis no pacote Forecast.
     try({
       ets_ajuste <- ets(infectados, lambda = l)
       arima_ajuste <-
@@ -410,7 +412,7 @@ for (aux_nivel in levels(mt_aux_dados$Municipio)) {
     }
     
     if (aux_nivel != 'Mato Grosso') {
-      # Insere estatísticas dos municipios.
+      # Insere estatisticas dos municipios.
       aux_df_lolipop[1, 'r_025'] <- r_025
       aux_df_lolipop[1, 'r_500'] <- r_500
       aux_df_lolipop[1, 'r_975'] <- r_975
@@ -529,9 +531,10 @@ for (aux_nivel in levels(df_lolipop$municipio)) {
     df_lolipop[df_lolipop$municipio==aux_nivel, 'p_va'] <- NA
   }
 }
+drop_download(dtoken = token, 'covid19mt/ibge_municipios.CSV', overwrite = TRUE)
 
 ibge_municipios <-
-  read.csv("ibge_municipios.csv",
+  read.csv("ibge_municipios.CSV",
            header = TRUE,
            stringsAsFactors = FALSE)
 
@@ -540,8 +543,8 @@ df_lolipop[is.na(df_lolipop$infectados_n), 'infectados_n'] <- 0
 df_lolipop[is.na(df_lolipop$recuperados_n), 'recuperados_n'] <- 0
 df_lolipop[is.na(df_lolipop$obitos_n), 'obitos_n'] <- 0
 
-setwd("D:/Mega/COVID-19/resultados")
-
+setwd("~/COVID-19/resultados")
+# setwd("D:/Mega/COVID-19/resultados")
 
 #
 # Classifica conforme as ameacas
@@ -583,6 +586,9 @@ cIA <- function(transmissao="TRANSMISSAO COMUNITARIA", infectados, Rt, Va) {
        Va >= 1.7)) {
     aux_risco <- "Muito alto"
   }
+  if (is.na(aux_risco)) {
+    aux_risco <- "Muito baixo"
+  }
   return(aux_risco)
 }
 
@@ -614,11 +620,11 @@ matriz_risco <- data.frame(
 # c1
 matriz_risco[1, 'ia_cat'] <- "Muito alto" 
 matriz_risco[1, 'iv_cat'] <- "Muito baixo"
-matriz_risco[1, 'risco'] <- "Muito alto"
+matriz_risco[1, 'risco'] <- "Alto"
 
 matriz_risco[2, 'ia_cat'] <- "Alto" 
 matriz_risco[2, 'iv_cat'] <- "Muito baixo"
-matriz_risco[2, 'risco'] <- "Alto"
+matriz_risco[2, 'risco'] <- "Moderado"
 
 matriz_risco[3, 'ia_cat'] <- "Moderado" 
 matriz_risco[3, 'iv_cat'] <- "Muito baixo"
@@ -635,11 +641,11 @@ matriz_risco[5, 'risco'] <- "Muito baixo"
 # c2
 matriz_risco[6, 'ia_cat'] <- "Muito alto" 
 matriz_risco[6, 'iv_cat'] <- "Baixo"
-matriz_risco[6, 'risco'] <- "Muito alto"
+matriz_risco[6, 'risco'] <- "Alto"
 
 matriz_risco[7, 'ia_cat'] <- "Alto" 
 matriz_risco[7, 'iv_cat'] <- "Baixo"
-matriz_risco[7, 'risco'] <- "Alto"
+matriz_risco[7, 'risco'] <- "Moderado"
 
 matriz_risco[8, 'ia_cat'] <- "Moderado" 
 matriz_risco[8, 'iv_cat'] <- "Baixo"
@@ -647,7 +653,7 @@ matriz_risco[8, 'risco'] <- "Moderado"
 
 matriz_risco[9, 'ia_cat'] <- "Baixo" 
 matriz_risco[9, 'iv_cat'] <- "Baixo"
-matriz_risco[9, 'risco'] <- "Moderado"
+matriz_risco[9, 'risco'] <- "Baixo"
 
 matriz_risco[10, 'ia_cat'] <- "Muito baixo" 
 matriz_risco[10, 'iv_cat'] <- "Baixo"
@@ -656,7 +662,7 @@ matriz_risco[10, 'risco'] <- "Baixo"
 # c3
 matriz_risco[11, 'ia_cat'] <- "Muito alto" 
 matriz_risco[11, 'iv_cat'] <- "Moderado"
-matriz_risco[11, 'risco'] <- "Muito alto"
+matriz_risco[11, 'risco'] <- "Alto"
 
 matriz_risco[12, 'ia_cat'] <- "Alto" 
 matriz_risco[12, 'iv_cat'] <- "Moderado"
@@ -672,7 +678,7 @@ matriz_risco[14, 'risco'] <- "Moderado"
 
 matriz_risco[15, 'ia_cat'] <- "Muito baixo" 
 matriz_risco[15, 'iv_cat'] <- "Moderado"
-matriz_risco[15, 'risco'] <- "Moderado"
+matriz_risco[15, 'risco'] <- "Baixo"
 
 # c4
 matriz_risco[16, 'ia_cat'] <- "Muito alto" 
@@ -693,7 +699,7 @@ matriz_risco[19, 'risco'] <- "Alto"
 
 matriz_risco[20, 'ia_cat'] <- "Muito baixo" 
 matriz_risco[20, 'iv_cat'] <- "Alto"
-matriz_risco[20, 'risco'] <- "Alto"
+matriz_risco[20, 'risco'] <- "Moderado"
 
 # c5
 matriz_risco[21, 'ia_cat'] <- "Muito alto" 
@@ -705,21 +711,21 @@ matriz_risco[22, 'iv_cat'] <- "Muito alto"
 matriz_risco[22, 'risco'] <- "Muito alto"
 
 matriz_risco[23, 'ia_cat'] <- "Moderado" 
-matriz_risco[23, 'iv_cat'] <- "Muito baixo"
+matriz_risco[23, 'iv_cat'] <- "Muito alto"
 matriz_risco[23, 'risco'] <- "Muito alto"
 
 matriz_risco[24, 'ia_cat'] <- "Baixo" 
 matriz_risco[24, 'iv_cat'] <- "Muito alto"
-matriz_risco[24, 'risco'] <- "Muito alto"
+matriz_risco[24, 'risco'] <- "Alto"
 
 matriz_risco[25, 'ia_cat'] <- "Muito baixo" 
 matriz_risco[25, 'iv_cat'] <- "Muito alto"
-matriz_risco[25, 'risco'] <- "Muito alto"
+matriz_risco[25, 'risco'] <- "Moderado"
 
 matriz_risco$ia_cat <- factor(matriz_risco$ia_cat)
 matriz_risco$iv_cat <- factor(matriz_risco$iv_cat)
 
-# Utiliza a categoria de vulnerabilidade do Estado nos municípios.
+# Utiliza a categoria de vulnerabilidade do Estado nos munic?pios.
 df_lolipop$iv_cat <- df_estado[1, 'iv_cat']
 df_lolipop$to_uti <- df_estado[1, 'iv']
 
@@ -768,6 +774,19 @@ write.table(
 )
 
 write.table(
+  file = paste('bi_aglomerados.csv'),
+  df_lolipop,
+  append = FALSE,
+  col.names = TRUE,
+  row.names = FALSE,
+  sep = ',',
+  dec = '.',
+  na = ''
+)
+
+write.xlsx(file='bi_aglomerados.xlsx', df_lolipop)
+
+write.table(
   file = paste(aux_dh, '- bi_mt.csv'),
   df_estado,
   append = FALSE,
@@ -777,6 +796,8 @@ write.table(
   dec = ',',
   na = ''
 )
+
+# stop('Para depuracao.')
 
 #
 # Roda classificacao de risco Fuzzy em Python
@@ -790,8 +811,71 @@ library(reticulate)
 # >>> import sys
 # >>> os.path.dirname(sys.executable)
 
-use_python('C:/Users/Carlo/AppData/Local/Programs/Python/Python37')
-py_run_file('risco_fuzzy.py')
+# setwd("D:/Mega/COVID-19/resultados")
+setwd("~/COVID-19/resultados")
+
+# use_python('C:/Users/Carlo/AppData/Local/Programs/Python/Python37')
+# py_run_file('risco_fuzzy.py')
+py_run_file('COVID-19.py')
 
 head(py$df)
 
+df <- data.frame(py$df)
+df$classificacao_epidemiologica <- as.numeric(df$classificacao_epidemiologica)
+df$Geocodigo <- as.character(df$cod_ibge)
+
+write.table(
+  file = paste('fuzzy_mt.csv'),
+  df,
+  append = FALSE,
+  col.names = TRUE,
+  row.names = FALSE,
+  sep = ',',
+  dec = '.',
+  na = ''
+)
+
+# setwd("D:/Mega/COVID-19")
+setwd("~/COVID-19")
+
+drop_upload(dtoken = token, 'fuzzy_mt.csv', mode = "overwrite", path = 'covid19mt')
+
+#
+# Mapas de risco 
+#
+
+municipios <- st_read("ERS_MUNICIPIOS_MT.shp")
+aux_df <- df[, c('Geocodigo', 'risco')]
+
+municipios <- municipios %>% left_join(aux_df, by = "Geocodigo")
+
+# Mapa por variavel selecionada.
+jpeg('risco_mapa.jpg',
+     width = 920,
+     height = 696,
+     quality = 95)
+
+ggplot(municipios) +
+  geom_sf(aes(fill = risco)) +
+  theme_minimal() + 
+  scale_fill_gradientn(colours=brewer.pal(9, "YlOrRd"),na.value = "#ffffff") 
+
+dev.off()
+
+# Cria post no Twitter
+r_saida <-
+  paste(
+    format(aux_dh, '%d/%m/%Y'),
+    '- MT - Mapa de Risco por MunicÃ­pio (em teste).'
+  )
+
+# Configuracao do Twitter
+try(setup_twitter_oauth(
+  consumer_key = "K8H2usTrUWKWrdUDhqZoMtYxT",
+  access_token = "1254974121265500160-ZW0Gy3GLNe1xWsMEasMUzQ0G67rufK",
+  consumer_secret = "egNsRyTB1qLJciGT6qweJjFhc2ZOXdU4t86Zfx9x0G9hD1rgUa",
+  access_secret = "YKNvlxrp5VhgVhJ3zZpP5KFalZPkKzC4VtnKS56JUoxtb"
+))
+
+try(updateStatus(r_saida, mediaPath = 'risco_mapa.jpg'))
+# file.remove("risco_mapa.jpg")

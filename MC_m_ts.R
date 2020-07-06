@@ -88,6 +88,7 @@ library(zoo)
 library(dplyr)
 library(hrbrthemes)
 library(Metrics)
+library(rdrop2)
 
 # Liga o cronometro
 tic("Inicio...")
@@ -130,11 +131,15 @@ try(setup_twitter_oauth(
 ))
 
 # Define diretorio de trabalho e carrega progresso de infectados
-# setwd("D:/OneDrive/Notebooks/Python/Corona virus/SARIMA")
+# setwd("D:/Mega/COVID-19")
 setwd("~/COVID-19")
 
+# Carrega tokes do Dropbox.
+token <<- readRDS("droptoken.rds")
 # Carrega aglomerados
 # aglomerados <- read.xlsx("aglomerados.xlsx", 1, header = TRUE)
+drop_download(dtoken = token, 'covid19mt/aglomerados.csv', overwrite = TRUE)
+
 aglomerados <-
   read.csv("aglomerados.csv",
            header = TRUE,
@@ -157,12 +162,16 @@ colnames(aglomerados)[1] <- 'aglomerado'
 # 80-90% não precisam de internacao.
 # 20% dos internados em UTI morrem.
 # 5-15% dos internados precisam de UTI.
+drop_download(dtoken = token, 'covid19mt/mato_grosso.CSV', overwrite = TRUE)
+
 total_param_mt <-
   read.csv("mato_grosso.CSV", stringsAsFactors = FALSE)
 total_param_mt$data <- dmy(total_param_mt$data)
 total_param_mt$Dia_Juliano <- yday(total_param_mt$data)
 
 # Carrega as series temporais da epidemia para o Mato Grosso.
+drop_download(dtoken = token, 'covid19mt/evolucao_ers.CSV', overwrite = TRUE)
+
 aux_dados <- read.csv("evolucao_ers.CSV", stringsAsFactors = FALSE)
 aux_dados$Data <- dmy(aux_dados$Data)
 aux_dados$Dia_Juliano <- yday(aux_dados$Data)
@@ -654,47 +663,6 @@ for (aux_nivel in levels(mt_aux_dados$ERS)) {
         mediaPath = "UTI_temp.jpg"
       ))
       file.remove("UTI_temp.jpg")
-      
-      # Velocidade de velocidade de avanço ponderada
-      iva_geral <- (as.numeric(modelo_in1s$y) +
-                    3*as.numeric(modelo_enfermarias$y) +
-                    5*as.numeric(modelo_UTI$y))/9 
-      ts_iva_geral <-
-        ts(iva_geral,
-           start = total_param_mt[1, 'Dia_Juliano'] - 1,
-           frequency = 1)
-      
-      jpeg(
-        "iva_temp.jpg",
-        width = 1400,
-        height = 650,
-        quality = 90
-      )
-      modelo_iva <- sma(
-        tail(ts_iva_geral, 14),
-        order = 7,
-        h = 1,
-        interval = 'none',
-        silent = FALSE
-      )
-      dev.off()
-      
-      Sys.sleep(5)
-      try(updateStatus(
-        paste(
-          format(aux_dh, '%d/%m/%Y'),
-          '-',
-          aux_nivel,
-          '- Velocidade de avanço ponderada (t+1) com SMA(7):',
-          formatC(
-            modelo_iva$forecast,
-            format = 'f',
-            digits =
-              5
-          )
-        ),  mediaPath = "iva_temp.jpg" 
-      ))
-      file.remove("iva_temp.jpg")
       rm(infectados)
     }
   }
@@ -983,6 +951,17 @@ write.table(
   row.names = FALSE,
   sep = ','
 )
+
+write.table(
+  df_sim,
+  'aux_sim.csv',
+  append = TRUE,
+  col.names = TRUE,
+  row.names = FALSE,
+  sep = ','
+)
+
+drop_upload(dtoken = token, 'aux_sim.csv', mode = "overwrite", path = 'covid19mt')
 
 # Agrega todos os casos por dia e o associa ao MT.
 mt_df_sim <-
@@ -1304,6 +1283,7 @@ try(updateStatus(r_saida, mediaPath = 'grafico_to_temp.jpg'))
 #
 # Mapas de risco 
 #
+drop_download(dtoken = token, 'covid19mt/geocode_ers.csv', overwrite = TRUE)
 
 regionais <- st_read("ERS_SAUDE_MT_FINAL.shp")
 ers <- read.csv("geocode_ers.csv",
@@ -1577,10 +1557,3 @@ r_saida <-
         's.')
 Sys.sleep(5)
 try(updateStatus(r_saida))
-
-
-#
-# Roda classificacao de risco Fuzzy em Python
-#
-
-# install.packages('reticulate')
