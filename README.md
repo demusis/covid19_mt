@@ -1,2 +1,2 @@
 # covid19_mt
-Modelagem do COVID-19 no MT.
+Proposta de modelo fuzzy para análise de risco da propagação da COVID-19 no MT.
